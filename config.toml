@@ -1,0 +1,66 @@
+baseURL = 'http://example.org/'
+languageCode = 'en-us'
+title = 'Paume'
+theme = ["flexion" "hugo-cite"]
+
+enableInlineShortcodes = true
+relativeURLs = true
+canonifyURLs = true
+removePathAccents=true
+
+[params]
+ subtitle = "Site de « La Nuée : thèse sur l'épaisseur de l'écriture »"
+ date-depot = "2023-12-01"
+ bibtex_file = "content/bib/bibtex.bib"
+
+[params.themes]
+  nevrose = "Névrose"
+  main = "Main"
+
+
+[permalinks]
+  pages = "/:filename"
+
+[markup]
+  [markup.goldmark]
+    typographer = true
+    [markup.goldmark.renderer]
+     footnoteReturnLinkContents = "&uarr;"
+      unsafe = true
+
+
+[menu]
+  [[menu.main]]
+    name = "Home"
+    pre = "home"
+    url = "/"
+    weight = 1
+  [[menu.main]]
+    name = "Pages"
+    pre = "pages"
+    url = "/pages/"
+    weight = 2
+  [[menu.main]]
+    name = "Structure"
+    pre = "structure"
+    url = "/structure/"
+    weight = 3
+  [[menu.main]]
+    name = "Index"
+    pre = "index"
+    url = "/fils/"
+    weight = 4    
+  [[menu.main]]
+    name = "Graph"
+    pre = "graph"
+    url = "/graph/"
+    weight = 5
+  [[menu.main]]
+    name = "Crédits"
+    pre = "credits"
+    url = "/credits/"
+    weight = 6
+
+[author]
+    name = ""
+    email = ""
