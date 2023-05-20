@@ -1,0 +1,16 @@
+
+
+  <ul>
+    {{ range .Site.RegularPages }}
+      {{ if eq .Section "pages" }}
+        <li class="square">
+            <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+            {{ if .TableOfContents }}
+              <ul>
+                {{ .TableOfContents | replaceRE "<a href=\"#(.*?)\">" "<a href=\"{{ .RelPermalink }}#$1\">" | safeHTML }}
+                </ul>
+            {{ end }}</li>
+      {{ end }}
+    {{ end }}
+  </ul>
+

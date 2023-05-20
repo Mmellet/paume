@@ -1,0 +1,42 @@
+<!--
+{{ define "index" }}
+
+    <h1>Index thématique</h1>
+
+    {{/* Obtenez la liste de toutes les pages du site */}}
+    {{ $pages := .Site.RegularPages }}
+
+	{{/* Obtenez le contenu du fichier theme_utils.go */}}
+	{{ $themeUtils := readFile "theme_utils.go" }}
+
+	{{ printf $themeUtils  }}
+	
+
+    {{/* {{/* Assurez-vous que le contenu du fichier theme_utils.go est assigné à une variable */}}
+	{{ $themeUtilsContent := printf "%s" $themeUtils.Content }}
+	
+	{{/* Utilisez la fonction fromString pour transformer le contenu en une structure de données utilisable */}}
+	{{ $themeUtilsData := fromString $themeUtilsContent }}
+	
+    {{/* Parcourez chaque page pour trouver les thématiques */}}
+    {{ range $pages }}
+        {{ $page := . }}
+        {{ with .Params.themes }}
+            {{ range . }}
+                <p>Thématique : {{ . }}</p>
+                {{/* Obtenez les paragraphes contenant cette thématique sur la page */}}
+                {{ $paragraphs := $page.Plain | findThemeParagraphs . $themeUtils }}
+
+                {{/* Affichez les paragraphes correspondants avec les liens vers la page */}}
+                {{ range $paragraphs }}
+                    <p>
+                        <a href="{{ $page.RelPermalink }}">
+                            {{ $page.Title }}
+                        </a> - {{ . }}
+                    </p>
+                {{ end }}
+            {{ end }}
+        {{ end }}
+    {{ end }} 
+{{ end }}
+                -->

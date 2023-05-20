@@ -1,0 +1,169 @@
+
+
+
+.progress-bar {
+  height: 5px;
+  background-color: cadetblue;
+}
+
+
+
+
+:root {
+  --font1: Arial, Helvetica, sans-serif;
+  --color1: rgb(4, 40, 65);
+  --size1: 20px;
+
+}
+
+body {
+  font-family: var(--font1);
+  font-size: var(--size1);
+}
+
+a {
+  text-decoration: underline;
+}
+a:hover {
+  text-decoration: wavy;
+}
+a:visited {
+  color: var(--color-visited-link);
+}
+
+
+h1,
+h2,
+h3,
+h4 {
+  color: var(--color1);
+}
+
+h2, h1 {
+  text-align: center;
+}
+
+h2 {
+  font-size: var(--size1);
+}
+
+
+h1 a.anchor, h2 a.anchor, h3 a.anchor, h4 a.anchor, h5 a.anchor, h6 a.anchor {
+  opacity: 0;
+  font-size: 0.75em;
+  vertical-align: middle;
+  text-decoration: none;
+}
+h1:hover a.anchor, h2:hover a.anchor, h3:hover a.anchor, h4:hover a.anchor, h5:hover a.anchor, h6:hover a.anchor, h1 a.anchor:focus, h2 a.anchor:focus, h3 a.anchor:focus, h4 a.anchor:focus, h5 a.anchor:focus, h6 a.anchor:focus {
+  opacity: initial;
+}
+
+.paragraph-anchor {
+  display: block;
+  margin-top: -30px; /* Ajustez la valeur en fonction de votre mise en page */
+  padding-top: 30px; /* Ajustez la valeur en fonction de votre mise en page */
+  visibility: hidden;
+}
+
+
+
+.table-of-contents-link.active {
+  border: 3px rgba(95, 158, 160, 0.74);
+  background: rgba(236, 203, 221, 0.575);
+}
+
+
+
+.Haut {
+  height: adjust;
+  border: 1px solid black;
+}
+
+.Centre {
+  border: 1px solid cadetblue;
+  margin-right: 20%;
+  margin-left: 20%;
+  overflow: auto;
+  height: 100%;
+}
+
+.Gauche {
+  border: 1px solid rgb(204, 55, 130);
+  left: 10px ;
+  max-width: 20%;
+  height: 500px;
+  overflow: hidden;
+  position: fixed;
+  height: 100%;
+}
+
+.Bas {
+  height: 100px;
+  border: 1px solid cadetblue;
+  bottom: 0;
+}
+
+.Navigation {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  position: fixed;
+  text-align: center;
+  height: 10%;
+  background-color: white;
+  border: 1px solid cadetblue;
+  bottom: 5%;
+  width: 100%;
+}
+
+.content {
+  margin-left: 20px;
+  margin-right: 20px;
+  line-height: 40px;
+  text-align: justify;
+}
+
+.footer {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.licence {
+  font-size: 60%;
+  text-align: center;
+}
+
+a {
+  color:var(--color1);
+  text-decoration: underline;
+}
+
+
+/* Style pour les carrés */
+.square {
+  background-color: white;
+  border: 1px solid rgba(236, 203, 221, 0.575);
+  padding: 10px;
+  margin-bottom: 10px;
+  display: inline-block; /* Ajout de la propriété pour aligner horizontalement */
+  margin-right: 10px; /* Espacement entre les carrés */
+
+}
+
+/* Style pour les liens de la table des matières */
+.square a {
+  color: #333;
+  text-decoration: none;
+}
+
+/* Style pour les sous-listes de la table des matières */
+.square ul {
+  list-style-type: none;
+  padding-left: 20px;
+}
+
+/* Style pour les éléments de la table des matières */
+.square li {
+  margin-bottom: 5px;
+}
+

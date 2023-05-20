@@ -1,0 +1,26 @@
+{{ define "main" }}
+  <h1>{{ .Title }}</h1>
+  {{ partial "metadata.html" . }}
+
+  {{ if eq .RelPermalink "/structure/" }}
+  <div>
+    {{- partial "structure.html" . -}}
+  </div>
+  {{ end }}
+
+
+  {{ if eq .RelPermalink "/graph/" }}
+  <div>
+    {{- partial "graph.html" . -}}
+  </div>
+  {{ end }}
+  
+
+  {{ .Content}}
+
+  
+  
+
+{{ end }}
+
+

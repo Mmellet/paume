@@ -1,0 +1,11 @@
+{{ $theme := .Get "theme" }}
+
+{{ if eq $theme "theme1" }}
+  <!-- Contenu spécifique au thème 1 -->
+{{ else if eq $theme "theme2" }}
+  <!-- Contenu spécifique au thème 2 -->
+{{ else if eq $theme "theme3" }}
+  <!-- Contenu spécifique au thème 3 -->
+{{ else }}
+  <!-- Contenu par défaut -->
+{{ end }}
