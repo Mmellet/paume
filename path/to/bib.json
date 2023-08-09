@@ -21,6 +21,9 @@
 			]
 		}
 	},
+	
+		{"id":"flusser_vom_1997","author":[{"family":"Flusser","given":"Vilém"},{"family":"Wurm","given":"Fabian"}],"call-number":"1","citation-key":"flusser_vom_1997","event-place":"Göttingen","ISBN":"978-3-88243-249-7","issued":{"date-parts":[[1997]]},"language":"ger","publisher":"Steidl Verl","publisher-place":"Göttingen","source":"BnF ISBN","title":"Vom Stand der Dinge: eine kleine Philosophie des Designs","title-short":"Vom Stand der Dinge","type":"book"}
+	  ,
 	{
 		"id": "ricoeur_temps_1983",
 		"type": "book",
@@ -1322,6 +1325,9 @@
 			]
 		}
 	},
+	
+		{"id":"mucelli_fabbrica_2023","author":[{"family":"Mucelli","given":"Elena"},{"family":"Gulinello","given":"Francesco"}],"citation-key":"mucelli_fabbrica_2023","event-place":"Macerata","ISBN":"978-88-229-2089-8","issued":{"date-parts":[[2023]]},"language":"ita","note":"OCLC: 1390153002","publisher":"Quodlibet","publisher-place":"Macerata","source":"Open WorldCat","title":"La fabbrica diffusa: produzione e architettura a Cesena","title-short":"La fabbrica diffusa","type":"book"}
+	  ,
 	{
 		"id": "theval_poetique_2018",
 		"type": "article-journal",
@@ -2909,6 +2915,7 @@
 			]
 		}
 	},
+	{"id":"mellet_penser_2020","author":[{"family":"Mellet","given":"Margot"}],"citation-key":"mellet_penser_2020","collection-title":"Hors-dossier","container-title":"Captures","issue":"1","issued":{"date-parts":[[2020]]},"title":"Penser le palimpseste numérique. Le projet d’édition numérique collaborative de l’Anthologie palatine","type":"article-journal","URL":"http://revuecaptures.org/article-dune-publication/penser-le-palimpseste-num%C3%A9rique","volume":"5"},
 	{
 		"id": "mellet_manifeste_2021",
 		"type": "document",

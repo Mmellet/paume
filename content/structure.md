@@ -3,11 +3,11 @@ title: Structure
 ---
 
 ----
-
+<!--
 {{< fileTree >}}
 * Introduction : Le Seuil d'une non-écriture
 * Chapitre 1 : La Fabrique  
-    * La Fabrique de la Fabrique
+    * **La Fabrique de la Fabrique**
         * L'homo faber sapiens 
         * L'appropriation érudite
         * L'origine politique 

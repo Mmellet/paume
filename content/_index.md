@@ -1,32 +1,30 @@
 
 Lieu en cours de désécriture. 
 
-Paume est l'espace de structuration et publication de mon travail de doctora. 
+Paume est l'espace de structuration et publication de mon travail de doctorat. 
 
 Une partie des réflexions achevées ou en cours est également présente sur [Blank.blue](https://blank.blue)
 
+## Objectifs de comptable névrosé 
+
+- 100 000 signes par partie
+
 ## Questions 
 
-- ajouter une partie sur la Page ? 
-
-- ajouter davantage de respirations ? 
-
-- un problème que des exemples/références soient rappelés d'une entrée à une autre ? 
-
+- voir hagen 2005, pias 2002, siegert 2003 et zielinski 2006 pour critique kittler : daniels 2002 
 
 ### Partie Fabrique
 - le premier chapitre fabrique de la fabrique, manque-t-il d'exemples littéraires ? 
 - à la fin de l'origine politique de la fabrique, ajouter une partie sur la normativité de Word imposée par l'université ? 
 - dans la fabrique de la littérature : ajouter une partie sur l'atelier et la chambre à soi ?
-- inverser la fabrique de la littérature et la fabrique de la thèse ? 
+- reprendre la structure de la cuisine pour la fabrique de ma fabrique ? 
 
-
+### Partie Matière 
 
 ## ToDo 
 
-Délai juin 
+Délai automne
 - [ ] restructurer l'intro
-- [ ] doubler la fabrique
 - [ ] intro machine
 - [ ] fin machine 
 - [ ] concretiser le média
@@ -47,13 +45,13 @@ Importance 3
 - [ ] plug hypothesis
 - 
 
-Entrée Fabrique 
-- [ ] développer l'undercommons
+Entrée Fabrique 20 %
 - [ ] lier l'undercommons à ap
 - [ ] ajouter une partie sur stylo en lien avec Word pour rappeler une dimension politique de l'écriture
 - [ ] produire des graphs pour montrer la circulation des idées et discours en réseaux
 - [ ] ajout lien palimpseste dans ap
-- [ ] ajout cas abrupt
+- [ ] partie sur le montage technique de la thèse
+- [ ] conclusion
 
 Entrée Machine 
 - [ ] ajouter un point sur le masculin oulipien
@@ -74,7 +72,8 @@ Entrée Média
 - media
 - fabrique
 - cyborg
-- dispositif
+- configuration
 - support
 - homo faber
 - femme
+- texte
