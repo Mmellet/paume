@@ -12,6 +12,7 @@ Une partie des réflexions achevées ou en cours est également présente sur [B
 ## Questions 
 
 - voir hagen 2005, pias 2002, siegert 2003 et zielinski 2006 pour critique kittler : daniels 2002 
+- ajout littérarité
 
 ### Partie Fabrique
 - le premier chapitre fabrique de la fabrique, manque-t-il d'exemples littéraires ? 
