@@ -1,9 +1,148 @@
 
+
 *comment un texte advient physiquement*
 
 *machineries ? machin?*
 
 ---
+
+
+
+ culture des machines
+
+
+Réaction contre la culture des machines. — La machine, produit elle-même de la plus haute capacité intellectuelle, ne met en mouvement, chez les personnes qui la desservent, que les forces inférieures et irréfléchies. Il est vrai que son action déchaîne une somme de forces énorme qui autrement demeurerait endormie ; mais elle n’incite pas à s’élever, à faire mieux, à devenir artiste. Elle rend actif et uniforme, mais ceci produit à la longue un effet contraire : un ennui désespéré s’empare de l’âme qui apprend à aspirer, par la machine, à une oisiveté mouvementée. (voyageur et son ombre, 220.)
+
+Prémisses de l’âge des machines. — La presse, la machine, le chemin de fer, le télégraphe sont des prémisses dont personne n’a encore osé tirer la conclusion qui viendra dans mille ans. (voyageyr et son ombre 278)
+
+En quoi la machine humilie. — La machine est impersonnelle, elle enlève au travail sa fierté, ses qualités et ses défauts individuels qui sont le propre de tout travail qui n’est pas fait à la machine, — donc une parcelle d’humanité. Autrefois tout achat chez des artisans était une distinction accordée à une personne, car on s’entourait des insignes de cette personne : de la sorte les objets usuels et les vêtements devenaient une sorte de symbolique d’estime réciproque et d’homogénéité personnelle, tandis qu’aujourd’hui nous semblons vivre seulement au milieu d’un esclavage anonyme et impersonnel. — Il ne faut pas acheter trop cher la facilitation du travail. (voyageur et son ombre, 28.)
+
+
+
+---- 
+
+femme petites mains 
+
+> En 1882 enfin, l'imprimerie de Copenhague C. Ferslew associa la sphère écrivante et les femmes comme médium destiné à remédier à la difficulté consistant en ce que ses « compositrices-typographes consacraient beaucoup plus de temps à déchiffrer les textes manuscrits qu'à composer effectivement le texte » (Stümpel, p. 8) (GFT, p. 334-5)
+
+> Le destin du philosophe utilisé par ses doigts agiles n'était pas de devenir auteur, mais de devenir femme. (GFT 342)
+(en référence au fait que typographe étaient des femmes)
+
+
+
+
+> [la machine à écrire] ne fait qu'inverser le genre de l'écriture. Mais ce faisant, elle inverse la base matérielle de l'écriture. (ALloa p. 307)
+
+> L'industrialisation atteignit à la fois l'écriture manuscrite et le travail manuel. [...] Ce n'est pas une coïncidence si les premiers modèles concurrents [à la machine à écrire fabricable en série Sholes par Remington & Son en 1874] provinrent de la Compagnie de machines à coudre domestiques, de la fabrique Meteor, usine saxonne de fabrication de machines à coudre ou encore de Seidel & Naumann [qui était jusqu'en 1944 la plus grosse entreprise de machines à coudre et à écrire] (Rolf Stümpel *Vom Sekretär zur Sekretärin. Eine Ausstellung zur Geschichte der Schreibmaschine und ihrer Bedeutung für den Beruf der Frau im Büro, 1985, p. 9). (GFT P. 311)
+
+« être remplacés par des machines, c'est-à-dire d'être implémentés dans le réel » (GFT P. 311)
+
+> Lorsque les hommes laissent échapper leur plume et les femmes leur aiguille, toutes les mains peuvent être indifféremment mises à contributions -- aussi adaptables que sont les employés. L'écriture à la machine marque la désexualisation de l'écriture, qui perd sa métaphysique et devient traitement de texte. (GFT P. 311)
+
+voir Müller C.L. médecin qui en 1823 publie ùn traité : *La Machine à écrire, nouvelle invention au moyen de laquelle chacun peut écrire sans lumière, en n'importe quelle langue et quel que soit son monde d'écriture, rédiger exposés et factures, les mal-voyants pouvant également non seulement écrire plus facilement qu'avec tous les tableau d'écriture disponibles jusqu'à présent, mais également lire ce qu'ils ont eux-mêmes écrit.*
+ou *Neu erfundene Schreib-Maschine, mittelst welcher Jedermann ohne Licht in jeder Sprache und Schriftmanier sicher zu schreiben, Aufsätze und Rechnungen zu verfertigen vermag, auch Blinde besser als mit allen bisher bekannten Schreibtafeln nicht nur leichter schreiben, sondern auch das von ihnen Geschrieben selbst lesen könner*, 1823
+
+
+> Jean Cocteau, qui écrivit une pièce pour chacun des média de la fin du XIX^e^ siècle -- *La Voix humaine* pour les propriétés acoustiques du téléphone, le scénario d'*Orphée* pour le miroir, le double et les effets cinématographiques, mais aussi « la radio dans les voitures, les messages chiffrés, le signal des ondes courtes » (Cocteau Du cinématographe 1950, p. 206) -- fit de la machine à écrire l'héroïne titre d'une pièce de théâtre. Le dialecte amériacain en donne le point de départ : pendant trois actes, un détective poursuit une inconnue, qui s'en prenait à sa ville de province avec des lettres anonymes dactylographiées et se dénommait elle-même pour cette raison « la machine à écrire » (Cocteau Machine à écrire, p. 39). Pendant trois actes, il « imagine le coupable qui table, qui tire *qui manie sa mitrailleuse* » (p. 67). (GFT P. 319)
+
+> Depuis qu'en 1872, Lilian Sholes, « probablement la première dactylographe » de l'histoire (Current, The Typewriter and the Men Who Made It, 1954, p. 54), avait posé assise devant le prototype de son père, il y avait certes des femmes tapant à la machine pour des démonstrations mais pas encore de profession et de cursus de formation pour les sténotypistes femmes. La branche centrale de l'Association chrétienne des jeunes femmes de New York changea la donne : elle forma en 1881 huit jeunes femmes à l'écriture dactylographiée et reçut aussitôt de l'industrie des centaines de demandes. (GFT P. 321-22)
+
+valeur d'une employée de burau : « s'abaisse avec tant de facilité à n'être qu'une machine à écrire. » (Schwabe, p. 7)
+
+> C'est préciséement leur statut marginal dans le système de pouvoir de l'écriture qui avait renvoyé les femmes à leur dextérité manuelle, qui surpassa ensuite dans le système des médias le grand art de la calligraphie des secrétaires masculins. (GFT P. 323)
+
+cette dextérité dont parle KIttler, vient de l'apprentissge du piano aux jeunes filles. 
+
+> [...] à la place de la main familière, ils mettront l'innervation des doigts qui ordonnent. (Tschichold 1948)
+
+
+
+---
+
+cyborg
+
+
+> En 1882 se substituèrent aux êtres humains, à leurs pensées et à la figure de l'auteur, deux sexes, le texte et un outil d'écriture aveugle. (GFT 334)
+
+> les êtres humains ne sont peut-être que des machines à penser, à écrire et à parler (Nietzsche)
+
+cyborg // vampire de Kittler, soit une figure vaguement humanoïde qui nous vide de qui fait notre exclusivité humaine
+
+kittler : sans caractère totalitaire des dispositifs, ni total enthousiasme que l'on peut soupçonner comme une glorification d'un privilège technique de l'être humain (ou l'idée d'une anthropologie négative, l'être humain serait inadéquatement équipé par la nature alors il doit être conforté par des prothèses techniques et organes artificiels).
+
+médias : extensions du corps humain mcluhan, idée de la technique comme réparation. 
+
+thèse de la projection des organes de Kapp, faisait du télescope une lentille oculaire décuplée et du câblage électrique une extension du système nerveux et du réseau de circulation urbain une prolongation du système sanguin, mcluhan fait des médias « extensions de certains facultés humains -- qu'elles soient psychiques ou physiques » (medium message, p. 26)
+
+les deux extrêmes sont anthropocentriques
+
+
+----
+
+ordinateur 
+
+
+Vers les machines moderners : qui sont des machines modélisante : « qui intervient entre un sujet cognitif et le monde » (Meunier, 2014)
+
+>Computers are essentially modeling machines, not knowledge jukeboxes » Mc Carthy, 2008, chap 19, p.2 , vision partagée par Meunier (2009)
+
+> Tout comme bien d’autres technologies (par exemple, la photographie, le cinéma, le livre, etc.) l’ordinateur sert dans l’interaction cognitive et pratique d’un agent cognitif humain avec le monde et elle affecte sa culture et son environnement. Mais encore faut-il préciser davantage le type particulier de médiation qui est réalisée. Pour Mc Carthy, cette médiation de l’ordinateur en est une de précision mécanique interne propre à une modélisation computationnelle : « the mechanical precision of the computational model ». Et c’est à ce type de modélisation qu’il donne une finalité épistémique et épistémologique. L’ordinateur devient un outil de perception et un instrument de pensée : « an agent of perception and instrument of thought ». Il permet de traduire des données originelles souvent imprécises en des données évidentes et renouvelantes :“ the flawless precision of the machine makes mechanically imprecise data obvious and obviously’. Cependant ces notions de mécanisme et de computation sont peu définies. Elles sont de fait des notions complexes et appartiennent au fondement des mathématiques et de l’informatique. Et il nous apparait nécessaire de les expliciter davantage surtout dans le cadre de leur application aux humanités. (Meunier 2014)
+
+>  La caractérisation de la médiation qu’est la technologie informatique proposée par Mc Carthy nous semble juste, mais elle demeure encore générale. Il faut voir qu’elle participe d’une dynamique explicative complexe où interviennent comme le suggèrent, Dennett (1978), Pylyshyn (1984) et Marr (1982) plusieurs modélisations. De fait, ils en identifieront trois types distincts.
+
+> Une première sera dite intentionnelle ou représentationnelle. Elle visera à identifier dans un domaine quelconque, les artefacts et les tâches ou pratiques qui y sont effectuées. Mais cette identification sera faite en regard de l’observation et de la compréhension qu’en ont les utilisateurs, les spécialistes ou les experts. Et l’explication qu’on en donnera en appellera à des concepts issus du discours ordinaire tels par exemple ceux de représentations et d’intention. Une deuxième modélisation, appelée fonctionnelle, traduira les objets et tâches décrits dans le premier modèle en termes d’intrant et de fonctions. Les fonctions posséderont cependant une propriété mathématique très spécifique à savoir, être computables. Enfin, la troisième modélisation dite physique ou matérielle présentera les mécanismes physiques qui sous-tendent la réalisation de ces fonctions computables. En informatique, ces mécanismes seront ceux d’une machine physique de type électronique communément appelé : un ordinateur.
+
+>  De fait, contrairement à ce qu’on pense, l’ordinateur comme machine physique ne manipule pas du numérique, mais bien des configurations électriques[4]. [ De fait, ces chiffres 0 et 1 se retrouvent presque uniquement dans le langage dit « machine » lesquels seront par compilation reliés a des configurations électriques spécifiques. Ce sont ces dernières que l’ordinateur comme machine physique manipulera. Les langages de programmation de haut niveau ne contiennent que rarement ces symboles. 
+
+>  Cette appellation de « numérique » pour parler d’un système manipulant des symboles est cependant problématique. En effet, ces deux symboles ne désignent pas nécessairement des nombres c’est-à-dire des entités dans l’univers numérique comme cela est habituellement le cas en mathématique. Ils désignent, dans un langage de programmation machine que des configurations électriques. Or ce que manipulera concrètement un ordinateur ne seront pas ces symboles eux-mêmes, mais les configurations électriques elles-mêmes que ces deux symboles, 0 et 1, encodent.
+
+> Par ailleurs le choix du terme numérique n’est pas sans conséquence théorique. En effet, il laisse supposer que ces symboles eux-mêmes, 0 et 1, garantissent que les fonctions qui les manipuleront possèdent la propriété d’être computable. Une telle supposition, comme nous le verrons, va à l’encontre du concept même de computation. Ce n’est pas parce qu’un intrant est représenté par des symboles par 0 et 1 que le traitement fonctionnel qui pourrait lui être appliqué serait computationnel. Une telle remarque nous mène directement à notre deuxième question : quelle est la nature de la computationnalité ?
+
+As Espen J. Aarseth observed in one of the foun-
+dational texts of game studies,2 information technology did not make the cybertext possible;
+cybertexts existed before computers and cybertextual thinking dates back several millennia
+
+In support of this assertion, Aarseth shows how the famous Chinese book of changes, the
+I Ching, which dates back to the Zhou dynasty (1027-256 BC), was already a cybertext.
+
+Pour KIttler, les ordinateurs ne sont pas seuelemnt des remédiations de médias existants, comme la machine à écrire qui rencontrerait le film, mais introduisent des nouveaux standards, en terme de transfert de données, de programmation et de stockage. 
+
+
+
+--- 
+
+sur l'intelligence 
+
+
+entre ruse et machin inventé 
+
+ μηχανή, mêkhanê., invention ingénieuse, dispositif
+
+La ruse de la machine est la ruse d'Ulysse, à s'adapter, à imiter le discours de son hôte pour le mener là où il ne voulait pas aller. 
+
+ Toute invention ingénieuse, que ce soit sous un aspect positif (moyen, expédient) ou négatif (ruse, artifice, machination). 
+
+La mètis ou mêtis (en grec ancien μῆτις / mêtis, littéralement « le conseil, la ruse ») est une stratégie de rapport aux autres et à la nature reposant sur la « ruse de l'intelligence ».
+
+
+
+le mécanisme de la machine universelle de Turing, mécanisme se passe intégralement de l'enjeu de la signification. 
+
+le message qu'est le média n'est pas un message sémantique, les aspects sémantiques d'une communication ne sont pas pertinents pour le problème technique (Shannon et Weaver, 1948, 1949, p. 3)
+
+pour la machine il n'y a pas de non-sens, ce serait un n-sens
+
+
+--- 
+
+écritrue non-humaine
+
+post humain 
+
+By “posthumanist” I mean to signal the crucial recognition that nonhumans play an important role in natural/cultural practices, including everyday social practices, scientific practices, and practices that do not include humans. But also, beyond this, my use of “posthumanism” marks a refusal to take the distinction between “human” and “nonhuman” for granted, and to found analyses on this presumably fixed and inherent set of categories. Any such hardwiring precludes a genealogical investigation into the practices through which “humans” and “nonhumans” are delineated and differentially constituted. A posthumanist performative account worth its salt must also avoid cementing the nature-culture dichotomy into its foundations, thereby enabling a genealogical analysis of how these crucial distinctions are materially and discursively produced. (2007, 32)
+
+comme dans le jeu de l'imitation : le fait d'être humain ou d'être non-humain émerge après l'écriture
+
 
 Le fait numérique joue sans doute un rôle fondamental dans cette idée d’écriture non humaine. Il offre de multiples exemples de signes, traces et inscriptions techniques qui s’imposent comme du sens, mais qui échappent au contrôle des mécanismes de signification strictement humains. Ces écritures comportent à la fois la caractéristique de se présenter comme inscriptions de signes qui peuvent être considérés finalement comme une série de caractères ou plus précisément de lettres – simplement le résultat d’un encodage de lettres en bit : 1 lettre=8 bit, à savoir 1 byte – et la caractéristique d’être impossibles à écrire et à lire par des êtres humains. Un fichier binaire, un algorithme, une base de données sont ultimement des séries de caractères qu’un être humain peut visualiser sur un écran – ou imprimer sur une feuille de papier –, mais dont l’écriture et la lecture sont réservées aux machines.
 
@@ -12,8 +151,28 @@ l'écriture numérique n'est pas l'avènement de l'écriture inhumaine : « l'é
 
 ce qui veut dire que l'assertion de Kittler n'implique pas un principe d'exclusivité : l'écriture n'est plus aux mains de l'humain mais elle a toujours été éternellement en dehors également. 
 
+in Masure : 
 
---- 
+Flusser fait ainsi entendre dans ses écrits la dimension séculaire, voire millénaire, du programme qu’il rapproche de la notion de calcul via les calculi, ces petits cailloux dont les logiques se retrouvent dans nos machines siliconées.
+
+12
+Ayant très vite pris conscience des bouleversements considérables introduits par la discrétisation de l’écriture linéaire en unités calculables, Flusser développe une pensée de la technique visant à nous alerter sur la puissance des « appareils » qu’il comprend, à la façon des « dispositifs » d’Agamben, comme des puissances d’automatisation et d’aliénation des subjectivités humaines. (flusser a partir philo de photo)
+
+Flusser émet ainsi l’idée d’appareils engendrant des appareils sans intervention humaine, rejoignant ainsi les interrogations contemporaines autour des programmes mutants et des intelligences artificielles comparables à des organismes vivants.
+
+irrémédiable : comme pour le linéaire b que nous lisons, déchiffrons, mais que nous ne comprenons pas
+face au linéaire b, on est des machines 
+
+
+
+> Que le symbolique s'appelle le monde de la machine enlève à celui que l'on appelle l'être humain l'illusion d'être, grâce à cette « qualité » appelée conscience, autre et plus qu'une « machine à calculer ». Car les deux, les hommes comme les ordinateurs, « sont en proie aux appels du signifiant », ce qui signifie qu'ils sont tous les deux régis par des programmes (citant Lacan Écrits, p. 51). « Sont-ils encore des hommes », se demande Nietzsche en 1874, huit ans avant d'acheter une machine à écrire, « ou peut-être simplement des machines à penser, à écrire, à parler ? » (citant Considérations inactuelles, t. I, 1993, p. 244) (Alloa, p. 58)
+
+
+
+---
+
+test turing 
+
 
 Lévy rappelle, par ailleurs, l’idée d’une intelligence externe aux individus qu’on peut lire entre les lignes du De anima d’Aristote (III,4) et qui a été au centre de la réflexion médiévale sur l’intellect agent.
 
@@ -41,56 +200,6 @@ Kittler, les machines sont avant tout des machines à écrire, inscrire et trans
 
 pour Kittler la lecture est un déchiffrement désormais : cela ne veut rien dire, il n'y a pas de sens caché, mais il faut analyser ce que ça va faire. 
 
-l'écriture automatique ou automatisée n'a pas été inventée avec les surréalistes : les ingénieurs l'avaient fait avant avec le principe de sismogramme et phonogramme. 
-
-histoire littéraire, annexe de l'histoire des techniques 
-
-> La façon dont les écrivains ont vécu le chemine de fer, cette extraordinaire économie du travail musculaire, est indéniablement importante, du point de vue de l'histoire de la littérature. (introduction de la thèse d'habilitation de Kittler, qui donnera le livre discourse network, préface tapuscrite de la thèse Aufschreibensysteme 1800-1900, université de Fribourg, préface non reprise dans l'édition du livre mais citée dans documentes publiées dans le numéro spécial de la Zeitschrift für Medienwissenschaft 6/1, 2012, p. 117)
-
-les discours constituent les effets collatéraux des médias techniques d'inscription, archivage, mise en circulation. 
-
-> c'est le standard digital qui opère la réduction de l'infini ; ce qu'un sujet enregistre dans tout ce qui l'entoure dépend non pas de discours sociétaux qui le conditionnent, mais d'un principe de raréfaction établi par les appareils eux-mêmes. La vérité est un effet produit par quelques lignes de code. (Alloa, p. 13)
-à partir de Kittler. « Spiele des Wahren und des Falschen. Zum zehnten Todestag des französischne Philosophen Michel Foucault. » Short Cuts, 2002, p. 36-37
-
-idée que l'influence est palpable. 
-
-épisode de la biographie de Nietzsche : penseur presque aveugle, troque sa plume contre une machine à écrire Malling-Hansen envoyée depuis le Danemark jusqu'en Italie. Dès 1882, il rédige sur la Boule à écrire. son ami Köselitz lui fait remarquer dans une lettre que son style est devenu plus ramassé, plus télégraphique. c'est là que Nietzsche répond : 
-
-> Unser Schreibwerzeug schreibt mit an unseren Gedanken. (Nietschze, lettre à Heinrich Köselitz, fin février 1882 dans Nietzsche Briefwechsel : Kritische Gesamtausgabe, 1975-1984, vol III/1, p. 172)
-
-L'expérience ne dure que quelques semaines : Nietzsche finit par revenir à la plume. 
-
-les ingénieurs croisent les poètes. 
-
-cyborg // vampire de Kittler, soit une figure vaguement humanoïde qui nous vide de qui fait notre exclusivité humaine
-
-kittler : sans caractère totalitaire des dispositifs, ni total enthousiasme que l'on peut soupçonner comme une glorification d'un privilège technique de l'être humain (ou l'idée d'une anthropologie négative, l'être humain serait inadéquatement équipé par la nature alors il doit être conforté par des prothèses techniques et organes artificiels).
-
-médias : extensions du corps humain mcluhan, idée de la technique comme réparation. 
-
-thèse de la projection des organes de Kapp, faisait du télescope une lentille oculaire décuplée et du câblage électrique une extension du système nerveux et du réseau de circulation urbain une prolongation du système sanguin, mcluhan fait des médias « extensions de certains facultés humains -- qu'elles soient psychiques ou physiques » (medium message, p. 26)
-
-les deux extrêmes sont anthropocentriques
-
-le mécanisme de la machine universelle de Turing, mécanisme se passe intégralement de l'enjeu de la signification. 
-
-le message qu'est le média n'est pas un message sémantique, les aspects sémantiques d'une communication ne sont pas pertinents pour le problème technique (Shannon et Weaver, 1948, 1949, p. 3)
-
-pour la machine il n'y a pas de non-sens, ce serait un n-sens
-
-machine à écrire : « chose intermédiaire, à mi-chemin de l'outil et de la machine » Heidegger Parménide 1942-43, 2011, p. 141
-
-> En 1860, cinq ans avant la boule à écrire mécanique de Malling Hansen, qui fut la première machine à écrire pouvant être produite en série, les *Lettres d'amour mal employées* de Keller affirmaient encore l'illusion de la poésie elle-même : l'amour n'a que l'impossible alternative de « parler avec l'encre noire » ou « de laisser parler le sang rouge » (Keller, Dis Missbrauchten Liebesbriefe, p. 376 dans Die Leute von Seldwyla 1961). (Alloa, p. 55)
-
-avec les nouveaux médias, les lettres transmettent une « nouvelle et jolie tautologie de techniciens » (Kittler GFT p. 56)
-
-> La machine à écrire incarne parfaitement ce que Lacan illustre à l'aide des anciennes casses (Écrits, p. 70). À la différence du flux de l'écriture manuscrite, des éléments discrets séparés par des espaces sont disposés l'un à côté de l'autre. Le symbolique a ainsi le statut de caractères d'imprimerie. (Alloa, p. 57)
-
-> La différenciation technique de l'optique, de l'acoustique et de l'écriture, qui autour de 1880 fait exploser le monopole de stockage de l'écriture imprimée, rend celui que l'on appelle « être humain » fabricable. Son essance déborde sur des appareils. Les machines s'emparent des fonctions du systèmes nerveux central et non plus seulement des fonctions musculaires comme c'était le cas des machines précédentes. C'est seulement avec cette différenciation -- et non pas dès la machine à vapeur ou le chemin de fer -- que s'instaure une séparation claire entre la matière et l'information, entre le réel et le symbolique. (Alloa, p. 57)
-
-> Pour optimiser l'écriture par la machine, celle-ci ne doit plus être rêvée comme l'expression d'un individu ou comme la trace d'un corps. Les formes, différences et fréquences de ses lettres mêmes doivent être réduites à des formules. Celui que l'on appelle être humain se désagrège en physiologie et technologie de l'information. (Alloa, p. 58)
-
-> Que le symbolique s'appelle le monde de la machine enlève à celui que l'on appelle l'être humain l'illusion d'être, grâce à cette « qualité » appelée conscience, autre et plus qu'une « machine à calculer ». Car les deux, les hommes comme les ordinateurs, « sont en proie aux appels du signifiant », ce qui signifie qu'ils sont tous les deux régis par des programmes (citant Lacan Écrits, p. 51). « Sont-ils encore des hommes », se demande Nietzsche en 1874, huit ans avant d'acheter une machine à écrire, « ou peut-être simplement des machines à penser, à écrire, à parler ? » (citant Considérations inactuelles, t. I, 1993, p. 244) (Alloa, p. 58)
 
 ce à quoi répond en réalité Turing : la question n'est pas une question. 
 
@@ -111,98 +220,21 @@ en effet même les machines modernes construites avec le modèle de von Neumann 
 
 l'histoire pour KIttler s'arrête, et on entre dans l'âge des média. 
 
-comme pour le terme computer, le terme typewriter est équivoque en anglais : désignant la machine à écrire et la dactylographe. 
 
-// jeu sur lequel le support est outil et femme comme pour les liaisons dangeureuses 
-Bruce Bliven dans *The WOnderful Writing Machine* 1954, p. 72 reporte la lettre dactylographiée d'une homme d'affaire en faillite à sa femme : 
+--- 
 
-> Dear Blanche, I have sold off all my office furniture, chairs, desks, etc., and I am writing this letter under difficulties with my typewriter on my lap. 
-
-coïncidence entre métier, machine et sexe. 
-
-> [la machine à écrire] ne fait qu'inverser le genre de l'écriture. Mais ce faisant, elle inverse la base matérielle de l'écriture. (ALloa p. 307)
-
-> L'industrialisation atteignit à la fois l'écriture manuscrite et le travail manuel. [...] Ce n'est pas une coïncidence si les premiers modèles concurrents [à la machine à écrire fabricable en série Sholes par Remington & Son en 1874] provinrent de la Compagnie de machines à coudre domestiques, de la fabrique Meteor, usine saxonne de fabrication de machines à coudre ou encore de Seidel & Naumann [qui était jusqu'en 1944 la plus grosse entreprise de machines à coudre et à écrire] (Rolf Stümpel *Vom Sekretär zur Sekretärin. Eine Ausstellung zur Geschichte der Schreibmaschine und ihrer Bedeutung für den Beruf der Frau im Büro, 1985, p. 9). (GFT P. 311)
-
-« être remplacés par des machines, c'est-à-dire d'être implémentés dans le réel » (GFT P. 311)
-
-> Lorsque les hommes laissent échapper leur plume et les femmes leur aiguille, toutes les mains peuvent être indifféremment mises à contributions -- aussi adaptables que sont les employés. L'écriture à la machine marque la désexualisation de l'écriture, qui perd sa métaphysique et devient traitement de texte. (GFT P. 311)
-
-voir Müller C.L. médecin qui en 1823 publie ùn traité : *La Machine à écrire, nouvelle invention au moyen de laquelle chacun peut écrire sans lumière, en n'importe quelle langue et quel que soit son monde d'écriture, rédiger exposés et factures, les mal-voyants pouvant également non seulement écrire plus facilement qu'avec tous les tableau d'écriture disponibles jusqu'à présent, mais également lire ce qu'ils ont eux-mêmes écrit.*
-ou *Neu erfundene Schreib-Maschine, mittelst welcher Jedermann ohne Licht in jeder Sprache und Schriftmanier sicher zu schreiben, Aufsätze und Rechnungen zu verfertigen vermag, auch Blinde besser als mit allen bisher bekannten Schreibtafeln nicht nur leichter schreiben, sondern auch das von ihnen Geschrieben selbst lesen könner*, 1823
-
-> les êtres humains ne sont peut-être que des machines à penser, à écrire et à parler (Nietzsche)
-
-> La machine à écrire devint une mitrailleuse à discours. La machine, qui se base sur ce que l'on appelle non sans raison des « frappes », fondtionnait par étapes automatisées et discrètes, comme le mécanisme de chargement en munitions du revolver ou de la mitrailleuse, ou encore le défilement du celluloïd dans l'appareil de projection. (GFT P. 317)
-
-> Jean Cocteau, qui écrivit une pièce pour chacun des média de la fin du XIX^e^ siècle -- *La Voix humaine* pour les propriétés acoustiques du téléphone, le scénario d'*Orphée* pour le miroir, le double et les effets cinématographiques, mais aussi « la radio dans les voitures, les messages chiffrés, le signal des ondes courtes » (Cocteau Du cinématographe 1950, p. 206) -- fit de la machine à écrire l'héroïne titre d'une pièce de théâtre. Le dialecte amériacain en donne le point de départ : pendant trois actes, un détective poursuit une inconnue, qui s'en prenait à sa ville de province avec des lettres anonymes dactylographiées et se dénommait elle-même pour cette raison « la machine à écrire » (Cocteau Machine à écrire, p. 39). Pendant trois actes, il « imagine le coupable qui table, qui tire *qui manie sa mitrailleuse* » (p. 67). (GFT P. 319)
-
-> Depuis qu'en 1872, Lilian Sholes, « probablement la première dactylographe » de l'histoire (Current, The Typewriter and the Men Who Made It, 1954, p. 54), avait posé assise devant le prototype de son père, il y avait certes des femmes tapant à la machine pour des démonstrations mais pas encore de profession et de cursus de formation pour les sténotypistes femmes. La branche centrale de l'Association chrétienne des jeunes femmes de New York changea la donne : elle forma en 1881 huit jeunes femmes à l'écriture dactylographiée et reçut aussitôt de l'industrie des centaines de demandes. (GFT P. 321-22)
-
-valeur d'une employée de burau : « s'abaisse avec tant de facilité à n'être qu'une machine à écrire. » (Schwabe, p. 7)
-
-> C'est préciséement leur statut marginal dans le système de pouvoir de l'écriture qui avait renvoyé les femmes à leur dextérité manuelle, qui surpassa ensuite dans le système des médias le grand art de la calligraphie des secrétaires masculins. (GFT P. 323)
-
-cette dextérité dont parle KIttler, vient de l'apprentissge du piano aux jeunes filles. 
-
-> [...] à la place de la main familière, ils mettront l'innervation des doigts qui ordonnent. (Tschichold 1948)
+écriture automatique et essouflement 
 
 
-in Masure : 
+l'écriture automatique ou automatisée n'a pas été inventée avec les surréalistes : les ingénieurs l'avaient fait avant avec le principe de sismogramme et phonogramme. 
 
-Flusser fait ainsi entendre dans ses écrits la dimension séculaire, voire millénaire, du programme qu’il rapproche de la notion de calcul via les calculi, ces petits cailloux dont les logiques se retrouvent dans nos machines siliconées.
+histoire littéraire, annexe de l'histoire des techniques 
 
-12
-Ayant très vite pris conscience des bouleversements considérables introduits par la discrétisation de l’écriture linéaire en unités calculables, Flusser développe une pensée de la technique visant à nous alerter sur la puissance des « appareils » qu’il comprend, à la façon des « dispositifs » d’Agamben, comme des puissances d’automatisation et d’aliénation des subjectivités humaines. (flusser a partir philo de photo)
+> La façon dont les écrivains ont vécu le chemine de fer, cette extraordinaire économie du travail musculaire, est indéniablement importante, du point de vue de l'histoire de la littérature. (introduction de la thèse d'habilitation de Kittler, qui donnera le livre discourse network, préface tapuscrite de la thèse Aufschreibensysteme 1800-1900, université de Fribourg, préface non reprise dans l'édition du livre mais citée dans documentes publiées dans le numéro spécial de la Zeitschrift für Medienwissenschaft 6/1, 2012, p. 117)
 
-Flusser émet ainsi l’idée d’appareils engendrant des appareils sans intervention humaine, rejoignant ainsi les interrogations contemporaines autour des programmes mutants et des intelligences artificielles comparables à des organismes vivants.
+les discours constituent les effets collatéraux des médias techniques d'inscription, archivage, mise en circulation. 
 
-irrémédiable : comme pour le linéaire b que nous lisons, déchiffrons, mais que nous ne comprenons pas
-face au linéaire b, on est des machines 
+> c'est le standard digital qui opère la réduction de l'infini ; ce qu'un sujet enregistre dans tout ce qui l'entoure dépend non pas de discours sociétaux qui le conditionnent, mais d'un principe de raréfaction établi par les appareils eux-mêmes. La vérité est un effet produit par quelques lignes de code. (Alloa, p. 13)
+à partir de Kittler. « Spiele des Wahren und des Falschen. Zum zehnten Todestag des französischne Philosophen Michel Foucault. » Short Cuts, 2002, p. 36-37
 
-> L'homme lui-même « agit » et « manoeuvre » grâce à la main ; car la main forme avec la parole le trait essentiel de l'homme. Seul l'étant qui, comme l'homme, « a » la parole (muthos, logos) peut et doit » avoit également une « main ». Grâce à la main ont lieu non seulement la prière et le meurtre, le salut et le remerciement, le erment et le signe, mais aussi l'«oeuvre » de la main, le « métier », et l'instrument. La poignée de main scelle un pacte. La main déclenche une « oeuvre » de destruction. La main ne se déploie en tant que main que là où il y a décèlement et cèlement. Aucun animal n'a de main, et d'une patte, d'une serre ou d'une griffe jamais ne naît une main. [...] Ce n'est qu'à partir de la parole et avec la parole que surgit la main. Ce n'est pas l'homme qui « a » des mains, mais la main qui porte l'essence de l'homme, car la parole comme domaine d'essence de la main est le fondement de l'essence de l'homme. [...] Ce n'est pas par hasard que l'homme moderne écrit « à » la machine et « dicte » (le même mot que « dire ») « à » la machine. Cette « histoire » de la façon d'écrire constitue l'une des raisons principales de la croissante dévastation du mot. [...] La machine à écrire arrache l'écriture au domaine d'essence de la main, c'est-à-dire de la parole. Le mot lui-même devient quelque chose de « tapé ». Là où l'écriture à la machine, en revanche, n'est qu'une transcription et sert à la conservation de l'écrit, ou substitue à ce qui a été écrit un texte « imprimé », elle a sa signification propre, mais limitée. Au début du règne de la machine à écrire, une lettre écrite à la machine passait encore pour une lettre de bienséance. Aujourd'hui une lettre écrite à la main est une chose vieillie et non désirable, qui gêne la lecture hâtive. L'écriture machinale prive la main de son rang dans le domaine de la parole écrite et dégrade la parole en moyen de communication. Elle présente en outre l'avantage de celer l'écriture manuscrite, et par là même le caractère. Grâce à l'écriture à la machine tous les hommes se ressemblent. [...] La machine à écrire est un nuage que rien n'annonce, c'est-à-dire un cèlement qui, malgré sa présence insistante, se retire et à travers lequel le rapport de l'être à l'homme subit une mutation. Rien en effet ne la laisse voir, elle ne se montre pas en son essence ; (Heidegger, Parménide, p. 132-33, 140-1 cité par Kittler, GFT, 333)
-
-Pour Heidegger, le passage de la main à la machine pour l'écriture, l'arrachement à son origine essentielle, créé une mutation dans le rapport de l'être à l'homme. cela il le dit par l'écriture manuscrite... 
-
-> En 1882 se substituèrent aux êtres humains, à leurs pensées et à la figure de l'auteur, deux sexes, le texte et un outil d'écriture aveugle. (GFT 334)
-
-Nietschze myope, anisocorie et migraine
-1879, année « de la cécité » (lettre du 14 août 1879, in op, II-5, p. 435) il fait le projet de prendre une machine à écrire. il prend la hansen car l'américaine il la juge trop lourde (lettre du 5 décembre 1881, III-1, p. 146)
-la machine devait servir à compenser des déficiences physiologiques et améliorer la vitesse d'écriture : il avait pris pour l'ouvrage Le Voyageur et son ombre un « style télégraphique » à cause de migraires et fatigues récurrentes (lettre 5 novembre, II-5, p. 461) 
-
-> En 1882 enfin, l'imprimerie de Copenhague C. Ferslew associa la sphère écrivante et les femmes comme médium destiné à remédier à la difficulté consistant en ce que ses « compositrices-typographes consacraient beaucoup plus de temps à déchiffrer les textes manuscrits qu'à composer effectivement le texte » (Stümpel, p. 8) (GFT, p. 334-5)
-
-McLuhan : la machine à écrire suscite une attitude entièrement nouvelle devant le texte écrit et imprimé parce qu'elle « fusionne la composition et la publication » (p. 299 traduction)
-
-Pour NIetzche, après une semaine de prise en main de la machine, ses yeux n'avaient plus besoin d'être actifs : « l'écriture automatique était inventée, l'ombre du voyageur était incarnée » (GFT, 335)
-
-Nietschze se mécanise, il a une écriture plus lacunaire selon Kittler, aphorique, 
-Hansen empêchait par la disposition semi-circulaire des touches de voir la feuille de papier. l'écriture dactylographiée comme processus aveugle pour Kittler. 
-
-avis de Angelo Beyerlen, sténographe royal du Wurtemberg et premier marchand de machines à écrire en Europe : 
-
-> Lors de l'écriture manuscrite, l'oeil doit constamment observer la ligne écrite, et uniquement celle-ci. Il doit surveiller la réalisation de chacun des signes écrits, mesurer, diriger, en bref il doit conduire et guider la main lors du tracé de chaque trait. À l'inverse, la machine à écrire produit par une simple pression brève du doigt une lettre complète à l'endroit prévu sur le papier, qui n'est non seulement pas effleuré par la main de l'écrivain mais qui, éloigné de celle-ci, se situe en outre en un tout autre lieu que là où les mains travaillent. (cité par Richard Herbertz, « Zur Psychologie des Maschinen-schreibens » Zeitschrift für angewandte Psychologie, no 2, 1909, p. 559)
-
-en somme l'endroit où apparaissent les signes, est l'endroit où on ne peut pas voir, c'est l'endroit d'action de la machine. 
-
-Acte d'écriture n'est plus un acte de lecture : mais comme pour la littérature automatique. et donc ce que cela implique c'est que l'écriture advient sans la grâce du sujet, sans le regard humain. 
-
-Beyerlen : « pour écrire, la visibilité est aujourd'hui aussi inutile qu'elle l'a toujours été » (Beyerlen, « Eine lustige Geschichte von Blinden usw., Schreib-maschinen-Zeitung, no 138, p. 362)
-
-quand Twain ou Hart ou Nansen ont acquéri une machine à écrire pour augmenter leur productivité (Burghagen p. 22), Nietschze le fait pour aller vers un acte d'écriture pur. pour « forger » des vers
-
-écriture machinique remet en cause le phallogocentrisme de la plume classique. (GFT p. 342)
-
-> Le destin du philosophe utilisé par ses doigts agiles n'était pas de devenir auteur, mais de devenir femme. (GFT 342)
-(en référence au fait que typographe étaient des femmes)
-
-
-Lisa Gitelman remarque que les premières machines à écrire montraient seulement une ligne du texte après l'autres au fur à mesure où elles étaient tapées. 
-
-> The machine's upstrike design seemed to refute the possibility of error, however unrealistically, and in removing the act of inscription from the human eye seemed to underscore its character as a newly technological and automatic event. (gitelman script grooves, 199, p. 206)
-
-
-supression de la figure classique de l'auteur par le fonctionnement média-technnique
-
-
-
+idée que l'influence est palpable. 
