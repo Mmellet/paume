@@ -23,36 +23,6 @@ En quoi la machine humilie. — La machine est impersonnelle, elle enlève au tr
 
 femme petites mains 
 
-> En 1882 enfin, l'imprimerie de Copenhague C. Ferslew associa la sphère écrivante et les femmes comme médium destiné à remédier à la difficulté consistant en ce que ses « compositrices-typographes consacraient beaucoup plus de temps à déchiffrer les textes manuscrits qu'à composer effectivement le texte » (Stümpel, p. 8) (GFT, p. 334-5)
-
-> Le destin du philosophe utilisé par ses doigts agiles n'était pas de devenir auteur, mais de devenir femme. (GFT 342)
-(en référence au fait que typographe étaient des femmes)
-
-
-
-
-> [la machine à écrire] ne fait qu'inverser le genre de l'écriture. Mais ce faisant, elle inverse la base matérielle de l'écriture. (ALloa p. 307)
-
-> L'industrialisation atteignit à la fois l'écriture manuscrite et le travail manuel. [...] Ce n'est pas une coïncidence si les premiers modèles concurrents [à la machine à écrire fabricable en série Sholes par Remington & Son en 1874] provinrent de la Compagnie de machines à coudre domestiques, de la fabrique Meteor, usine saxonne de fabrication de machines à coudre ou encore de Seidel & Naumann [qui était jusqu'en 1944 la plus grosse entreprise de machines à coudre et à écrire] (Rolf Stümpel *Vom Sekretär zur Sekretärin. Eine Ausstellung zur Geschichte der Schreibmaschine und ihrer Bedeutung für den Beruf der Frau im Büro, 1985, p. 9). (GFT P. 311)
-
-« être remplacés par des machines, c'est-à-dire d'être implémentés dans le réel » (GFT P. 311)
-
-> Lorsque les hommes laissent échapper leur plume et les femmes leur aiguille, toutes les mains peuvent être indifféremment mises à contributions -- aussi adaptables que sont les employés. L'écriture à la machine marque la désexualisation de l'écriture, qui perd sa métaphysique et devient traitement de texte. (GFT P. 311)
-
-voir Müller C.L. médecin qui en 1823 publie ùn traité : *La Machine à écrire, nouvelle invention au moyen de laquelle chacun peut écrire sans lumière, en n'importe quelle langue et quel que soit son monde d'écriture, rédiger exposés et factures, les mal-voyants pouvant également non seulement écrire plus facilement qu'avec tous les tableau d'écriture disponibles jusqu'à présent, mais également lire ce qu'ils ont eux-mêmes écrit.*
-ou *Neu erfundene Schreib-Maschine, mittelst welcher Jedermann ohne Licht in jeder Sprache und Schriftmanier sicher zu schreiben, Aufsätze und Rechnungen zu verfertigen vermag, auch Blinde besser als mit allen bisher bekannten Schreibtafeln nicht nur leichter schreiben, sondern auch das von ihnen Geschrieben selbst lesen könner*, 1823
-
-
-> Jean Cocteau, qui écrivit une pièce pour chacun des média de la fin du XIX^e^ siècle -- *La Voix humaine* pour les propriétés acoustiques du téléphone, le scénario d'*Orphée* pour le miroir, le double et les effets cinématographiques, mais aussi « la radio dans les voitures, les messages chiffrés, le signal des ondes courtes » (Cocteau Du cinématographe 1950, p. 206) -- fit de la machine à écrire l'héroïne titre d'une pièce de théâtre. Le dialecte amériacain en donne le point de départ : pendant trois actes, un détective poursuit une inconnue, qui s'en prenait à sa ville de province avec des lettres anonymes dactylographiées et se dénommait elle-même pour cette raison « la machine à écrire » (Cocteau Machine à écrire, p. 39). Pendant trois actes, il « imagine le coupable qui table, qui tire *qui manie sa mitrailleuse* » (p. 67). (GFT P. 319)
-
-> Depuis qu'en 1872, Lilian Sholes, « probablement la première dactylographe » de l'histoire (Current, The Typewriter and the Men Who Made It, 1954, p. 54), avait posé assise devant le prototype de son père, il y avait certes des femmes tapant à la machine pour des démonstrations mais pas encore de profession et de cursus de formation pour les sténotypistes femmes. La branche centrale de l'Association chrétienne des jeunes femmes de New York changea la donne : elle forma en 1881 huit jeunes femmes à l'écriture dactylographiée et reçut aussitôt de l'industrie des centaines de demandes. (GFT P. 321-22)
-
-valeur d'une employée de burau : « s'abaisse avec tant de facilité à n'être qu'une machine à écrire. » (Schwabe, p. 7)
-
-> C'est préciséement leur statut marginal dans le système de pouvoir de l'écriture qui avait renvoyé les femmes à leur dextérité manuelle, qui surpassa ensuite dans le système des médias le grand art de la calligraphie des secrétaires masculins. (GFT P. 323)
-
-cette dextérité dont parle KIttler, vient de l'apprentissge du piano aux jeunes filles. 
-
 > [...] à la place de la main familière, ils mettront l'innervation des doigts qui ordonnent. (Tschichold 1948)
 
 
@@ -142,6 +112,8 @@ post humain
 By “posthumanist” I mean to signal the crucial recognition that nonhumans play an important role in natural/cultural practices, including everyday social practices, scientific practices, and practices that do not include humans. But also, beyond this, my use of “posthumanism” marks a refusal to take the distinction between “human” and “nonhuman” for granted, and to found analyses on this presumably fixed and inherent set of categories. Any such hardwiring precludes a genealogical investigation into the practices through which “humans” and “nonhumans” are delineated and differentially constituted. A posthumanist performative account worth its salt must also avoid cementing the nature-culture dichotomy into its foundations, thereby enabling a genealogical analysis of how these crucial distinctions are materially and discursively produced. (2007, 32)
 
 comme dans le jeu de l'imitation : le fait d'être humain ou d'être non-humain émerge après l'écriture
+
+« être remplacés par des machines, c'est-à-dire d'être implémentés dans le réel » (GFT P. 311)
 
 
 Le fait numérique joue sans doute un rôle fondamental dans cette idée d’écriture non humaine. Il offre de multiples exemples de signes, traces et inscriptions techniques qui s’imposent comme du sens, mais qui échappent au contrôle des mécanismes de signification strictement humains. Ces écritures comportent à la fois la caractéristique de se présenter comme inscriptions de signes qui peuvent être considérés finalement comme une série de caractères ou plus précisément de lettres – simplement le résultat d’un encodage de lettres en bit : 1 lettre=8 bit, à savoir 1 byte – et la caractéristique d’être impossibles à écrire et à lire par des êtres humains. Un fichier binaire, un algorithme, une base de données sont ultimement des séries de caractères qu’un être humain peut visualiser sur un écran – ou imprimer sur une feuille de papier –, mais dont l’écriture et la lecture sont réservées aux machines.
