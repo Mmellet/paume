@@ -1,7 +1,7 @@
 baseURL = 'http://example.org/'
 languageCode = 'en-us'
 title = 'Paume'
-theme = ["flexion" "hugo-cite"]
+theme = ["flexion", "hugo-cite"]
 
 enableInlineShortcodes = true
 relativeURLs = true
@@ -48,7 +48,7 @@ removePathAccents=true
   [[menu.main]]
     name = "Index"
     pre = "index"
-    url = "/fils/"
+    url = "/thematiques/"
     weight = 4    
   [[menu.main]]
     name = "Graph"
