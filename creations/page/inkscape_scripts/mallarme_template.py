@@ -15,11 +15,9 @@ STYLE_TEXT = {
     "display": "inline",
 }
 STYLE_PATH = {
-    "fill":"transparent",
-    "stroke":"#37abc8",
-    "stroke-width": "0.5",
-    "stroke_linecap": "round",
-    "stroke_linejoin": "round",
+    "fill": "none",
+    # "stroke": "#37abc8",
+    "stroke-width": "2",
 }
 
 
@@ -46,9 +44,11 @@ def create_svg_and_css(lines, path_color):
 
     x = 100
     class_text = "text_rendering fade-in-stay-out"
-    class_path = "path-fill"
+    class_path = "path_rendering"
     style_text = get_style(**STYLE_TEXT)
     style_path = get_style(**STYLE_PATH)
+    effects = "#path-effect-spiro;#path-effect-skeletal"
+    # effects = ""
     for i, line in enumerate(lines):
         y = (i + 1) * 100
         id_i = i
@@ -76,12 +76,13 @@ def create_svg_and_css(lines, path_color):
                     y=y + 25,
                     x=x,
                     _class=class_path + path_delay,
+                    effects=effects,
                 )
             )
 
     svg_file = SVG_FILE.format(elements="\n".join(elements))
     html_file = HTML_FILE.format(
-        svg_content=svg_file[svg_file.find("\n") :],
+        svg_content=svg_file[svg_file.find("\n", 2) :],
         css_animation_delaies="\n".join(css_animation_delaies),
     )
     print(html_file)
