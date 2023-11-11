@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <title>Dégénérateur</title>
+
+    <style>
+        h1 {
+    text-align: center;
+    margin-top: 25%;
+}
+
+.sablier {
+    color: black; 
+    border-color: rgb(39, 34, 34);
+    border-style: solid;
+    position: fixed;
+    margin-top: 5%;
+    max-width: 150px;
+    
+}
+
+.p-de-père {
+    font-family: 'Times New Roman', Times, serif;
+    position: fixed;
+    margin-top: 25%;
+    font-size: 34px;
+}
+
+.e-de-ère {
+    font-family: 'Times New Roman', Times, serif;
+    position: fixed;
+    margin-left: 25%;
+    font-size: 34px;
+}
+
+.r-de-re {
+    font-family: 'Times New Roman', Times, serif;
+    position: fixed;
+    margin-left: 47%;
+    font-size: 34px;
+}
+
+.d-de-demence {
+    font-family: 'Times New Roman', Times, serif;
+    position: fixed;
+    margin-left: 70%;
+    font-size: 34px;
+}
+
+.m-de-mêlé {
+    font-family: 'Times New Roman', Times, serif;
+    position: fixed;
+    margin-left: 97%;
+    font-size: 34px;
+    margin-top: 25%;
+}
+
+.e-de-êlé {
+    font-family: 'Times New Roman', Times, serif;
+    position: fixed;
+    margin-left: 73%;
+    font-size: 34px;
+    margin-top: 47%;
+}
+
+.n-de-neurologique {
+    font-family: 'Times New Roman', Times, serif;
+    position: fixed;
+    margin-left: 48%;
+    font-size: 34px;
+    margin-top: 47%;
+}
+
+.s-de-syndrome {
+    font-family: 'Times New Roman', Times, serif;
+    position: fixed;
+    margin-left: 26%;
+    font-size: 34px;
+    margin-top: 47%;
+}
+
+.pronogstic {
+    color: black; 
+    
+}
+
+body {
+    overflow-x: visible;
+    overflow-y: hidden; 
+    background-color: rgb(252, 244, 236);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#phrase-container {
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+}
+
+html, body {
+    overflow-y: hidden;
+}
+
+.fade-in {
+    animation: fade 1.5s ease-in-out;
+}
+
+@keyframes fade {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 0.8;
+    }
+}
+
+.special-font {
+    font-family: "Helvetica, sans-serif"; 
+}
+
+    </style>
+</head>
+
+<body>
+    <div id="initiales">
+        <span class="p-de-père">P</span>
+        <span class="e-de-ère">E</span>
+        <span class="r-de-re">R</span>
+        <span class="d-de-demence">D</span>
+        <span class="m-de-mêlé">M</span>
+        <span class="e-de-êlé">E</span>
+        <span class="n-de-neurologique">N</span>
+        <span class="s-de-syndrome">S</span>
+    </div>
+
+
+    <div id="appuyez-pour-aide">
+        <div class="pronogstic">
+            <details>
+                <summary>?</summary>
+                <!--j'aimerai savoir quand est-ce que ça a commencé, est-ce que c'est psychiatrique, neurologique ? c'est parce qu'il boit ? -->
+                </br>
+                La démence lobaire frontotemporale est une dégénérescence causée par l'atrophie dégénérative focale d'un
+                ou plusieurs lobes cérébraux.
+                </br>
+                Le syndrome de glissement est un concept gériatrique pour désigner une affection spécifique qui se
+                manifeste par une décompensation rapide de l'état général, sans cause organique reconnue.
+            </details>
+        </div>
+       
+        <h1>
+            <p id="sujet-de-discussion" style="text-align: center;"></p>
+        </h1>
+
+
+        <div class="sablier">
+            <h2>Délai</h2>
+            <div id="grains"></div>
+        </div>
+    </div>
+
+    <script src="dlft.js">
+    </script>
+
+    <script>
+        function updateTimer() {
+            const timerElement = document.getElementById("grains");
+            const startTime = new Date().getTime();
+
+            function updateTime() {
+                const currentTime = new Date().getTime();
+                const elapsedTime = currentTime - startTime;
+
+                const minutes = Math.floor(elapsedTime / 60000);
+                const seconds = Math.floor((elapsedTime % 60000) / 1000);
+                const milliseconds = elapsedTime % 1000;
+
+                timerElement.textContent = `${minutes} min ${seconds} sec ${milliseconds} ms`;
+            }
+
+            updateTime();
+
+            // Mettre à jour le timer toutes les 100 millisecondes
+            setInterval(updateTime, 100);
+        }
+
+        document.addEventListener("DOMContentLoaded", function () {
+            updateTimer();
+        });
+
+
+        
+    </script>
+    <script src="glissement.js"></script>
+
+    <!--<script src="phase1.js"></script>-->
+</body>
+
+</html>

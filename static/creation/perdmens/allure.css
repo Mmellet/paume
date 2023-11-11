@@ -1,0 +1,112 @@
+h1 {
+    text-align: center;
+    margin-top: 25%;
+}
+
+.sablier {
+    color: black; 
+    border-color: rgb(39, 34, 34);
+    border-style: solid;
+    position: fixed;
+    margin-top: 5%;
+    max-width: 150px;
+    
+}
+
+.p-de-père {
+    font-family: 'Times New Roman', Times, serif;
+    position: fixed;
+    margin-top: 25%;
+    font-size: 34px;
+}
+
+.e-de-ère {
+    font-family: 'Times New Roman', Times, serif;
+    position: fixed;
+    margin-left: 25%;
+    font-size: 34px;
+}
+
+.r-de-re {
+    font-family: 'Times New Roman', Times, serif;
+    position: fixed;
+    margin-left: 47%;
+    font-size: 34px;
+}
+
+.d-de-demence {
+    font-family: 'Times New Roman', Times, serif;
+    position: fixed;
+    margin-left: 70%;
+    font-size: 34px;
+}
+
+.m-de-mêlé {
+    font-family: 'Times New Roman', Times, serif;
+    position: fixed;
+    margin-left: 97%;
+    font-size: 34px;
+    margin-top: 25%;
+}
+
+.e-de-êlé {
+    font-family: 'Times New Roman', Times, serif;
+    position: fixed;
+    margin-left: 73%;
+    font-size: 34px;
+    margin-top: 47%;
+}
+
+.n-de-neurologique {
+    font-family: 'Times New Roman', Times, serif;
+    position: fixed;
+    margin-left: 48%;
+    font-size: 34px;
+    margin-top: 47%;
+}
+
+.s-de-syndrome {
+    font-family: 'Times New Roman', Times, serif;
+    position: fixed;
+    margin-left: 26%;
+    font-size: 34px;
+    margin-top: 47%;
+}
+
+.pronogstic {
+    color: black; 
+    
+}
+
+body {
+    overflow-x: visible;
+    overflow-y: hidden; 
+    background-color: rgb(252, 244, 236);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#phrase-container {
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+}
+
+html, body {
+    overflow-y: hidden;
+}
+
+.fade-in {
+    animation: fade 1.5s ease-in-out;
+}
+
+@keyframes fade {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 0.8;
+    }
+}
+
+.special-font {
+    font-family: "Helvetica, sans-serif"; 
+}
