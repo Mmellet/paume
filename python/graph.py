@@ -1,7 +1,10 @@
+#!/usr/bin/env python3
 import os
 import frontmatter
 import re
 from collections import Counter
+
+
 
 pages_dir = "/content/pages"
 themes_counter = Counter()
@@ -35,3 +38,4 @@ plt.tight_layout()
 
 # Affichage ou sauvegarde du graphique
 plt.show()
+
