@@ -1,17 +1,19 @@
 #!/usr/bin/env python3
+import pathlib
 import os
 import frontmatter
 import re
 from collections import Counter
 
+HERE = pathlib.Path(__file__).parent
 
 
-pages_dir = "/content/pages"
+PAGES_DIR = HERE / "content"/"pages"
 themes_counter = Counter()
 
 shortcode_pattern = r'\{\{< themes theme="([^"]+)" >\}\}'
 
-for root, dirs, files in os.walk(pages_dir):
+for root, dirs, files in os.walk(PAGES_DIR):
     for file in files:
         if file.endswith(".md"):
             with open(os.path.join(root, file), 'r', encoding='utf-8') as f:
