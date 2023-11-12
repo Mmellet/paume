@@ -10,10 +10,12 @@ packages = [{include = "paume"}]
 python = "^3.10"
 beautifulsoup4 = "^4.12.2"
 Markdown = "^3.5.1"
+networkx = "^3.2.1"
+pygraphviz = "^1.11" 
 
 [tool.poetry.group.dev.dependencies]
 black = "^23.9.1"
-ipython = "^8.17.2" 
+ipython = "^8.17.2"
 
 [build-system]
 requires = ["poetry-core"]
