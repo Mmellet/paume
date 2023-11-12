@@ -12,6 +12,8 @@ beautifulsoup4 = "^4.12.2"
 Markdown = "^3.5.1"
 networkx = "^3.2.1"
 pygraphviz = "^1.11" 
+matplotlib = "^3.8.1"
+svgpathtools = "*"
 
 [tool.poetry.group.dev.dependencies]
 black = "^23.9.1"

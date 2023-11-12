@@ -95,7 +95,12 @@ def walk_files():
 
 walk_files()
 
-pprint(THEMES)
+# pprint(THEMES)
+
+import json
+
+with open("themes.json", "w+", encoding="utf-8") as stream:
+    json.dump(THEMES, stream, sort_keys=True, indent=4)
 
 
 # # Conversion du compteur en DataFrame pour la création du graphique

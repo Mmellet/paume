@@ -1,0 +1,84 @@
+{
+    "homo faber": [
+        {
+            "document_title": "La Fabrique",
+            "h1": null,
+            "h2": "La fabrique de la fabrique",
+            "h3": "L'homo faber sapiens",
+            "h4": null,
+            "h5": null,
+            "h6": null
+        }
+    ],
+    "machine": [
+        {
+            "document_title": "Le M\u00e9dia",
+            "h1": null,
+            "h2": null,
+            "h3": null,
+            "h4": null,
+            "h5": null,
+            "h6": null
+        }
+    ],
+    "matiere": [
+        {
+            "document_title": "La Fabrique",
+            "h1": null,
+            "h2": "La fabrique de la fabrique",
+            "h3": "Thinking through making",
+            "h4": null,
+            "h5": null,
+            "h6": null
+        },
+        {
+            "document_title": "Le M\u00e9dia",
+            "h1": null,
+            "h2": "Media imago",
+            "h3": "Media morpha",
+            "h4": null,
+            "h5": null,
+            "h6": null
+        }
+    ],
+    "media": [
+        {
+            "document_title": "La Machine",
+            "h1": null,
+            "h2": "La m\u00e9canique de l'\u00e9criture",
+            "h3": "La matrice du texte",
+            "h4": null,
+            "h5": null,
+            "h6": null
+        },
+        {
+            "document_title": "La Machine",
+            "h1": null,
+            "h2": "La m\u00e9canique de l'\u00e9criture",
+            "h3": "La matrice du texte",
+            "h4": null,
+            "h5": null,
+            "h6": null
+        }
+    ],
+    "nevrose": [
+        {
+            "document_title": "La Machine",
+            "h1": null,
+            "h2": "Machinations po\u00e9tiques",
+            "h3": null,
+            "h4": null,
+            "h5": null,
+            "h6": null
+        },
+        {
+            "document_title": "La Fabrique",
+            "h1": null,
+            "h2": "La fabrique de la fabrique",
+            "h3": "L'appropriation \u00e9rudite",
+            "h4": null,
+            "h5": null,
+            "h6": null
+        }
+    ]
+}
