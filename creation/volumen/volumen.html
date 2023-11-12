@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            overflow-y: hidden; 
+            overflow-x: scroll; 
+           }
+
+        .repeat-background {
+            background-image: url('papyrus.png'); 
+            background-repeat: repeat-x; 
+            background-size: 100% 100vh; 
+            height: 100vh; 
+            width: 1000%; 
+            animation: scrollBackground linear infinite;
+        }
+
+        body {
+    scrollbar-width: thin;
+    scrollbar-color: #000 #f1f1f1;
+}
+body::-webkit-scrollbar {
+    width: 1px; 
+}
+
+body::-webkit-scrollbar-track {
+    background: #f1f1f1; /* Couleur de fond de la piste de la barre de défilement */
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: #000; /* Couleur de la barre de défilement elle-même */
+    border-radius: 1px; /* Bord arrondi de la barre de défilement */
+}
+
+
+
+
+        @keyframes scrollBackground {
+            0% {
+                background-position: 100;
+            }
+            100% {
+                background-position: 0;
+            }
+        }
+        .content {
+            padding: 20px;
+            color: #fff;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="repeat-background"></div>
+
+
+
+</body>
+
+
+</html>
