@@ -23,6 +23,7 @@ SHORTCODE_PATTERN = r'\{\{&lt; *themes *theme="([a-z ]+)" *&gt;\}\}'
 PATTERN_TITLE = r'title: *"(.*?)"\n'
 
 THEMES = defaultdict(list)
+INDEX = defaultdict(int)
 
 HTML_HEADERS = ["h1", "h2", "h3", "h4", "h5", "h6"]
 
@@ -37,6 +38,16 @@ def init_default_themes_state():
         "h5": None,
         "h6": None,
     }
+
+
+def init_default_chapter_insight():
+    # TODO
+    return deepcopy(
+        {
+            "number_of_paragraphs": None,
+            # "titles_index": defaultdict(lambda: defaultdict(dict)),
+        }
+    )
 
 
 def update_themes_state(themes_state, tag, text):
@@ -83,12 +94,12 @@ def walk_files():
         soup_generator = get_next_html_element(soup)
         if next(soup_generator).name == "hr":
             elt = next(soup_generator)
-            themes_state["document_title"] = get_chapter_title(elt, str(x))
+            chapter_title = get_chapter_title(elt, str(x))
+            themes_state["document_title"] = chapter_title
+
         for elt in soup_generator:
-            # print(type(elt))
             if elt.name.startswith("h") and elt.name != "hr" and len(elt.name) == 2:
                 update_themes_state(themes_state, elt.name, elt.get_text())
-                # pprint(themes_state)
             if m := match_theme(elt):
                 THEMES[m.group(1)].append(deepcopy(themes_state))
 
