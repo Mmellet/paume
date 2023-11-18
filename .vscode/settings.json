@@ -1,0 +1,21 @@
+{
+    "languageToolLinter.lintOnChange": true,
+    "languageToolLinter.lintOnOpen": true,
+    "languageToolLinter.plainText.languageIds": [
+        "plaintext",
+        "markdown"
+    ],
+    "languageToolLinter.diagnosticSeverity": "information",
+    "languageToolLinter.languageTool.ignoredWordsInWorkspace": [
+        "alloa",
+        "ferslew",
+        "keller",
+        "leute",
+        "liebesbriefe",
+        "malling",
+        "missbrauchten",
+        "seldwyla",
+        "turcotte",
+        "von"
+    ]
+}
