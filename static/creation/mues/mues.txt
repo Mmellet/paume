@@ -1,0 +1,572 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+
+    <style>
+        body {
+            background-color: rgba(252, 247, 245, 0.973);
+            letter-spacing: 15px;
+            font-size: 16px;
+            line-height: 50px;
+        }
+
+
+        .item1 {
+            opacity: 0.5;
+            color: black;
+            grid-area: header;
+            height: 15%;
+            width: 90%;
+            position: fixed;
+            text-align: center;
+            top: 9%;
+            line-height: 70px;
+
+        }
+
+        .item2 {
+            opacity: 0.5;
+            color: black;
+            grid-area: menu;
+            height: 45%;
+            width: 20%;
+            position: fixed;
+            top: 27%;
+            text-align: center;
+            line-height: 80px;
+
+        }
+
+        .item3 {
+            opacity: 0.5;
+            color: black;
+            grid-area: main;
+            height: 45%;
+            width: 47%;
+            position: fixed;
+            top: 27%;
+            left: 27%;
+            text-align: center;
+            line-height: 80px;
+        }
+
+        .item4 {
+            opacity: 0.5;
+            color: black;
+            grid-area: right;
+            height: 45%;
+            width: 20%;
+            position: fixed;
+            top: 27%;
+            left: 75.5%;
+            text-align: center;
+            line-height: 80px;
+        }
+
+        .item5 {
+            opacity: 0.5;
+            color: black;
+            grid-area: footer;
+            height: 15%;
+            width: 90%;
+            position: fixed;
+            top: 70%;
+            text-align: center;
+            line-height: 50px;
+            margin-top: 50px;
+            letter-spacing: 20px;
+        }
+
+        .grid-container {
+            display: grid;
+            grid-template-areas:
+                'header header header header header header'
+                'menu main main main right right'
+                'footer footer footer footer footer footer';
+            gap: 10%;
+            padding: 5%;
+            border-width: 1px;
+            border-style: solid;
+            width: 89%;
+            height: 77%;
+            position: fixed;
+
+        }
+
+        span {
+            color: grey;
+            opacity: 0.2;
+            display: initial;
+            margin-right: 5px;
+            width: 15px;
+            letter-spacing: 10px;
+            border: 1px solid rgba(0, 0, 0, 0.644);
+        }
+
+        span:hover {
+            background-color: #a1277c;
+        }
+
+
+        .grid-container>section {
+            border-color: rgba(0, 0, 0, 0.411);
+            border-width: 1px;
+            border-style: solid;
+            grid-auto-flow: inherit;
+
+        }
+    </style>
+
+</head>
+
+<body>
+    <div class="grid-container">
+
+        <section class="item1">
+            M
+            <span class="A">A</span>
+            <span class="C">C</span>
+            <span class="H">H</span>
+            I
+            N
+            E
+            <span></span>
+            À
+            <span></span>
+            <span class="L">L</span>
+            <span class="A">A</span>
+            <span></span>
+            M
+            <span class="E">E</span>
+            <span class="S">S</span>
+            U
+            <span class="R">R</span>
+            <span class="E">E</span>
+            <span></span>
+            <span class="D">D</span>
+            E
+            <span class="S">S</span>
+            <span></span>
+            <span class="M">M</span>
+            <span class="A">A</span>
+            <span class="R">R</span>
+            <span class="Q">Q</span>
+            <span class="U">U</span>
+            <span class="E">E</span>
+            S
+            </br>
+            <span class="B">B</span>
+            <span class="A">A</span>
+            <span class="L">L</span>
+            <span class="A">A</span>
+            <span class="N">N</span>
+            CE
+            <span class="M">M</span>
+            <span class="E">E</span>
+            <span class="N">N</span>
+            <span class="T">T</span>
+            S
+            <span></span>
+            <span class="E">E</span>
+            <span class="N">N</span>
+            <span class="T">T</span>
+            R
+            <span class="E">E</span>
+            <span></span>
+            <span class="S">S</span>
+            I
+            <span class="G">G</span>
+            <span class="N">N</span>
+            <span class="E">E</span>
+            <span class="S">S</span>
+            <span></span>
+            E
+            <span class="T">T</span>
+            <span></span>
+            <span class="F">F</span>
+            <span class="R">R</span>
+            <span class="A">A</span>
+            <span class="G">G</span>
+            <span class="M">M</span>
+            <span class="E">E</span>
+            N
+            <span class="T">T</span>
+            S
+        </section>
+
+        <section class="item2">
+            A
+            R
+            <span class="C">C</span>
+            <span class="H">H</span>
+            <span class="I">I</span>
+            <span class="V">V</span>
+            <span class="E">E</span>
+            S
+            </br>
+            C
+            <span class="U">U</span>
+            R
+            <span class="S">S</span>
+            <span class="E">E</span>
+            U
+            <span class="R">R</span>
+            </br>
+            <span class="L">L</span>
+            I
+            <span class="G">G</span>
+            <span class="N">N</span>
+            <span class="E">E</span>
+            S
+            </br>
+            B
+            <span class="R">R</span>
+            I
+            <span class="B">B</span>
+            <span class="E">E</span>
+            S
+            </br>
+            <span class="T">T</span>
+            R
+            <span class="I">I</span>
+            <span class="C">C</span>
+            <span class="H">H</span>
+            E
+        </section>
+
+        <section class="item3">
+            <span class="A">A</span>
+            <span class="U">U</span>
+            <span class="X">X</span>
+            <span></span>
+            A
+            <span class="L">L</span>
+            <span class="L">L</span>
+            <span class="U">U</span>
+            R
+            <span class="E">E</span>
+            S
+            <span></span>
+            D'
+            </br>
+            C
+            R
+            <span class="E">E</span>
+            U
+            <span class="S">S</span>
+            <span class="E">E</span>
+            </br>
+            <span class="A">A</span>
+            <span></span>
+            S
+            U
+            <span class="I">I</span>
+            <span class="V">V</span>
+            <span class="R">R</span>
+            E
+            <span></span>
+            À
+            
+            </br>
+            <span class="A">A</span>
+            <span></span>
+            <span class="D">D</span>
+            E
+            M
+            <span class="I">I</span>
+            </br>
+            <span class="O">O</span>
+            <span class="R">R</span>
+            G
+            <span class="A">A</span>
+            N
+            <span class="I">I</span>
+            <span class="Q">Q</span>
+            <span class="U">U</span>
+            E
+            <span></span>
+        <span class="D">D</span>
+        <span class="E">E</span>
+
+        </section>
+
+        <section class="item4">
+            A
+            <span class="B">B</span>
+            S
+            <span class="E">E</span>
+            <span class="N">N</span>
+            <span class="C">C</span>
+            <span class="E">E</span>
+            <span class="S">S</span>
+            </br>
+            <span class="L">L</span>
+            E
+            <span></span>
+            <span class="B">B</span>
+            L
+            <span class="A">A</span>
+            <span class="N">N</span>
+            <span class="C">C</span>
+            </br>
+            <span class="L">L</span>
+            <span class="A">A</span>
+            <span></span>
+            <span class="L">L</span>
+            E
+            T
+            <span class="T">T</span>
+            R
+            E
+            </br>
+            <span class="P">P</span>
+            A
+            <span class="T">T</span>
+            C
+            H
+            É
+            E
+            <span class="S">S</span>
+        </br>
+            <span class="L">L</span>
+            A
+            <span></span>
+            <span class="T">T</span>
+            R
+            <span class="A">A</span>
+            C
+            <span class="E">E</span>
+            
+        </section>
+
+        <section class="item5">
+        </br>
+            M
+            <span class="E">E</span>
+            <span class="C">C</span>
+            A
+            N
+            <span class="I">I</span>
+            <span class="Q">Q</span>
+            <span class="U">U</span>
+            E
+            <span></span>
+            D
+            E
+            <span class="S">S</span>
+            
+            <span></span>
+            M
+            I
+            <span class="E">E</span>
+            T
+            <span class="T">T</span>
+            E
+            S
+        </section>
+    </div>
+
+
+
+
+    <script>
+        // Définir les dimensions et la position du rectangle centré sur la page
+        var rectWidth = 30;
+        var rectHeight = 20;
+        var rectLeft = (window.innerWidth - rectWidth) / 3.8;
+        var rectTop = (window.innerHeight - rectHeight) / 7;
+
+        // Écouter l'événement "mousemove" sur la page
+        document.addEventListener("mousemove", function (event) {
+            // Vérifier si les coordonnées du curseur sont dans le rectangle centré sur la page
+            if (event.pageX > rectLeft && event.pageX < rectLeft + rectWidth &&
+                event.pageY > rectTop && event.pageY < rectTop + rectHeight) {
+                // Si le curseur est dans le rectangle, changer le curseur en image personnalisée
+                document.body.style.cursor = "url(''), auto";
+            } else {
+                // Si le curseur est en dehors du rectangle, utiliser le curseur par défaut
+                document.body.style.cursor = "url('./curseur/feye.cur'), auto";
+            }
+        });
+
+
+        const elementsA = document.querySelectorAll('.A');
+
+        elementsA.forEach(element => {
+            element.addEventListener('mouseover', () => {
+                element.style.cursor = "url('./curseur/A.cur'), auto";
+            });
+        });
+
+        const elementsB = document.querySelectorAll('.B');
+
+        elementsB.forEach(element => {
+            element.addEventListener('mouseover', () => {
+                element.style.cursor = "url('./curseur/B.cur'), auto";
+            });
+        });
+
+        const elementsC = document.querySelectorAll('.C');
+
+        elementsC.forEach(element => {
+            element.addEventListener('mouseover', () => {
+                element.style.cursor = "url('./curseur/C.cur'), auto";
+            });
+        });
+
+        const elementsD = document.querySelectorAll('.D');
+
+        elementsD.forEach(element => {
+            element.addEventListener('mouseover', () => {
+                element.style.cursor = "url('./curseur/D.cur'), auto";
+            });
+        });
+
+        const elementsE = document.querySelectorAll('.E');
+
+        elementsE.forEach(element => {
+            element.addEventListener('mouseover', () => {
+                element.style.cursor = "url('./curseur/E.cur'), auto";
+            });
+        });
+
+        const elementsF = document.querySelectorAll('.F');
+
+        elementsF.forEach(element => {
+            element.addEventListener('mouseover', () => {
+                element.style.cursor = "url('./curseur/F.cur'), auto";
+            });
+        });
+
+        const elementsG = document.querySelectorAll('.G');
+
+        elementsG.forEach(element => {
+            element.addEventListener('mouseover', () => {
+                element.style.cursor = "url('./curseur/G.cur'), auto";
+            });
+        });
+
+        const elementsH = document.querySelectorAll('.H');
+
+        elementsH.forEach(element => {
+            element.addEventListener('mouseover', () => {
+                element.style.cursor = "url('./curseur/H.cur'), auto";
+            });
+        });
+
+        const elementsI = document.querySelectorAll('.I');
+
+        elementsI.forEach(element => {
+            element.addEventListener('mouseover', () => {
+                element.style.cursor = "url('./curseur/I.cur'), auto";
+            });
+        });
+
+        const elementsL = document.querySelectorAll('.L');
+
+        elementsL.forEach(element => {
+            element.addEventListener('mouseover', () => {
+                element.style.cursor = "url('./curseur/L.cur'), auto";
+            });
+        });
+
+        const elementsM = document.querySelectorAll('.M');
+
+        elementsM.forEach(element => {
+            element.addEventListener('mouseover', () => {
+                element.style.cursor = "url('./curseur/M.cur'), auto";
+            });
+        });
+
+        const elementsN = document.querySelectorAll('.N');
+
+        elementsN.forEach(element => {
+            element.addEventListener('mouseover', () => {
+                element.style.cursor = "url('./curseur/N.cur'), auto";
+            });
+        });
+
+        const elementshOme = document.querySelectorAll('.O');
+
+        elementshOme.forEach(element => {
+            element.addEventListener('mouseover', () => {
+                element.style.cursor = "url('./curseur/O.cur'), auto";
+            });
+        });
+
+        const elementsP = document.querySelectorAll('.P');
+
+        elementsP.forEach(element => {
+            element.addEventListener('mouseover', () => {
+                element.style.cursor = "url('./curseur/P.cur'), auto";
+            });
+        });
+
+        const elementsQ = document.querySelectorAll('.Q');
+
+        elementsQ.forEach(element => {
+            element.addEventListener('mouseover', () => {
+                element.style.cursor = "url('./curseur/Q.cur'), auto";
+            });
+        });
+
+        const elementsR = document.querySelectorAll('.R');
+
+        elementsR.forEach(element => {
+            element.addEventListener('mouseover', () => {
+                element.style.cursor = "url('./curseur/R.cur'), auto";
+            });
+        });
+
+        const elementsS = document.querySelectorAll('.S');
+
+        elementsS.forEach(element => {
+            element.addEventListener('mouseover', () => {
+                element.style.cursor = "url('./curseur/S.cur'), auto";
+            });
+        });
+
+        const elementsT = document.querySelectorAll('.T');
+
+        elementsT.forEach(element => {
+            element.addEventListener('mouseover', () => {
+                element.style.cursor = "url('./curseur/T.cur'), auto";
+            });
+        });
+
+        const elementsU = document.querySelectorAll('.U');
+
+        elementsU.forEach(element => {
+            element.addEventListener('mouseover', () => {
+                element.style.cursor = "url('./curseur/U.cur'), auto";
+            });
+        });
+
+        const elementsV = document.querySelectorAll('.V');
+
+        elementsV.forEach(element => {
+            element.addEventListener('mouseover', () => {
+                element.style.cursor = "url('./curseur/V.cur'), auto";
+            });
+        });
+
+        const elementsX = document.querySelectorAll('.X');
+
+        elementsX.forEach(element => {
+            element.addEventListener('mouseover', () => {
+                element.style.cursor = "url('./curseur/X.cur'), auto";
+            });
+        });
+    </script>
+
+
+</body>
+
+</html>

@@ -1,0 +1,22 @@
+#!/bin/bash
+
+# Set the maximum allowed file size to GitHub's limit (25 MB)
+MAX_FILE_SIZE_BYTES=26214400
+
+# Get the list of staged files using git
+files=$(git diff --staged --name-only)
+
+for file in $files; do
+    # Get the size of the file in bytes
+    file_size=$(wc -c < "$file")
+
+    # Check if the file size exceeds the GitHub limit
+    if [ $file_size -gt $MAX_FILE_SIZE_BYTES ]; then
+        echo "File $file exceeds GitHub's maximum allowed size of 25 MB. Commit rejected."
+        exit 1  # Abort the commit
+    fi
+done
+
+# If all files are within the size limit, allow the commit
+exit 0
+

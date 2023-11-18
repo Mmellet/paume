@@ -2,5 +2,37 @@
     "[makefile]": {
         "editor.tabSize": 4,
         "editor.insertSpaces": false
-    }
+    },
+    "languageToolLinter.lintOnChange": true,
+    "languageToolLinter.lintOnOpen": true,
+    "languageToolLinter.plainText.languageIds": [
+        "plaintext",
+        "markdown"
+    ],
+    "languageToolLinter.diagnosticSeverity": "information",
+    "languageToolLinter.languageTool.ignoredWordsInWorkspace": [
+        "alloa",
+        "beyerlen",
+        "blinden",
+        "cèlement",
+        "eine",
+        "ferslew",
+        "geschichte",
+        "gft",
+        "keller",
+        "kittler",
+        "leute",
+        "liebesbriefe",
+        "lustige",
+        "malling",
+        "maschinen",
+        "missbrauchten",
+        "muthos",
+        "schreib",
+        "seldwyla",
+        "stümpel",
+        "turcotte",
+        "usw",
+        "von"
+    ]
 }
