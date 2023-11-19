@@ -1,13 +1,138 @@
+#!/usr/bin/env python3
 import re
 import fileinput
+import argparse
+import pathlib
 
-with fileinput.FileInput('5.md', inplace=True) as file:
-    for line in file:
-        #line_modifiee = re.sub(r'{{< cite "(.*)" (\d+-\d+) (.*?) >}}', r'[@\1, pp. \2 \3]', line)
-        #line_modifiee = re.sub(r'{{< cite "(.*)" >}}', r'[@\1]', line) 
-        #line_modifiee = re.sub(r'{{< cite "(.*)" (\d+) >}}', r'[@\1, p. \2]', line)
-        line_modifiee = re.sub(r'<sup>(.*)</sup>', r'^\1^', line)
-        print(line_modifiee, end='')
+import logging
 
-        #ajout replace balise strike
-        #ajout replace balise theme
+
+# with fileinput.FileInput('5.md', inplace=True) as file:
+#     for line in file:
+#         #line_modifiee = re.sub(r'{{< cite "(.*)" (\d+-\d+) (.*?) >}}', r'[@\1, pp. \2 \3]', line)
+#         #line_modifiee = re.sub(r'{{< cite "(.*)" >}}', r'[@\1]', line)
+#         #line_modifiee = re.sub(r'{{< cite "(.*)" (\d+) >}}', r'[@\1, p. \2]', line)
+#         line_modifiee = re.sub(r'<sup>(.*)</sup>', r'^\1^', line)
+#         print(line_modifiee, end='')
+#         #ajout replace balise strike
+#         #ajout replace balise theme
+
+
+def get_args():
+    parser = argparse.ArgumentParser(description="Description of the program")
+    parser.add_argument(
+        "pathes",
+        type=argparse.FileType("r"),
+        nargs="+",
+        help="Mardown file pathes to replace tags, figure and iframe.",
+    )
+    args = parser.parse_args(args=["content/pages/replace_dummy.md"])
+    return args
+
+
+def repl(match):
+    citation_key = match.group(2)
+    page_numbers = match.group(4)
+    input(page_numbers)
+    if page_numbers:
+        return (
+            f"[@{citation_key}, p. {page_numbers}]"
+            if "-" not in page_numbers
+            else f"[@{citation_key}, pp. {page_numbers}]"
+        )
+    else:
+        return f"[@{citation_key}]"
+
+
+def replace_citation(text):
+    def repl(match):
+        citation_key = match.group(2)
+        page_numbers = match.group(4)
+        if page_numbers:
+            return (
+                f"[@{citation_key}, p. {page_numbers}]"
+                if "-" not in page_numbers
+                else f"[@{citation_key}, pp. {page_numbers}]"
+            )
+        return f"[@{citation_key}]"
+
+    pattern = r'{{<\s*cite\s*("|\s*-)([^"\s]+)"?(\s+(\d+-*\d*)?)?\s*>}}'
+    return re.sub(pattern, repl, text)
+
+
+def replace_exposant(text):
+    def repl(match):
+        return f"^{match.group(1)}^"
+
+    pattern = re.compile(r"<sup>(.*?)</sup>")
+    return re.sub(pattern, repl, text)
+
+
+def replace_exposant(text):
+    def repl(match):
+        return f"^{match.group(1)}^"
+
+    pattern = re.compile(r"<sup>(.*?)</sup>")
+    return re.sub(pattern, repl, text)
+
+
+def replace_strike(text):
+    def repl(match):
+        return f"~~{match.group(1)}~~"
+
+    pattern = re.compile(r"<strike[^>]*>(.*?)</strike>")
+    return re.sub(pattern, repl, text)
+
+
+
+
+def replace_copy_image(text):
+    def repl(match):
+        print(match.group(0))
+        src = match.group(1)
+        alt = match.group(3) if match.group(3) else ""
+
+        src = pathlib.Path(f"static/{src}")
+        dest = pathlib.Path(f"content/print/images/{src.name}")
+
+        # input(f"{src} ---- {alt}") # DEBUG 
+
+        if src.is_file():
+            # logging.log(logging.INFO, f"copy {src} to {dest}")
+            dest.parent.mkdir(parents=True, exist_ok=True)
+            dest.write_bytes(src.read_bytes())
+            return f"![{alt if alt else 'EMPTY ALT DESCRITPTION'}]({dest})"
+        # logging.log(logging.CRITICAL, f"The file {src} isn't existing")
+        return f'![The img "{src}" doesn\'t exist]({dest})'
+
+    pattern = re.compile(r'<img\s+src=["\'](.*?)["\']\s+(alt=["\'](.*?)["\'])?.*/?>') 
+    return re.sub(pattern, repl, text)
+
+def replace_all(text):
+    text = replace_citation(text)
+    text = replace_exposant(text)
+    text = replace_strike(text)
+    text = replace_copy_image(text)
+    
+    return text
+
+
+def save_replaced_markdown(text, path):
+    pass
+
+
+def get_text(text_io_wrapper):
+    return text_io_wrapper.read()
+
+
+def main(args):
+    for text_io_wrapper in args.pathes:
+        text = get_text(text_io_wrapper)
+        text = replace_all(text)
+
+    print(text)
+
+
+if __name__ == "__main__":
+    args = get_args()
+    main(args)
