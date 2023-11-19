@@ -8,11 +8,15 @@ CLASS_LATEX := gabarit/dms.cls
 
 STATIC := static
 
+# # Copy static files recursively :
+# # (Adapted from https://stackoverflow.com/questions/41993726/)
+# STATIC := $(shell find static -type f)
+# STATIC_OUT := $(patsubst static/%, output/%, $(STATIC))
+# $(foreach s,$(STATIC),$(foreach t,$(filter %$(notdir $s),$(STATIC_OUT)),$(eval $t: $s)))
+# $(STATIC_OUT):; $(if $(wildcard $(@D)),,mkdir -p $(@D) &&) cp $^ $@
 
 # all: html pdf
 
-clean_print:
-	@rm -rfv $(PRINT)/*
 
 
 CHAPTERS := $(sort $(shell find $(PAGES) -type f -iname '*.md'))
@@ -21,33 +25,11 @@ PDF_CHAPTERS_OUT := $(patsubst %.md, $(PRINT)/%.pdf, $(notdir $(CHAPTERS)))
 REPLACED_CHAPTERS_OUT := $(patsubst %.md, $(PRINT)/%.md, $(notdir $(CHAPTERS)))
 
 LATEX_SHIT := these.aux these.lof these.lot these.toc
-
-# # Copy static files recursively :
-# # (Adapted from https://stackoverflow.com/questions/41993726/)
-# STATIC := $(shell find static -type f)
-# STATIC_OUT := $(patsubst static/%, output/%, $(STATIC))
-# $(foreach s,$(STATIC),$(foreach t,$(filter %$(notdir $s),$(STATIC_OUT)),$(eval $t: $s)))
-# $(STATIC_OUT):; $(if $(wildcard $(@D)),,mkdir -p $(@D) &&) cp $^ $@
-
-
 TEX_OPTIONS := -f markdown -t latex --standalone  --bibliography=$(BIB_FILE) --no-highlight --csl=$(BIB_FORMAT) --pdf-engine=xelatex  # --citeproc
 
 
 
 
-# pandoc --standalone --bibliography=bibtex.bib --csl=lettres-et-sciences-humaines-fr.csl --no-highlight -f markdown -t latex
-
-# Pandoc conversions
-
-# Use your own [options]
-# Example:
-# --data-dir html --standalone --to=html5 --template=template.html
-# --css=css/styles.css --section-divs --wrap=none
-# --citeproc --bibliography=references.bib --csl=thesis-fr.csl
-# --toc --toc-depth=3 --number-sections
-# etc.
-
-# PDF
 
 # # HTML
 # html: $(STATIC_OUT) output/index.html output/introduction.html output/conclusion.html $(CHAPTERS_OUT)
@@ -61,6 +43,12 @@ TEX_OPTIONS := -f markdown -t latex --standalone  --bibliography=$(BIB_FILE) --n
 # 	replacee $(PAGES)/%.md 
 # 	replacee 
 
+clean_print:
+	@rm -rfv $(PRINT)/*
+
+clean_pdf: 
+	@ rm -v $(LATEX_SHIT) these.pdf  2>/dev/null || true
+
 content/print/%.md: content/pages/%.md
 	@ ./python/replace.py $<
 
@@ -72,34 +60,14 @@ content/print/%.tex: $(PRINT)/%.md
 
 tex_chapters_%: content/print/%.tex 
 
-
-
 these.pdf: 
 	xelatex these.tex
 
 pdf: these.pdf
 
 
-clean_pdf: 
-	@ rm -v $(LATEX_SHIT) these.pdf  2>/dev/null || true
-
 .PHONY: all html pdf clean
-
-
-
-# print/%.tex: print/%.md
-	
-
 
 
 love:
 	@ echo "I love U"
-	@ echo $(CHAPTERS_OUT)
-
-
-# install:
-# 	hugo install
-
-
-
-# pandoc --standalone --bibliography=bibtex.bib --csl=lettres-et-sciences-humaines-fr.csl --no-highlight -f markdown -t latex 1.md -o 1.tex && xelatex 1.tex
