@@ -107,7 +107,7 @@ def replace_copy_image(text):
             dest.parent.mkdir(parents=True, exist_ok=True)
             dest.write_bytes(src.read_bytes())
             return f"![{alt if alt else 'EMPTY ALT DESCRITPTION'}]({dest})"
-        logging.log(logging.CRITICAL, f"The file {src} isn't existing")
+        # logging.log(logging.CRITICAL, f"The file {src} isn't existing")
         return f'![The img "{src}" doesn\'t exist]({dest})'
 
     pattern = re.compile(r'<img\s+src=["\'](.*?)["\']\s+(alt=["\'](.*?)["\'])?.*/?>')
