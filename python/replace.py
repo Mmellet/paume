@@ -8,23 +8,8 @@ import logging
 
 
 HERE = pathlib.Path(__file__).parent.parent
-print(HERE)
 STATIC_DIR = HERE / "static"
 PRINT_DIR = HERE / "content" / "print"
-
-print(STATIC_DIR / "images/GraphThese1.png")
-input(STATIC_DIR.exists())
-
-# with fileinput.FileInput('5.md', inplace=True) as file:
-#     for line in file:
-#         #line_modifiee = re.sub(r'{{< cite "(.*)" (\d+-\d+) (.*?) >}}', r'[@\1, pp. \2 \3]', line)
-#         #line_modifiee = re.sub(r'{{< cite "(.*)" >}}', r'[@\1]', line)
-#         #line_modifiee = re.sub(r'{{< cite "(.*)" (\d+) >}}', r'[@\1, p. \2]', line)
-#         line_modifiee = re.sub(r'<sup>(.*)</sup>', r'^\1^', line)
-#         print(line_modifiee, end='')
-#         #ajout replace balise strike
-#         #ajout replace balise theme
-
 
 def get_args():
     parser = argparse.ArgumentParser(description="Description of the program")
@@ -113,13 +98,34 @@ def replace_copy_image(text):
     pattern = re.compile(r'<img\s+src=["\'](.*?)["\']\s+(alt=["\'](.*?)["\'])?.*/?>')
     return re.sub(pattern, repl, text)
 
+def replace_copy_iframe(text):
+    def repl(match):
+        src = match.group(1)
+        alt = match.group(3) if match.group(3) else ""
+
+        src = STATIC_DIR / src.lstrip("/")
+        dest = PRINT_DIR / "images" / src.name
+
+        # input(f"{src} ---- {alt}  ---- {dest}")  # DEBUG
+
+        if src.is_file():
+            # logging.log(logging.INFO, f"copy {src} to {dest}")
+            dest.parent.mkdir(parents=True, exist_ok=True)
+            dest.write_bytes(src.read_bytes())
+            return f"![{alt if alt else 'EMPTY ALT DESCRITPTION'}]({dest})"
+        # logging.log(logging.CRITICAL, f"The file {src} isn't existing")
+        return f'![The img "{src}" doesn\'t exist]({dest})'
+
+    pattern = re.compile(r'<img\s+src=["\'](.*?)["\']\s+(alt=["\'](.*?)["\'])?.*/?>')
+    return re.sub(pattern, repl, text)
+
 
 def replace_all(text):
     text = replace_citation(text)
     text = replace_exposant(text)
     text = replace_strike(text)
     text = replace_copy_image(text)
-    # text = replace_copy_iframe(text)
+    text = replace_copy_iframe(text)
     return text
 
 
