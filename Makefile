@@ -1,27 +1,34 @@
-
+# Pathes
+PRINT := 'content/print'
+PAGES := 'content/pages' # Source of truth
+BIB_FILE := 'content/bib/bibtex.bib'
+BIB_FORMAT := 'content/bib/lettres-et-sciences-humaines-fr.csl'
+STATIC := 'static' 
 
 .PHONY: all html pdf clean
 
-all: html pdf
+# all: html pdf
 
 clean:
-	rm -rf output/*
-
-CHAPTERS := $(sort $(shell find text/chapters -type f -iname '*.md'))
-CHAPTERS_OUT := $(patsubst %.md, output/%.html, $(notdir $(CHAPTERS)))
-
-# Copy static files recursively :
-# (Adapted from https://stackoverflow.com/questions/41993726/)
-STATIC := $(shell find static -type f)
-STATIC_OUT := $(patsubst static/%, output/%, $(STATIC))
-$(foreach s,$(STATIC),$(foreach t,$(filter %$(notdir $s),$(STATIC_OUT)),$(eval $t: $s)))
-$(STATIC_OUT):; $(if $(wildcard $(@D)),,mkdir -p $(@D) &&) cp $^ $@
-
-# Pathes
+	@rm -rfv $(PRINT)/*
 
 
+CHAPTERS := $(sort $(shell find $(PAGES) -type f -iname '*.md'))
+CHAPTERS_OUT := $(patsubst %.md, $(PRINT)/%.tex, $(notdir $(CHAPTERS)))
 
-OPTIONS := -f markdown -t latex --standalone --citeproc --bibliography=content/bib/bibtex.bib --no-highlight # --csl=
+# # Copy static files recursively :
+# # (Adapted from https://stackoverflow.com/questions/41993726/)
+# STATIC := $(shell find static -type f)
+# STATIC_OUT := $(patsubst static/%, output/%, $(STATIC))
+# $(foreach s,$(STATIC),$(foreach t,$(filter %$(notdir $s),$(STATIC_OUT)),$(eval $t: $s)))
+# $(STATIC_OUT):; $(if $(wildcard $(@D)),,mkdir -p $(@D) &&) cp $^ $@
+
+
+
+
+
+
+TEX_OPTIONS := -f markdown -t latex --standalone --citeproc --bibliography=$(BIB_FILE) --no-highlight --csl=$(BIB_FORMAT)
 
 
 
@@ -39,7 +46,7 @@ OPTIONS := -f markdown -t latex --standalone --citeproc --bibliography=content/b
 # etc.
 
 # PDF
-# pdf: output/these.pdf
+# pdf: $(PRINT)/these.pdf
 # output/these.pdf: text/introduction.md $(CHAPTERS) text/conclusion.md
 # 	pandoc $^  -o output/these.pdf
 
@@ -62,7 +69,7 @@ OPTIONS := -f markdown -t latex --standalone --citeproc --bibliography=content/b
 
 love:
 	@ echo "I love U"
-
+	@ echo $(CHAPTERS_OUT)
 
 
 # install:
