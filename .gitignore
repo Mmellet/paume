@@ -198,6 +198,13 @@ tmp
 
 these.aux
 these.lof
+these.log
 these.lot
 these.pdf
 these.toc
+
+## Tex
+
+*.aux
+*.tex
+!these.tex
