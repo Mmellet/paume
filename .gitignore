@@ -193,3 +193,11 @@ content/print
 
 # DEV
 tmp
+
+# latex these
+
+these.aux
+these.lof
+these.lot
+these.pdf
+these.toc
