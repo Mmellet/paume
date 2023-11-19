@@ -42,6 +42,8 @@
   </url><url>
     <loc>http://example.org/machine/</loc>
   </url><url>
+    <loc>http://example.org/replace_dummy/</loc>
+  </url><url>
     <loc>http://example.org/categories/</loc>
   </url><url>
     <loc>http://example.org/thematiques/</loc>

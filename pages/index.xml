@@ -82,5 +82,13 @@ machineries ? machin?
 culture des machines
 Réaction contre la culture des machines. — La machine, produit elle-même de la plus haute capacité intellectuelle, ne met en mouvement, chez les personnes qui la desservent, que les forces inférieures et irréfléchies. Il est vrai que son action déchaîne une somme de forces énorme qui autrement demeurerait endormie ; mais elle n’incite pas à s’élever, à faire mieux, à devenir artiste.</description>
     </item>
+    <item>
+      <title></title>
+      <link>http://example.org/replace_dummy/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://example.org/replace_dummy/</guid>
+      <description>Replace dummy # Citations # This is a citation of ) without minus This is a citation of ) with minus This is a citation of ) without minus with page This is a citation of ) without minus with pages This is a citation of ) with minus with page This is a citation of ) with minus with pages
+SUP to ^ # Remplacer les indentations hautes : e en ^e^</description>
+    </item>
   </channel>
 </rss>
