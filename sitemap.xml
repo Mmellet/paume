@@ -16,6 +16,8 @@
   </url><url>
     <loc>http://example.org/00/</loc>
   </url><url>
+    <loc>http://example.org/chutes/-0/</loc>
+  </url><url>
     <loc>http://example.org/-0/</loc>
   </url><url>
     <loc>http://example.org/</loc>
@@ -38,6 +40,16 @@
   </url><url>
     <loc>http://example.org/avancement/</loc>
   </url><url>
+    <loc>http://example.org/chutes/dump_fabrique/</loc>
+  </url><url>
+    <loc>http://example.org/chutes/dump_machine/</loc>
+  </url><url>
+    <loc>http://example.org/chutes/dump_matiere/</loc>
+  </url><url>
+    <loc>http://example.org/chutes/dump_media/</loc>
+  </url><url>
+    <loc>http://example.org/chutes/dump_page/</loc>
+  </url><url>
     <loc>http://example.org/graph/</loc>
   </url><url>
     <loc>http://example.org/machine/</loc>
@@ -45,6 +57,8 @@
     <loc>http://example.org/replace_dummy/</loc>
   </url><url>
     <loc>http://example.org/categories/</loc>
+  </url><url>
+    <loc>http://example.org/chutes/</loc>
   </url><url>
     <loc>http://example.org/thematiques/</loc>
   </url><url>
