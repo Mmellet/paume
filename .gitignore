@@ -179,10 +179,14 @@ cython_debug/
 /assets/jsconfig.json
 hugo_stats.json
 
-# Executable may be added to repository
+## Executable may be added to repository
 hugo.exe
 hugo.darwin
 hugo.linux
 
-# Temporary lock file while building
+## Temporary lock file while building
 /.hugo_build.lock
+
+
+# DEV
+tmp
