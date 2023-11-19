@@ -1,20 +1,26 @@
 # Pathes
-PRINT := 'content/print'
-PAGES := 'content/pages' # Source of truth
-BIB_FILE := 'content/bib/bibtex.bib'
-BIB_FORMAT := 'content/bib/lettres-et-sciences-humaines-fr.csl'
-STATIC := 'static' 
+PRINT := content/print
+PAGES := content/pages # Source of truth
+BIB_FILE := content/bib/bibtex.bib
+BIB_FORMAT := content/bib/lettres-et-sciences-humaines-fr.csl
+TEX_GABARIT := gabarit/gabarit.tex
+CLASS_LATEX := gabarit/dms.cls
 
-.PHONY: all html pdf clean
+STATIC := static
+
 
 # all: html pdf
 
-clean:
+clean_print:
 	@rm -rfv $(PRINT)/*
 
 
 CHAPTERS := $(sort $(shell find $(PAGES) -type f -iname '*.md'))
-CHAPTERS_OUT := $(patsubst %.md, $(PRINT)/%.tex, $(notdir $(CHAPTERS)))
+TEX_CHAPTERS_OUT := $(patsubst %.md, $(PRINT)/%.tex, $(notdir $(CHAPTERS)))
+PDF_CHAPTERS_OUT := $(patsubst %.md, $(PRINT)/%.pdf, $(notdir $(CHAPTERS)))
+REPLACED_CHAPTERS_OUT := $(patsubst %.md, $(PRINT)/%.md, $(notdir $(CHAPTERS)))
+
+LATEX_SHIT := these.aux these.lof these.lot these.toc
 
 # # Copy static files recursively :
 # # (Adapted from https://stackoverflow.com/questions/41993726/)
@@ -24,11 +30,7 @@ CHAPTERS_OUT := $(patsubst %.md, $(PRINT)/%.tex, $(notdir $(CHAPTERS)))
 # $(STATIC_OUT):; $(if $(wildcard $(@D)),,mkdir -p $(@D) &&) cp $^ $@
 
 
-
-
-
-
-TEX_OPTIONS := -f markdown -t latex --standalone --citeproc --bibliography=$(BIB_FILE) --no-highlight --csl=$(BIB_FORMAT)
+TEX_OPTIONS := -f markdown -t latex --standalone  --bibliography=$(BIB_FILE) --no-highlight --csl=$(BIB_FORMAT) --pdf-engine=xelatex  # --citeproc
 
 
 
@@ -46,9 +48,6 @@ TEX_OPTIONS := -f markdown -t latex --standalone --citeproc --bibliography=$(BIB
 # etc.
 
 # PDF
-# pdf: $(PRINT)/these.pdf
-# output/these.pdf: text/introduction.md $(CHAPTERS) text/conclusion.md
-# 	pandoc $^  -o output/these.pdf
 
 # # HTML
 # html: $(STATIC_OUT) output/index.html output/introduction.html output/conclusion.html $(CHAPTERS_OUT)
@@ -58,11 +57,37 @@ TEX_OPTIONS := -f markdown -t latex --standalone --citeproc --bibliography=$(BIB
 # 	pandoc $< [options] -o $@
 # output/conclusion.html: text/conclusion.md
 # 	pandoc $< [options] -o $@
-# print/replaced_%.md: $(PAGES)/%.md
+# print/%.md: $(PAGES)/%.md
 # 	replacee $(PAGES)/%.md 
 # 	replacee 
 
-# print/%.tex: print/replaced_%.md
+content/print/%.md: content/pages/%.md
+	@ ./python/replace.py $<
+
+replace_md: $(REPLACED_CHAPTERS_OUT)
+
+content/print/%.tex: $(PRINT)/%.md
+	pandoc $< $(TEX_OPTIONS) -o $@
+
+
+tex_chapters_%: content/print/%.tex 
+
+
+
+these.pdf: 
+	xelatex these.tex
+
+pdf: these.pdf
+
+
+clean_pdf: 
+	@ rm -v $(LATEX_SHIT) these.pdf  2>/dev/null || true
+
+.PHONY: all html pdf clean
+
+
+
+# print/%.tex: print/%.md
 	
 
 
