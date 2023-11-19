@@ -1,4 +1,8 @@
 {
+    "[makefile]": {
+        "editor.tabSize": 4,
+        "editor.insertSpaces": false
+    },
     "languageToolLinter.lintOnChange": true,
     "languageToolLinter.lintOnOpen": true,
     "languageToolLinter.plainText.languageIds": [
