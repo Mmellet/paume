@@ -41,5 +41,17 @@ iframes have to be replace by similaire images
 
 <iframe src="/creation/volumen/volumen.html" title="description" allowfullscreen="allowfullscreen" webkitallowfullscreen="true" mozallowfullscreen="true" width="100%" height="600px"></iframe>
 
+<iframe src="/creation/perdmens/etre.html" title="description" allowfullscreen="allowfullscreen" webkitallowfullscreen="true" mozallowfullscreen="true" width="101%" height="600px"></iframe>
+<iframe src="/creation/volumen/volumen.html" title="description" allowfullscreen="allowfullscreen" webkitallowfullscreen="true" mozallowfullscreen="true" width="100%" height="600px"></iframe>
+<iframe src="/creation/nox/nox.html" title="description" allowfullscreen="allowfullscreen" webkitallowfullscreen="true" mozallowfullscreen="true" width="100%" height="600px"></iframe>
+<iframe src="https://ia601505.us.archive.org/13/items/faire-page-paysage/FairePagePaysage.mp4" title="description" allowfullscreen="allowfullscreen" webkitallowfullscreen="true" mozallowfullscreen="true" width="101%" height="600px"></iframe>
+<iframe src="https://ia902503.us.archive.org/19/items/celles-qui-survivent-aux-hommes/MuseMedusa-Mellet.mp4" title="description" allowfullscreen="allowfullscreen" webkitallowfullscreen="true" mozallowfullscreen="true" width="101%" height="600px"></iframe>
+<iframe src="/creation/page/page.pdf" title="description" allowfullscreen="allowfullscreen" webkitallowfullscreen="true" mozallowfullscreen="true" width="70%" height="1500px">La Page en une page</iframe>
+<iframe src="https://blank.blue/html/Creations/Mues/mues.html" title="description" allowfullscreen="allowfullscreen" webkitallowfullscreen="true" mozallowfullscreen="true" width="100%" height="600px"></iframe>
+<iframe src="/creation/mues/mues.txt" title="description" allowfullscreen="allowfullscreen" webkitallowfullscreen="true" mozallowfullscreen="true" width="100%" height="600px"></iframe>
+<iframe src="/creation/volumen/volumen.html" title="description" allowfullscreen="allowfullscreen" webkitallowfullscreen="true" mozallowfullscreen="true" width="100%" height="600px"></iframe>
+<iframe src="DONTEXIST.html" title="description" allowfullscreen="allowfullscreen" webkitallowfullscreen="true" mozallowfullscreen="true" width="100%" height="600px"></iframe>
+
+
 
 <iframe src="DONTEXIST.html" title="description" allowfullscreen="allowfullscreen" webkitallowfullscreen="true" mozallowfullscreen="true" width="100%" height="600px"></iframe>
