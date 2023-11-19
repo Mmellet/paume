@@ -101,22 +101,25 @@ def replace_copy_image(text):
 def replace_copy_iframe(text):
     def repl(match):
         src = match.group(1)
-        alt = match.group(3) if match.group(3) else ""
+        title = match.group(3) if match.group(3) else ""
 
         src = STATIC_DIR / src.lstrip("/")
+        src = src.parent / (src.stem + ".png")
         dest = PRINT_DIR / "images" / src.name
 
-        # input(f"{src} ---- {alt}  ---- {dest}")  # DEBUG
+        input(f"{src} ---- {title}  ---- {dest}")  # DEBUG
+
+        # TODO use content/pages/iframe_map.json
 
         if src.is_file():
             # logging.log(logging.INFO, f"copy {src} to {dest}")
             dest.parent.mkdir(parents=True, exist_ok=True)
             dest.write_bytes(src.read_bytes())
-            return f"![{alt if alt else 'EMPTY ALT DESCRITPTION'}]({dest})"
+            return f"![{title if title else 'EMPTY TILTE DESCRITPTION'}]({dest})"
         # logging.log(logging.CRITICAL, f"The file {src} isn't existing")
         return f'![The img "{src}" doesn\'t exist]({dest})'
 
-    pattern = re.compile(r'<img\s+src=["\'](.*?)["\']\s+(alt=["\'](.*?)["\'])?.*/?>')
+    pattern = re.compile(r'<iframe\s+src=["\'](.*?)["\']\s+(title=["\'](.*?)["\'])?.*/?>.*</iframe>')
     return re.sub(pattern, repl, text)
 
 
