@@ -103,6 +103,8 @@ def replace_copy_iframe(text):
         src = match.group(1)
         title = match.group(3) if match.group(3) else ""
 
+        return f"[{title if title else 'No TITLE'}](static/images/imagenotfound.jpg)"
+
         src = STATIC_DIR / src.lstrip("/")
         src = src.parent / (src.stem + ".png")
         dest = PRINT_DIR / "images" / src.name
