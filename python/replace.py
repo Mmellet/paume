@@ -107,7 +107,7 @@ def replace_copy_iframe(text):
         src = src.parent / (src.stem + ".png")
         dest = PRINT_DIR / "images" / src.name
 
-        input(f"{src} ---- {title}  ---- {dest}")  # DEBUG
+        # input(f"{src} ---- {title}  ---- {dest}")  # DEBUG
 
         # TODO use content/pages/iframe_map.json
 
