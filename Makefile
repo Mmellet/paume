@@ -24,7 +24,7 @@ TEX_CHAPTERS_OUT := $(patsubst %.md, $(PRINT)/%.tex, $(notdir $(CHAPTERS)))
 PDF_CHAPTERS_OUT := $(patsubst %.md, $(PRINT)/%.pdf, $(notdir $(CHAPTERS)))
 REPLACED_CHAPTERS_OUT := $(patsubst %.md, $(PRINT)/%.md, $(notdir $(CHAPTERS)))
 
-LATEX_SHIT := these.aux these.lof these.lot these.toc
+LATEX_SHIT := these.aux these.lof these.lot these.toc these.log
 TEX_OPTIONS := -f markdown -t latex --standalone  --bibliography=$(BIB_FILE) --no-highlight --csl=$(BIB_FORMAT) --pdf-engine=xelatex  # --citeproc
 
 
@@ -59,6 +59,8 @@ content/print/%.tex: $(PRINT)/%.md
 
 
 tex_chapters_%: content/print/%.tex 
+
+tex_chapters: $(TEX_CHAPTERS_OUT)
 
 these.pdf: 
 	xelatex these.tex
