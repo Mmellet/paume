@@ -40,14 +40,15 @@ def repl(match):
 def replace_citation(text):
     def repl(match):
         citation_key = match.group(2)
+        citation_key = f"-@{citation_key}" if citation_key.startswith('-') else f"@{citation_key}"
         page_numbers = match.group(4)
         if page_numbers:
             return (
-                f"[@{citation_key}, p. {page_numbers}]"
+                f"[{citation_key}, p. {page_numbers}]"
                 if "-" not in page_numbers
-                else f"[@{citation_key}, pp. {page_numbers}]"
+                else f"[{citation_key}, pp. {page_numbers}]"
             )
-        return f"[@{citation_key}]"
+        return f"[{citation_key}]"
 
     pattern = r'{{<\s*cite\s*("|\s*-)([^"\s]+)"?(\s+(\d+-*\d*)?)?\s*>}}'
     return re.sub(pattern, repl, text)
