@@ -116,11 +116,33 @@ def replace_copy_iframe(text):
             if img_src.is_file():
                 dest = PRINT_DIR / "images" / img_src.name
                 dest.parent.mkdir(parents=True, exist_ok=True)
-                dest.write_bytes(src.read_bytes())
+                dest.write_bytes(img_src.read_bytes())
             url_to_join.append(f'![{title}]({dest})')
         return '\n'.join(url_to_join)
 
     pattern = re.compile(r'<iframe\s+src=["\'](.*?)["\']\s+(title=["\'](.*?)["\'])?.*/?>.*</iframe>')
+    return re.sub(pattern, repl, text)
+
+def replace_copy_div_object(text):
+    def repl(match):
+        _id = match.group(1)
+
+        images_urls = MAP['div_object'].get(_id,{}).get("image_urls", [])
+        
+        print(_id)
+
+        url_to_join = []
+        for url in images_urls:
+            img_src = pathlib.Path(url)
+            dest = "static/images/imagenotfound.jpg"
+            if img_src.is_file():
+                dest = PRINT_DIR / "images" / img_src.name
+                dest.parent.mkdir(parents=True, exist_ok=True)
+                dest.write_bytes(img_src.read_bytes())
+            url_to_join.append(f'![{dest.stem.title()}]({dest})')
+        return '\n'.join(url_to_join)
+
+    pattern = re.compile(r'<div\s+id=["\'](.*?)["\']\s*.*?>.*</div>\s*<!--\s*\1\s*-->', re.DOTALL)
     return re.sub(pattern, repl, text)
 
 
@@ -130,6 +152,7 @@ def replace_all(text):
     text = replace_strike(text)
     text = replace_copy_image(text)
     text = replace_copy_iframe(text)
+    text = replace_copy_div_object(text)
     return text
 
 
