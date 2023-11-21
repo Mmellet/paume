@@ -35,7 +35,7 @@ def get_args():
 def replace_citation(text):
     def repl(match):
         citation_key = match.group(2)
-        citation_key = f"-@{citation_key}" if citation_key.startswith('-') else f"@{citation_key}"
+        citation_key = f"-@{citation_key[1:]}" if citation_key.startswith('-') else f"@{citation_key}"
         page_numbers = match.group(4)
         if page_numbers:
             return (
@@ -126,11 +126,7 @@ def replace_copy_iframe(text):
 def replace_copy_div_object(text):
     def repl(match):
         _id = match.group(1)
-
         images_urls = MAP['div_object'].get(_id,{}).get("image_urls", [])
-        
-        print(_id)
-
         url_to_join = []
         for url in images_urls:
             img_src = pathlib.Path(url)
