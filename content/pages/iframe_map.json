@@ -63,6 +63,18 @@
             "image_urls": [
                 "static/images/metamorphose.png"
             ]
+        },
+        "encryption1": {
+            "link": "",
+            "image_urls": [
+                "static/images/encryption1.png"
+            ]
+        },
+        "encryption2": {
+            "link": "",
+            "image_urls": [
+                "static/images/encryption2.png"
+            ]
         }
     }
 }
