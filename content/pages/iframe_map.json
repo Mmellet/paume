@@ -1,51 +1,51 @@
 {
     "iframe": {
-        "/creation/perdmens/etre.html": {
+        "static/creation/perdmens/etre.html": {
             "link": "https://paume.page/creation/perdmens/etre.html",
             "image_urls": [
-                "images/degenerateur2.png"
+                "static/images/degenerateur2.png"
             ]
         },
-        "/creation/volumen/volumen.html": {
+        "static/creation/volumen/volumen.html": {
             "link": "https://paume.page/creation/volumen/volumen.html",
             "image_urls": [
-                "images/volumen.png"
+                "static/images/volumen.png"
             ]
         },
-        "/creation/nox/nox.html": {
+        "static/creation/nox/nox.html": {
             "link": "https://paume.page/creation/nox/nox.html",
             "image_urls": [
-                "images/nox.png"
+                "static/images/nox.png"
             ]
         },
         "https://ia601505.us.archive.org/13/items/faire-page-paysage/FairePagePaysage.mp4": {
             "link": "https://ia601505.us.archive.org/13/items/faire-page-paysage/FairePagePaysage.mp4",
             "image_urls": [
-                "./faire_page_paysage.png"
+                "static/images/faire_page_paysage.png"
             ]
         },
         "https://ia902503.us.archive.org/19/items/celles-qui-survivent-aux-hommes/MuseMedusa-Mellet.mp4": {
             "link": "https://ia902503.us.archive.org/19/items/celles-qui-survivent-aux-hommes/MuseMedusa-Mellet.mp4",
             "image_urls": [
-                "images/celles.png"
+                "static/images/celles.png"
             ]
         },
-        "/creation/page/page.pdf": {
+        "static/creation/page/page.pdf": {
             "link": "https://paume.page/creation/page/page.pdf",
             "image_urls": [
-                "images/page.png"
+                "static/images/page.png"
             ]
         },
         "https://blank.blue/html/Creations/Mues/mues.html": {
             "link": "https://blank.blue/html/Creations/Mues/mues.html",
             "image_urls": [
-                "images/mues.png"
+                "static/images/mues.png"
             ]
         },
-        "/creation/mues/mues.txt": {
+        "static/creation/mues/mues.txt": {
             "link": "https://paume.page/creation/mues/mues.txt",
             "image_urls": [
-                "images/mues_txt.png"
+                "static/images/mues_txt.png"
             ]
         }
     },
@@ -53,15 +53,15 @@
         "coincidence": {
             "link": "https://paume.page/creation/irremedia/Coincidence.pdf",
             "image_urls": [
-                "images/coincidence1.png",
-                "images/coincidence2.png",
-                "images/coincidence3.png"
+                "static/images/coincidence1.png",
+                "static/images/coincidence2.png",
+                "static/images/coincidence3.png"
             ]
         },
         "metamorphose": {
             "link": "https://paume.page/creation/irremedia/Metamorphose.html",
             "image_urls": [
-                "images/metamorphose.png"
+                "static/images/metamorphose.png"
             ]
         }
     }
