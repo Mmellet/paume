@@ -14,13 +14,9 @@
   </url><url>
     <loc>http://example.org/5/</loc>
   </url><url>
-    <loc>http://example.org/00/</loc>
-  </url><url>
     <loc>http://example.org/6/</loc>
   </url><url>
     <loc>http://example.org/chutes/-0/</loc>
-  </url><url>
-    <loc>http://example.org/-0/</loc>
   </url><url>
     <loc>http://example.org/</loc>
     <lastmod>2023-04-25T00:00:00+00:00</lastmod>
@@ -53,8 +49,6 @@
     <loc>http://example.org/chutes/dump_page/</loc>
   </url><url>
     <loc>http://example.org/graph/</loc>
-  </url><url>
-    <loc>http://example.org/replace_dummy/</loc>
   </url><url>
     <loc>http://example.org/categories/</loc>
   </url><url>
