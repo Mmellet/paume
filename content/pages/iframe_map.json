@@ -30,5 +30,17 @@
     "/creation/mues/mues.txt": {
         "link": "https://paume.page/creation/mues/mues.txt",
         "image_url": "./images/mues_txt.png"
+    },
+    "creation/irremedia/Coincidence.pdf": {
+        "link": "https://paume.page/creation/irremedia/Coincidence.pdf",
+        "image_url1": "./images/coincidence1.png",
+        "image_url2": "./images/coincidence2.png",
+        "image_url3": "./images/coincidence3.png"
+    
+    
+    },
+    "/creation/irremedia/Metamorphose.html": {
+        "link": "https://paume.page/creation/irremedia/Metamorphose.html",
+        "image_url": "./images/metamorphose.png"
     }
 }
