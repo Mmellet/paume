@@ -208,3 +208,5 @@ these.toc
 *.aux
 *.tex
 !these.tex
+
+content/print
