@@ -1,34 +1,46 @@
 {
     "/creation/perdmens/etre.html": {
-        "type": "link",
-        "value": ""
+        "link": "https://paume.page/creation/perdmens/etre.html",
+        "image_url": "./images/degenerateur2.png"
     },
     "/creation/volumen/volumen.html": {
-        "type": "link",
-        "value": ""
+        "link": "https://paume.page/creation/volumen/volumen.html",
+        "image_url": "./images/volumen.png"
     },
     "/creation/nox/nox.html": {
-        "type": "link",
-        "value": ""
+        "link": "https://paume.page/creation/nox/nox.html",
+        "image_url": "./images/nox.png"
     },
     "https://ia601505.us.archive.org/13/items/faire-page-paysage/FairePagePaysage.mp4": {
-        "type": "link",
-        "value": ""
+        "link": "https://ia601505.us.archive.org/13/items/faire-page-paysage/FairePagePaysage.mp4",
+        "image_url": "./faire_page_paysage.png"
     },
     "https://ia902503.us.archive.org/19/items/celles-qui-survivent-aux-hommes/MuseMedusa-Mellet.mp4": {
-        "type": "link",
-        "value": ""
+        "link": "https://ia902503.us.archive.org/19/items/celles-qui-survivent-aux-hommes/MuseMedusa-Mellet.mp4",
+        "image_url": "./images/celles.png"
     },
     "/creation/page/page.pdf": {
-        "type": "link",
-        "value": ""
+        "link": "https://paume.page/creation/page/page.pdf",
+        "image_url": "./images/page.png"
     },
     "https://blank.blue/html/Creations/Mues/mues.html": {
-        "type": "link",
-        "value": ""
+        "link": "https://blank.blue/html/Creations/Mues/mues.html",
+        "image_url": "./images/mues.png"
     },
     "/creation/mues/mues.txt": {
-        "type": "link",
-        "value": ""
+        "link": "https://paume.page/creation/mues/mues.txt",
+        "image_url": "./images/mues_txt.png"
+    },
+    "creation/irremedia/Coincidence.pdf": {
+        "link": "https://paume.page/creation/irremedia/Coincidence.pdf",
+        "image_url1": "./images/coincidence1.png",
+        "image_url2": "./images/coincidence2.png",
+        "image_url3": "./images/coincidence3.png"
+    
+    
+    },
+    "/creation/irremedia/Metamorphose.html": {
+        "link": "https://paume.page/creation/irremedia/Metamorphose.html",
+        "image_url": "./images/metamorphose.png"
     }
 }
