@@ -187,6 +187,24 @@ hugo.linux
 ## Temporary lock file while building
 /.hugo_build.lock
 
+## BUILD
+
+content/print
 
 # DEV
 tmp
+
+# latex these
+
+these.aux
+these.lof
+these.log
+these.lot
+these.pdf
+these.toc
+
+## Tex
+
+*.aux
+*.tex
+!these.tex

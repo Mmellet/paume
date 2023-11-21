@@ -19,7 +19,7 @@ def get_args():
         nargs="+",
         help="Mardown file pathes to replace tags, figure and iframe.",
     )
-    args = parser.parse_args(args=["content/pages/replace_dummy.md"])
+    args = parser.parse_args()
     return args
 
 
@@ -103,6 +103,8 @@ def replace_copy_iframe(text):
         src = match.group(1)
         title = match.group(3) if match.group(3) else ""
 
+        return f"[{title if title else 'No TITLE'}](static/images/imagenotfound.jpg)"
+
         src = STATIC_DIR / src.lstrip("/")
         src = src.parent / (src.stem + ".png")
         dest = PRINT_DIR / "images" / src.name
@@ -133,7 +135,8 @@ def replace_all(text):
 
 
 def save_replaced_markdown(text, path):
-    pass
+    path.parent.mkdir(exist_ok=True,parents=True)
+    path.write_text(text)
 
 
 def get_text(text_io_wrapper):
@@ -142,10 +145,10 @@ def get_text(text_io_wrapper):
 
 def main(args):
     for text_io_wrapper in args.pathes:
+        dest = PRINT_DIR / text_io_wrapper.name.split("/")[-1]
         text = get_text(text_io_wrapper)
         text = replace_all(text)
-
-    print(text)
+        save_replaced_markdown(text, dest)
 
 
 if __name__ == "__main__":
