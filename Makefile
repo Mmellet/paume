@@ -20,8 +20,9 @@ STATIC := static
 
 
 CHAPTERS := $(sort $(shell find $(PAGES) -type f -iname '*.md'))
-TEX_CHAPTERS_OUT := $(patsubst %.md, $(PRINT)/%.tex, $(notdir $(CHAPTERS)))
-PDF_CHAPTERS_OUT := $(patsubst %.md, $(PRINT)/%.pdf, $(notdir $(CHAPTERS)))
+TEX_CHAPTERS_STANDALONE_OUT := $(patsubst %.md, $(PRINT)/%.tex, $(notdir $(CHAPTERS)))
+PDF_CHAPTERS_STANDALONE_OUT := $(patsubst %.md, $(PRINT)/%.pdf, $(notdir $(CHAPTERS)))
+TEX_CHAPTERS_OUT := $(patsubst %.md, %.tex, $(notdir $(CHAPTERS)))
 REPLACED_CHAPTERS_OUT := $(patsubst %.md, $(PRINT)/%.md, $(notdir $(CHAPTERS)))
 
 LATEX_SHIT := these.aux these.lof these.lot these.toc these.log
@@ -60,12 +61,20 @@ content/print/%.tex: $(PRINT)/%.md
 	pandoc $< $(TEX_OPTIONS) -o $@
 
 
-tex_chapters_%: content/print/%.tex 
+tex_chapters_standalone_%: content/print/%.tex 
 
+tex_chapters_standalone: $(TEX_CHAPTERS_STANDALONE_OUT)  
+
+%.tex: content/print/%.tex
+	@ ./python/tex_extract.py $<
+
+
+tex_chapters_%: %.tex
+	
 tex_chapters: $(TEX_CHAPTERS_OUT)
 
-these.pdf: 
-	xelatex these.tex
+these.pdf: tex_chapters
+	xelatex these.tex $(TEX_CHAPTERS_OUT)
 
 pdf: these.pdf
 
