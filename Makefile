@@ -49,6 +49,8 @@ clean_print:
 clean_pdf: 
 	@ rm -v $(LATEX_SHIT) these.pdf  2>/dev/null || true
 
+clean: clean_pdf clean_print
+
 content/print/%.md: content/pages/%.md
 	@ ./python/replace.py $<
 
