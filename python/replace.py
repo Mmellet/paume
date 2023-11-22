@@ -3,13 +3,22 @@ import re
 import fileinput
 import argparse
 import pathlib
+import json
 
+from pprint import pprint
 import logging
 
 
-HERE = pathlib.Path(__file__).parent.parent
-STATIC_DIR = HERE / "static"
-PRINT_DIR = HERE / "content" / "print"
+WORKSPACE_DIR = pathlib.Path(__file__).parent.parent
+STATIC_DIR = WORKSPACE_DIR / "static"
+PRINT_DIR = WORKSPACE_DIR / "content" / "print"
+PAGES_DIR = WORKSPACE_DIR / "content" / "pages"
+MAP = PAGES_DIR / "iframe_map.json"
+
+with MAP.open() as stream:
+    MAP = json.load(stream)
+
+# pprint(MAP)
 
 def get_args():
     parser = argparse.ArgumentParser(description="Description of the program")
@@ -21,20 +30,6 @@ def get_args():
     )
     args = parser.parse_args()
     return args
-
-
-def repl(match):
-    citation_key = match.group(2)
-    page_numbers = match.group(4)
-    input(page_numbers)
-    if page_numbers:
-        return (
-            f"[@{citation_key}, p. {page_numbers}]"
-            if "-" not in page_numbers
-            else f"[@{citation_key}, pp. {page_numbers}]"
-        )
-    else:
-        return f"[@{citation_key}]"
 
 
 def replace_citation(text):
@@ -104,25 +99,50 @@ def replace_copy_iframe(text):
         src = match.group(1)
         title = match.group(3) if match.group(3) else ""
 
-        return f"[{title if title else 'No TITLE'}](static/images/imagenotfound.jpg)"
+        is_web_url = True
+        if not src.startswith("https"):
+            src = STATIC_DIR / src.lstrip("/")
+            is_web_url = False
+        images_urls = MAP['iframe'].get(str(src),{}).get("image_urls", [])
+        
+        if not is_web_url and not src.is_file():
+            return f'![The img "{src}" doesn\'t exist](static/images/imagenotfound.jpg)'
 
-        src = STATIC_DIR / src.lstrip("/")
-        src = src.parent / (src.stem + ".png")
-        dest = PRINT_DIR / "images" / src.name
-
-        # input(f"{src} ---- {title}  ---- {dest}")  # DEBUG
-
-        # TODO use content/pages/iframe_map.json
-
-        if src.is_file():
-            # logging.log(logging.INFO, f"copy {src} to {dest}")
-            dest.parent.mkdir(parents=True, exist_ok=True)
-            dest.write_bytes(src.read_bytes())
-            return f"![{title if title else 'EMPTY TILTE DESCRITPTION'}]({dest})"
-        # logging.log(logging.CRITICAL, f"The file {src} isn't existing")
-        return f'![The img "{src}" doesn\'t exist]({dest})'
+        # input(f"{src} ---- {title}  ---- ")  # DEBUG
+        url_to_join = []
+        for url in images_urls:
+            img_src = pathlib.Path(url)
+            dest = "static/images/imagenotfound.jpg"
+            if img_src.is_file():
+                dest = PRINT_DIR / "images" / img_src.name
+                dest.parent.mkdir(parents=True, exist_ok=True)
+                dest.write_bytes(img_src.read_bytes())
+            url_to_join.append(f'![{title}]({dest})')
+        return '\n'.join(url_to_join)
 
     pattern = re.compile(r'<iframe\s+src=["\'](.*?)["\']\s+(title=["\'](.*?)["\'])?.*/?>.*</iframe>')
+    return re.sub(pattern, repl, text)
+
+def replace_copy_div_object(text):
+    def repl(match):
+        _id = match.group(1)
+
+        images_urls = MAP['div_object'].get(_id,{}).get("image_urls", [])
+        
+        print(_id)
+
+        url_to_join = []
+        for url in images_urls:
+            img_src = pathlib.Path(url)
+            dest = "static/images/imagenotfound.jpg"
+            if img_src.is_file():
+                dest = PRINT_DIR / "images" / img_src.name
+                dest.parent.mkdir(parents=True, exist_ok=True)
+                dest.write_bytes(img_src.read_bytes())
+            url_to_join.append(f'![{dest.stem.title()}]({dest})')
+        return '\n'.join(url_to_join)
+
+    pattern = re.compile(r'<div\s+id=["\'](.*?)["\']\s*.*?>.*</div>\s*<!--\s*\1\s*-->', re.DOTALL)
     return re.sub(pattern, repl, text)
 
 
@@ -132,6 +152,7 @@ def replace_all(text):
     text = replace_strike(text)
     text = replace_copy_image(text)
     text = replace_copy_iframe(text)
+    text = replace_copy_div_object(text)
     return text
 
 
