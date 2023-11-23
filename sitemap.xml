@@ -50,6 +50,8 @@
   </url><url>
     <loc>http://example.org/graph/</loc>
   </url><url>
+    <loc>http://example.org/resume/</loc>
+  </url><url>
     <loc>http://example.org/categories/</loc>
   </url><url>
     <loc>http://example.org/chutes/</loc>
