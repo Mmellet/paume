@@ -1,0 +1,80 @@
+<?xml version="1.0"?>
+<root ptr="0x55a9c32c74e0" id="0" symbol="11SwRootFrame" lower="1">
+ <sfxViewShells>
+  <SwView>
+   <SfxViewShell ptr="0x55a9c32aee20" id="0"/>
+   <SwCursorShell>
+    <SwViewShell/>
+    <m_pCurrentCursor>
+     <SwPaM>
+      <point>
+       <SwPosition nNode="18" nContent="0"/>
+      </point>
+     </SwPaM>
+    </m_pCurrentCursor>
+   </SwCursorShell>
+  </SwView>
+ </sfxViewShells>
+ <infos>
+  <bounds left="284" top="284" width="21135" height="11906" mbFixSize="false" mbValidPos="true" mbValidSize="true" mbValidPrtArea="true"/>
+  <prtBounds left="0" top="0" width="21135" height="11906"/>
+ </infos>
+ <page ptr="0x55a9c32c3aa0" id="1" symbol="11SwPageFrame" upper="0" lower="2">
+  <page_status ValidFlyLayout="true" ValidFlyContent="true" ValidFlyInCnt="true" ValidLayout="true" ValidContent="true"/>
+  <infos>
+   <bounds left="4581" top="284" width="16838" height="11906" mbFixSize="true" mbValidPos="true" mbValidSize="true" mbValidPrtArea="true"/>
+   <prtBounds left="1134" top="1134" width="14570" height="9638"/>
+  </infos>
+  <body ptr="0x55a9c32c4820" id="2" symbol="11SwBodyFrame" upper="1" lower="3">
+   <infos>
+    <bounds left="5715" top="1418" width="14570" height="9638" mbFixSize="true" mbValidPos="true" mbValidSize="true" mbValidPrtArea="true"/>
+    <prtBounds left="0" top="0" width="14570" height="9638"/>
+   </infos>
+   <txt ptr="0x55a9c32c9bb0" id="3" symbol="11SwTextFrame" upper="2" txtNodeIndex="18" WritingMode="Horizontal">
+    <infos>
+     <bounds left="5715" top="1418" width="14570" height="276" mbFixSize="false" mbValidPos="true" mbValidSize="true" mbValidPrtArea="true"/>
+     <prtBounds left="0" top="0" width="14570" height="276"/>
+    </infos>
+    <anchored>
+     <fly ptr="0x55a9c40fc620" id="4" symbol="19SwFlyAtContentFrame" lower="5">
+      <infos>
+       <bounds left="14641" top="2359" width="6218" height="7514" mbFixSize="true" mbValidPos="true" mbValidSize="true" mbValidPrtArea="true"/>
+       <prtBounds left="0" top="0" width="6218" height="7514"/>
+      </infos>
+      <notxt ptr="0x7f31c800a260" id="5" symbol="13SwNoTextFrame" upper="4">
+       <infos>
+        <bounds left="14641" top="2359" width="6218" height="7514" mbFixSize="false" mbValidPos="true" mbValidSize="true" mbValidPrtArea="true"/>
+        <prtBounds left="0" top="0" width="6218" height="7514"/>
+       </infos>
+      </notxt>
+     </fly>
+     <fly ptr="0x55a9c4969e20" id="6" symbol="19SwFlyAtContentFrame" lower="7">
+      <infos>
+       <bounds left="4632" top="4397" width="10063" height="5522" mbFixSize="true" mbValidPos="true" mbValidSize="true" mbValidPrtArea="true"/>
+       <prtBounds left="0" top="0" width="10063" height="5522"/>
+      </infos>
+      <notxt ptr="0x55a9c3832900" id="7" symbol="13SwNoTextFrame" upper="6">
+       <infos>
+        <bounds left="4632" top="4396" width="10063" height="5522" mbFixSize="false" mbValidPos="true" mbValidSize="true" mbValidPrtArea="true"/>
+        <prtBounds left="0" top="0" width="10063" height="5522"/>
+       </infos>
+      </notxt>
+     </fly>
+     <fly ptr="0x55a9c01ca810" id="8" symbol="19SwFlyAtContentFrame" lower="9">
+      <infos>
+       <bounds left="4713" top="2446" width="9929" height="1952" mbFixSize="true" mbValidPos="true" mbValidSize="true" mbValidPrtArea="true"/>
+       <prtBounds left="0" top="0" width="9929" height="1952"/>
+      </infos>
+      <notxt ptr="0x55a9c47e9d60" id="9" symbol="13SwNoTextFrame" upper="8">
+       <infos>
+        <bounds left="4713" top="2446" width="9929" height="1952" mbFixSize="false" mbValidPos="true" mbValidSize="true" mbValidPrtArea="true"/>
+        <prtBounds left="0" top="0" width="9929" height="1952"/>
+       </infos>
+      </notxt>
+     </fly>
+    </anchored>
+    <Finish/>
+   </txt>
+  </body>
+ </page>
+</root>
