@@ -51,7 +51,7 @@ clean_print:
 clean_pdf: 
 	@ rm -v $(LATEX_SHIT) these.pdf  2>/dev/null || true
 
-clean: clean_pdf clean_print
+clean: clean_pdf clean_print reset_gabarit
 
 content/print/%.md: content/pages/%.md
 	@ ./python/replace.py $<
@@ -79,8 +79,15 @@ these.pdf: tex_chapters
 
 pdf: these.pdf
 
+set_gabarit:
+	git submodule update --init --recursive
+
+reset_gabarit:
+	@ cd gabarit && git checkout . 2>/dev/null 
 
 .PHONY: all html pdf clean
+
+
 
 
 love:
