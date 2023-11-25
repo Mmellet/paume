@@ -23,9 +23,10 @@ CHAPTERS := $(sort $(shell find $(PAGES) -type f -iname '*.md'))
 TEX_CHAPTERS_STANDALONE_OUT := $(patsubst %.md, $(PRINT)/%.tex, $(notdir $(CHAPTERS)))
 PDF_CHAPTERS_STANDALONE_OUT := $(patsubst %.md, $(PRINT)/%.pdf, $(notdir $(CHAPTERS)))
 TEX_CHAPTERS_OUT := $(patsubst %.md, %.tex, $(notdir $(CHAPTERS)))
+AUX_CHAPTERS_OUT := $(patsubst %.md, %.aux, $(notdir $(CHAPTERS)))
 REPLACED_CHAPTERS_OUT := $(patsubst %.md, $(PRINT)/%.md, $(notdir $(CHAPTERS)))
 
-LATEX_SHIT := these.aux these.lof these.lot these.toc these.log
+LATEX_SHIT := these.aux these.lof these.lot these.toc these.log $(AUX_CHAPTERS_OUT) $(TEX_CHAPTERS_OUT)
 TEX_OPTIONS := -f markdown -t latex --standalone  --bibliography=$(BIB_FILE) --no-highlight --csl=$(BIB_FORMAT) --pdf-engine=xelatex  # --citeproc
 
 
