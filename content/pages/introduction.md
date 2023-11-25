@@ -1,0 +1,319 @@
+---
+title: "... et les doigts d'écrire se referment sur la paume"
+subtitle: "Recherche et création sur l'épaisseur de l'écriture"
+bibFile: path/to/bib.json
+weight: 1
+progress: 50%
+---
+
+
+Cette thèse n'est pas une solution. 
+
+Cette thèse ne représente ni une solution absolue ni une solution partielle qui viendrait répondre à la problématique soulevée, dont elle créé peut-être certaines des pièces. 
+
+Elle n'est pas sa propre solution -- peut-être davantage un monstre fabriqué avec ses regrets -- non pas qu'elle refuserait cet élogieux statut scientifique, mais parce qu'elle ne s'extrait pas elle-même du nœud autour duquel elle fait graviter ses mots. 
+
+Les pages qui suivront sont une occasion de gravitation autour de plusieurs questions constellées qui en vague renversée interrogent l'écriture, le geste d'inscription, mais aussi la nature même de l'objet scientifique produit. 
+
+S'il fallait déterminer -- sous la contrainte d'un utilitarisme et la pression de conventions -- l'originalité de cette thèse[^originalité], il pourrait être répondu que la pâte qui lui est propre est de mêler une humilité de la tâche et une insolence de la démarche, caractéristique double qui émane pour une large part de l'éthos des mains qui écrivent. Équilibre sur le fil qui conduit à explorer un modèle de discours qui se défait du principe d'individualité, de génie, de solitude, de scientificité et même de créativité pour un travail pourtant estampillé "recherche-création" et qui demeure signé par une unique personne. 
+
+        cette thèse jouera le jeu
+            aura des discours construits
+            ne sera pas cosignée
+            respectera les marges et conventions de mises en page
+        mais trichera un peu 
+            traitera de ses brouillons et de ses échecs
+            reconnaîtra la nature collective de ses idées
+            pensera au-delà du papier et de la page
+
+C'est dans ce même caprice des repères scientifiques et une saveur toute particulière du manifeste littéraire que se pose le refus de distinguer ces deux objets que seraient la recherche d'un côté et la création de l'autre. Apportant chacune un patrimoine (la recherche et sa rigueur d'analyse, la création et sa folie sensible), elle ne seront pas abordées ensemble comme un heureux mariage dont le contrat n'est pas clair. Il n'y aura pas deux produits, aussi poreuse soit rendue la cloison les séparant par un principe de dialogue ou de complémentarité, il y aura un seul et même objet. 
+
+        ton essayistique à l'essai
+        textes perturbateurs en échappée de la marge
+        déploiement des coulisses en lisse
+        piquement du ton argumentaire par des images intempestives
+
+Cette thèse n'est pas une recherche-création ni une recherche et création. 
+
+Si la philosophie du faire sur laquelle se fonde cette approche de l'écriture ici-même peut être résumée par la formule *Thinking through making*, formule proposée par l'anthropologue britannique Tim Ingold, l'expression ne suffit pourtant pas à traduire un régime d'écriture qui ne peut être synthétisé comme simplement l'association de deux types d'actions. Il ne s'agit pas pour une approche classique, scientifique d'être aggrémentée par une approche créatrice, marginale ; il ne s'agit pas pour la création, comme un corps imparfait, d'être complétée dans ce qu'il lui manquerait de légitimité scientifique ou de mode d'emploi par la recherche. Le modèle du *Thinking through making* est une première entrée dans le refus d'un modèle conventionnel, celui du *Making through thinking* qui place la pratique à la suite de la théorie ou *theory leads and practice follows* {{< cite "pohjoisen_kulttuuri-instituutti__institute_for_northern_culture_ingold_2013" >}}. Changement de régime, le savoir n'est plus une projection, celle d'une forme pour *informer* une matière informe, mais ce qui émerge par le faire. La porte est donc ouverte, nous pouvons sortir d'un schéma qui rejoue le jaillissement de la merveille dans la glaise ou l'argile. Cependant nous ne sortons pas du transfert, la pensée au travers de la matière, et donc d'un régime de sublimation entre deux états (un terrien, ancré, l'autre extrait, élevé). 
+
+Le refus de la distinction recherche et création, la production d'une hydre de thèse, a déjà des beaux précédents[^précédent], il n'existe pas de modèles pour une thèse recherche-création sans bipolarité (il existe en soi peu de modèles pour les thèses recherche-créaiton bipolaires). Dans l'exploration d'une méthodologie propre, qui ne porte pas de nom par l'insuffisance des terminologies actuelles, la thèse ici <strike style='color:rgb(196, 43, 94);'>s'ancre</strike> s'encre et croît dans l'idée de la composition des rapports : il n'y a pas « penser » et « faire », quel que soit le sens de traverse des deux balises, il y a une seule et même texture épaisse. 
+
+[^originalité]: Ce terme dans la lignée de bien d'autres sera déconstruit dans la suite des lignes. 
+
+[^précédent]: Comme la thèse de [Karianne Trudeau-Desnoyers](https://papyrus.bib.umontreal.ca/xmlui/handle/1866/31925).
+
+Cette thèse est une composition des rapports. 
+
+ La matière et le sens sont-ils une seule et même chose que le discours viendrait distinguer par convention, practicité de l'analyse ou même paresse ? Ou sont-elles différenciables mais non-indépendantes dans la mesure où elles se trouvent toujours l'une à l'autre liée ? 
+
+----
+
+
+au centre du memex, était l'angoisse d'organiser qui doit être commune à tous les projets en HN : 
+
+> A revolution must be wrought in the ways in which we make, store, and consult the record of accomplishment. [...] It is not just a problem for the librairis, althought that is important. Rather, the problem is how creative men think, and what can be done to help them think. It is a problem of how the great mass of materials shall be handled so that the individual can draw from it what he needs -- instantly, correctly, and with utter freedom. (bush, 147)
+
+-------
+
+rhétorique immatérielle vitali
+
+
+Reflet d'insolence, rappel d'humilité d'une action -- écrire -- parmi d'autres, l'approche défendue s'enroule autour d'une problématique facilement résumable qui n'est pas tant un *statement* à démontrer par l'argumentaire applati des mots, qu'un fil à dérouler dans l'implémentation concrète d'une expression. 
+
+Les environnements d'écriture déterminent l'écriture. 
+
+La matérialité de l'inscription détermine les réalités culturelles. 
+
+Le fait littéraire est une composition de rapports. 
+
+comme Drucker, Pretucci, MOsiron qui on explorer la dynamique visuelle de l'écriture dans différents contextes, des manifestations épigraphiques sur les monuments, jusqu'aux instances typographiques sur le papier (Drucker, The Visible Word, 4; Petrucci, Public Lettering; and Morison, Politics and Script. In
+general, see Gutjahr and Benton, Illuminating Letters)
+
+L'escriture est un indice culturel. 
+
+Depuis A. Leroi-Gourhan <!--référence-->mais également d'autres avant, pendant et après lui, un tracé n’est rien sans le support sur lequel il s’inscrit et ne peut se définir comme un signe qu’en relation avec lui. Qu'il soit nommé média, environnement, espace, support, conjonctures, matérialité, le réel du fait littéraire se décline en une multitude d'agencements : cela peut aller de la nouvelle architecture de l'information qu'implémente le modèle du Codex, en passant par la plume que Flaubert taillait comme processus rituel de création, par Nietzsche aveugle en devenir qui fut l'un des premiers à utiliser une machine à écrire qu'il appela « sa délicate », si délicate que cette machine se cassa et que Nietzsche dut se "rabattre" sur une série de secrétaires, jusqu'à l'ambiguïté des termes *computer* et *typewriter* qui peuvent autant désigner les femmes qui utilisaient des machines spécifiques que les machines en elles-mêmes. Fil conducteur entre anecdotes qui nourrissent plus généralement une culture littéraire, la détermination du fait littéraire est telle que l'on peut se demander si elle connaît une limite (autrement dit, où arrêter l'excavation des matérialités de l'inscription ?) et si, en tant que telle, elle n'invalide pas la distinction même faite entre écriture et environnements (quel impact a cette distinction sur nos schémas d'analyse de la littérature ? est-elle si utile aux discours pour permettre une vulgarisation obligée ?). Soit, où achopper le chenal du geste d'inscription dans les réalités culturelles ?
+
+Pour performer, implémenter et perforer le fait littéraire par les épines rapidemment dénudées ci-dessus, le premier seuil de l'écriture ici identifiera trois paradigmes, jougs autour des doigts desquelles se tisse la pensée de l'écriture, et s'attachera à effiler les crans de ces moires. 
+
+----
+
+## La fileuse
+
+Le soi est toujours une vaste contrat. 
+
+S'affichant sur les écrans de leurs machines, lovée dans leurs articulations cagneuses et émergeant des tâches d'encre versées de dépit, une même question qui hante les couleurs des lieux de savoirs. 
+
+    À moitié murmurée, à moitié avalée, 
+    Qui écrit ? Tis ?
+    Est-ce-nous qui [...] ?
+    Qui [...] et d'où [...] ?
+
+En ombre partagée des études, l'interrogative -- sinon éternelle du moins récurrente -- traduit autant une curiosité génésiaque qu'un souci égocentré : l'humain est-il au centre de sa création, ou est-il le produit de cette dernière ? Dans quel sens transite le pouvoir de dire, faire défiler ou de définir le monde ? En somme, qui produit qui ?
+
+Sursaut sensiblement redondant de la dialectique hégélienne du maître et de l'esclave, ranimée sous les nouvelles modalités du numérique, la réflexion sur l'origine et l'attribution de la propriété rejoint des enjeux politiques attachés non seulement à penser la question du pouvoir -- ou de sa passation lorsqu'un intermédiaire se retrouve au centre d'un système de production auparavant autonome -- mais également à considérer les éléments qui, techniquement, matériellement et même symboliquement, viennent déterminer une production en deçà et au-delà de ce qu'avait prévu un éventuel créateur. L'auteur, avec toute l'idéalité que l'on peut apposer à ce statut, est à bien des égards une fonction de son environnement média-technique {{< cite "kittler_discourse_1990" >}}, comprenant l'environnement qui produit son écriture. Or, au-delà de cette figure, c'est toute la définition d'une humanité et d'un humanisme qui se fait *en fonction* d'environnements d'écriture. 
+
+Par cette même inquiétude liées, les théories littéraires et les théories des médias seront ici réunies pour enquêter sur ce qui produit un texte au-delà de son créateur d'abord, mais également en deçà de ses intervenants (éditeurs, relecteur·rices entre autres). Les théories des médias, par leur angle d'étude, se consacrent aux phénomènes de production, de structuration et de diffusion culturelle par l'étude de cet étrange objet qu'est le média, alors considéré tantôt participant, tantôt agent, du moins actif. Inspirée par cette approche largement interdisciplinaire -- liant, selon diverses recettes, communication, archéologie, sémiotique, bibliothéconomie, histoire --, la recherche littéraire se fond en une veille sur les environnements d'écriture et sur leur rôle à la création où le sujet de l'auteur (qui écrit ?) sera indirectement posé au travers et au profit de celui de son environnement technique (qu'est-ce-qui écrit ?). Dans la perspective de Kittler, théoricien des médias, l'auteur est une fonction de son environnement média-technique. Remarquant des changements majeurs de cet environnement en 1900 -- environnement désormais façonné par le son (apparition du phonographe qui enregistre ce que l'écriture ne parvenait pas à dire), par l'imaginaire hors-cadre (avec le cinéma dont les images agissent directement sur le système nerveux) et par une accélération de l'écriture (incarnée par la machine à écrire) --, Kittler a également pressenti l'impact culturel des objets et outils numériques. Lieux qui cristallisent les principales facettes de la société (identité, culture, profession), les environnements numériques sont les espaces du tout écrit. La question qui animait Kittler en 1990 recouvre alors un nouvel éclat : « Si tout s’écrit, que faut-il lire et comment ? » {{< cite "guez_mort_2017" >}}. Ce qui a été formulé étroitement comme la « mort de l'auteur » par Barthes et Foucault se traduit chez Kittler par un changement de paradigme culturel de l'écriture, perspective d'étude qui présente plus d'ampleur et de souffle en se concentrant tout de même sur le système d'inscription de 1800. Le changement opéré entre 1800 et 1900 ne peut se résumer pour le chercheur à une simple innovation bornée, une évolution dont les échos se limiteraient à la seule rédaction, puisqu'il impacte autant les dynamiques institutionnelles d'enseignement et d'apprentissage que les méthodes de stockage et de traitement des données. Pour la littérature, cela signifie, comme le rappellent Guez et Vargoz dans leur lecture de Kittler, que le « monde d’idées universelles est le fondement et l’horizon de la littérature et de la lecture » {{< cite "guez_mort_2017" >}}.
+
+À l'instar du projet de Kittler, il s'agit de procéder à une décomposition média-technique du discours sans en faire le cas d'une individualité. Détrôner l'auteur ne signifie pas que la perspective humaniste à l'origine de la recherche est abandonnée aux limbes : étudier les réalités du texte avec une démarche de recherche et création s'inscrit dans une quête, narrative et métatextuelle, de notre adresse à l'écriture. Quel est notre lieu, à nous humains, dans la machine littéraire ? Où se trouvent nos points d'expression et de pression sur des rouages qui impliquent non seulement une réflexion technique mais également un engagement politique et éthique ? Quels sont les compromis que nous acceptons (peut-être sans autre moyen de refus, peut-être sans conscience éclairée) dans le contrat d'écriture passé avec notre environnement d'inscription ? 
+
+    Parmi les oublis, les fautes,
+    les failles d'une organisation qui oublie parfois de noter ses sources, suis-je toujours à l'origine des mots, 
+    des idées et images que mes doigts encrent ? 
+
+-----
+
+## La répartitrice
+
+Le transport est source d'angoisse. 
+
+        se déplacer d'un point A à un point B 
+        et comment traverser le ? entre les deux points
+        que va nous faire ? dans le passage
+        A ? B et moi qui ne suis plus sûre de mes lettres
+
+Dans les transitions d'un support à un autre, d'un système médiatique à un autre, les consciences de l'écriture ont toujours craint la perte, l'oubli, l'altération, l'oxydation d'un fait littéraire en tant que porte-voix d'un discours mais aussi en tant que communauté de pratiques et de traditions. Toutes teintées d'angoisses aux saveurs platoniciennes, réactionnaires ou conservatrices, les craintes des transports sont un indice que la culture littéraire est dépositaire, dans ses discours et ses pratiques, d'une incarnation au sein de systèmes concrets. Impliquant configuraton, agencement, disposition, les lieux d'enregistrement rassemblent les caractéristiques physiques et culturelles dont ni les horizons de légitimité et de mémoire ni les idéaux de pérennité et de superbe ne peuvent s'extraire. 
+
+>[L'] histoire [de l'écriture] est étroitement liée à celle de ses supports, sa mémoire absolument dépendante de ces témoins d’argile, de pierre, de brique d’os, de bois, de papyrus ou de parchemin sans lesquels les messages écrits seraient à tout jamais perdus. {{< cite "zali_aventure_1997" 12 >}}
+
+Il y a autant de changements de paradigme que de méfiances exprimées avançant main en main : de la culture de l'écrit signant la fin de toute compréhension (*prendre en soi* ou mémorisation) des idées, en passant par la démocratisation du livre de poche qui donne à lire Sartre à des individus qui n'avaient pas demandé à lire (au sens où ils n'en ont pas le statut, {{< cite "ina_livre_1964" >}}), jusqu'à la littérature numérique qui donne le statut d'auteur à des robots et donne la possibilité à tous et toutes de publier, il s'agit au fond d'un même cycle se répétant dans le vide. Soucis de l'hybris, le souci du changement de paradigme culturel de l'écriture, et par là du geste d'inscription autant que des modèles de la littérature, peuvent autant raisonner comme les alarmes d'une perte de maîtrise sur la production écrite, partie au XV<sup>e</sup> siècle apprendre la mécanique avec Gutenberg et courir le réseau à partir des années 1990, que comme les marqueurs de nos propres méconnaissances des environnements culturels. 
+
+Dans son analyse d'évolution de l'écriture au travers des support, Chartier, historien du livre, de l'édition et de la lecture, reprend justement la mesure de la productivité en citant *Utopie d'un homme qui est fatigué* de Borges {{< cite "-borges_livre_2018" >}} et particulièrement le dialogue entre Eudoro Acevedo et l'homme sans nom {{< cite "chartier_lecrit_2006" >}}. Dans cette nouvelle, la perception du voyageur dans le futur Eudoro, dont le monde d'origine comporte plus de deux mille livres, est confrontée à celle d'un homme des temps de l'avenir, dont le monde a banni l'imprimerie. 
+
+>L'imprimerie maintenant abolie, a été l'un des pires fléaux de l'humanité, car elle a tendu à multiplier jusqu'au vertige des textes tout à fait inutile. {{< cite "-borges_livre_2018" >}}
+
+L'angoisse de l'inutilité, émergeant de l'accroissement rapide d'une production culturelle, n'est pas tant liée à une perspective élitiste d'un art, qu'à un souci de repère et de lisibilité de ce qui ne cesse d'alimenter ce même art. Qualifiée de « barbarie textuelle » {{< cite "baillet_jugemens_1722" >}}, la multiplication des supports d'inscription et des systèmes de diffusion n'est pas épargnée du paradoxe humain : crainte par une société qui elle-même exprime l'inquiétude de la transmission matérielle de ses traditions, valeurs et idées. La résistance à la multiplication et une répartition des supports de mémoire est à lire dans les lignes des enjeux de légimité, de lecture, d'expertise mais aussi d'appréciation du discours. 
+
+Déni d'une angoisse ou fausse joie d'avoir trouvé la solution à la peur du périssable, les flux numériques représentaient (et font écran encore de cette manière) la possibilité pour le fait littéraire de parvenir enfin à s'extraire de la boue, d'échapper à la mort. Or, toujours dans le paradoxe de systèmes qui ne pourront jamais satisfaire les inquiétudes même s'ils semblent apporter sur le papier la réponse à un problème, le texte est alors aussi impalpable que diabolique :  
+
+>À l’ère de la dématérialisation des échanges où, avec le réseau Internet, le texte est devenu une pure configuration immatérielle. {{< cite "klock-fontanille_supports_2010" >}}
+
+La culture numérique, comme une sorcière, semble résoudre certains maux, mais, le faisant, ne respecte pas les conventions établies des précédents supports. 
+
+        noyons-la dans l'imaginaire de la vague 
+        pour voir ce qui reste à flotter
+
+Le texte numérique, devenu aussi immatériel qu'un mur, fait désormais appel, par une architecture d'environnements en réseaux eux-mêmes composés d'écriture, à une culture de l'écrit qui est également une culture de l'écran, mais surtout une culture de la méta-écriture. L'écriture électrique {{< cite "chartier_lecrit_2006" >}} ou numérique (terme préféré depuis quelques années dans les études) est une autre des grandes ruptures vis-à-vis de l'ordre des discours -- soit l'ordre établi à partir de la relation entre des objets, des catégories et des usages textuels délimités par la littérature (lettre, livre, journal, revue, affiche, etc.). Remise en question du *libro unitario*, la loi de l'écriture est celle des versions. Expression héritée d'Armando Petrucci, le *libro unitario* a signé une rupture au XIV<sup>e</sup> et XV<sup>e</sup> siècles en rassemblant dans une même peau les œuvres d'un auteur ou une seule œuvre. Le livre devient alors le lieu où  « où se noue le lien entre l'objet matériel, l’œuvre (au sens d’une œuvre particulière ou d’une série d’œuvres) et l’auteur » {{< cite "chartier_lecrit_2006" >}}. Si le livre en tant que modèle et format est déjà en tant que tel renégocié et remodulé par la culture numérique (des livres numériques ou livrels du début des années 2000 jusqu'aux ouvrages dits "nativement numériques"), le principe même d'objet littéraire est déplacé : non pas dans les nimbes immatérielles, mais dans un système de déliaisons multiples entre les types de supports (support d'enregistrement, de diffusion, de lecture). L'écran d'affichage est un dispositif de lecture qui n'est pas directement l'objet matériel d'enregistrement de l'écriture. Non seulement les outils d'écriture (traitements ou éditeurs de textes) ne sont pas (ou très rarement) les outils de diffusion ou les environnements qui vont permettent la lecture, mais il y a une disctinction désormais claire et fondamentale entre le lieu de l'enregistrement et le lieu d'accès. La question émerge alors : où est *physiquement* l'écriture ? où a-t-elle été transportée ? est-elle prise dans un mouvement perpétuel sur lequel nos angoisses littéraires ne peuvent se poser ?
+
+----
+
+## L'inflexible
+
+    Ça s'allume dans la page, 
+    la surface chauffe comme un moteur, 
+    peut-être des harmonies sont entendues 
+    entre tapôtements, clics et notifs, 
+    ça donne l'allure de lettres, 
+    pas comme on les écrirait soi ou comme on les apprend à l'école, 
+    mais comme on peut les lire imprimées. 
+ 
+Autre nuage brouillant les certitudes littéraires, rappelant les angoisses platoniciennes d'un changement de support signant la déchéance d'une culture et de la tradition de ses pratiques, la question de la survivance même de l'écriture humaine émerge avec toujours plus de force depuis le passage industriel du XIX<sup>e</sup> siècle. Les médias techniques impactant le paysage culturel occidental au début des années 1900 offrent une déstabilisation suffisante aux systèmes d'inscription. Ce n'est pas seulement la résistance d'une tradition de l'imprimé (et d'une activité de la lecture papier) qui est ébranlée mais l'ensemble d'une culture de l'écrite qui se convulse avec l'arrivée de machines modélisantes qui, paradoxalement, sont destinée principalement à inscrire et enregistrer tout le réel, y compris ce qui échappe aux perceptions humaines. 
+
+>Wie wir alle wissen und nur nicht sagen, schreibt kein Mensch mehr. {{< cite "kittler_draculas_1993" >}}
+
+>Comme nous le savons tous, même si nous ne voulons pas nous l’avouer, aucun être humain n’écrit plus. {{< cite "kittler_mode_2015" 30 >}}
+
+Dans *Mode protégé*, livre réunissant les deux conférences « Le logiciel n’existe pas » (1991) et « Mode protégé » (1993), Kittler expose le fonctionnement de l'écriture numérique, non plus en terme de niveaux d'écriture qui sont le conte d'une conception théorique du numérique, mais en terme de modèles techniques.
+
+Provocation ouvrant les développements techniques de la rédaction et de l'enregistrement, la déclaration de Kittler n'implique pas seulement de prendre conscience d'un nouveau paradigme de l'écriture dû à un impactant changement culturel ayant eu lieu entre 1800 et 1900 (sujet de son ouvrage *Discourse Network*) mais également de saisir dans toute leurs densités les modes d'une non-écriture dont nous héritons aujourd'hui dans nos approches et nos pratiques. La question n'est donc plus de savoir si nous écrivons encore avec les mêmes modalités que la tradition imprimée, cette hypothèse est évacuée par le chercheur allemand, mais de comprendre comment nous n'écrivons plus ou comment nous désécrivons en réalité. L'assertion de Kittler, dans le contexte de son énonciation, fait référence aux programmes informatiques, faisant de l'écriture humaine une « inscription électrique gravée dans le silicium de nos ordinateurs, c'est-à-dire un différentiel électrique » {{< cite "guez_mort_2017" >}}. La réflexion de Kittler dédiée à l'étude des modes d'enregistrement (ou mémorisation) des savoirs et objets culturels au travers de technologies (telles que le gramophone, le film ou la machine à écrire) assume le rôle d'une revue nécrologique pour signifier par prolongement l'obsolescence d'un statut d'auteur au sens d'*écrivant*. 
+
+>Si nous n'écrivons plus, c'est parce que les médias techniques, à partir du XIX<sup>e</sup> siècle, ont pu capter du réel des données qui échappent à la perception humaine : le gramophone enregistrait des oscillations non perceptibles à l'oreille humaine, la machine à écrire, augmentant la vitesse d'écriture, permettait d'automatiser le geste d'écriture et d'extorquer à ce qui était devenu une machine humaine ce que la lente écriture manuscrite ne pouvait lui soutirer, les circuits intégrés de l'ordinateur traitent les données plus rapidement que n'importe lequel ou laquelle des calculateurs et calculatrices humains employés jusqu'à la fin de la Seconde Guerre mondiale. {{< cite "guez_mort_2017" >}}
+
+En revanche, et c'est ce qui constitue pour une grande part la dimension d'enquête historiographique de Kittler, pour comprendre comment nous n'écrivons plus, il est primordial de s'intéresser à la manière dont les médias techniques, développés à la fin du XIX<sup>e</sup> siècle et au XX<sup>e</sup> siècle ont affecté, dans sa nature même, le médium qu’ils concurrençaient : l’écriture imprimée. Évitant donc la pente du pessimisme technique, Kittler déplace la question des sciences humaines centrée autour de la production de l'individu pour l'inscrire dans une fouille de la dépossession ou de la déprise de l'individu dans ses mêmes modes de production qu'il pensait seulement utiliser pour sa propre expression. Cette perspective, si elle est citée au seuil de notre propre désécriture, ouvre de nouvelles portes à l'écriture. Si nous n'écrivons plus, qu'est-ce qui écrit en notre nom ? et comment désécrire, soit assumer une non-écriture pour la structurer dans un réseau de discours avec notre environnement technique de production ? 
+
+---
+
+## L'exorcisme comme programme
+
+L'écriture souhaite poursuivre ce que Kittler a intitulé *Aufschreibesystem* {{< cite "-kittler_aufschreibesysteme_1985" >}}, expression traduite par *Discourse Network* {{< cite "-kittler_discourse_1990" >}}. Gardons-nous à ce stade d'en proposer une traduction qui occupera nos mots futurs par les problématiques de perte ou d'ajout de sens dans le processus de transmission. À la lumière d'un héritage foucaldien, ce principe transpose le concept de discours à une perspective historique et archéologique des médias. Si Foucault s'intéressait aux ordres du discours en tant que ce qui peut être compris comme un système de discursivité, soit les conjonctures qui inscrivent la démarche énonciative dans le réel[^Foucault_discours], la réflexion de Kittler développe une observation attentive des conditions d'émergence des différents types de discours qui permettent à des productions de faire sens aux contemporains de leur émergence. Le *discourse network*, qui -- dans une accointance avec les *Cultural Studies* actuelles -- déploit une méthode pour analyser les conditions d'émergence des discours et des idées dans le monde, est donc au centre de la fabrique du sens, ou la fabrique du sens était au cœur de Kittler dont l'ambition épistémologique était également d'« exorciser l'homme des sciences humaines » dans la mesure où toute science humaine implique une certaine paranoïa de l'étrangeté et charrie en héritage des a priori sur les technologies produisant et diffusant l'information. Selon Kittler, l'humain n'a en réalité jamais été au centre de la production du sens puisqu'il n'a jamais été l'auteur pleinement conscient et automone vis-à-vis des productions signifiantes dont il revendique la paternité. Oscillant ainsi entre déterminisme technique et humanisme, Kittler fait du système d'écriture (au sens large de techniques culturelles pour enregistrer, transmettre et structurer l'information) ce qui détermine l'humanité (le fait d'être humain, le fait de se penser tel et le fait de se percevoir comme tel). L'horizon de Kittler qui est ici partagé est donc celui de mener une investigation scientifique sur les environnements techniques qui produisent nos discours littéraires mais qui sont paradoxalement peu étudiés dans les théories littéraires. 
+
+Ce qui peut autant s'apparenter à un exorcisme, une excavation, un creusement, une déficelage qu'un frottement à la surface, oscille comme un pendule entre déliaison et délire. 
+
+Par nostalgie, l'étude ici se portera vers ce qui est déjà présent, ou que l'on considère comme tel, et souhaite en extraire une autre mâne. 
+
+[^Foucault_discours]: « L’ordre du discours : s’il y a des choses dites, il ne faut pas en demander la raison immédiate aux choses qui s’y trouvent dites ou aux hommes qui les ont dites, mais au système de la discursivité, aux possibilités et aux impossibilités énonciatives qu’il ménage. » {{< cite "foucault_archeologie_2008" 170 >}} 
+
+
+ Roger Chartier and Guglielmo Cavallo, that “authors do
+not write books.”8  {{< cite "butler_matter_2011" >}}
+
+---
+
+## Des images comme des aveux 
+
+Il a été bien complexe de trouver un nom à cette thèse. 
+
+            nommer c'est connaître
+            nommer c'est aussi définir
+            nommer c'est essentialiser
+
+Il y a eu 
+
+        Philoctète et ses réécritures
+        L'oeuvre numérique et ses inadéquations
+        Le palimpseste et sa dynamique de strates
+        La nuée et son imaginaire collectif
+
+Ces pérégrinations, elles témoignent pour moi de problématiques de la recherche :
+
+    c’est dur de trouver un bon titre - un titre qui résume sans trahir, fidèle mais compact : plusieurs thèses ou publications actuelles déclinent par exemple le terme de “fabrique” (fabrique du savoir, des femmes, des algorithmes, etc.) et pour certains de ces travaux qui s’estampillent du mot “fabrique”, il ne s’agit ni d’explorer le sens du terme ni vraiment de l’utiliser dans le corps du texte (au fond dans Palimpseste de Genette, le terme ne revient que 6 fois).
+
+    le problème des belles images (le palimpseste en est une), c’est que ce sont des essentialisations. Mon terme aujourd’hui est un raccourci mais aussi un aveu de ne pouvoir dépasser l’essentialisation : l’épaisseur, c’est un mix entre l’espace (spatium), une partie de la paume de la main (spithama), et le terme d’espoir (spes) dont on a bien besoin1.
+
+
+
+Entre toutes ces tentatives, si aucune n'a été véritablement conservées mais que toutes apparaissent dans le cours de l'écriture, il demeure un fil, l'idée commune d'un mouvement de l'écriture. 
+
+
+
+
+je n'écris pas ma thèse, je la fais. 
+
+Durant les années de doctorat à la Chaire, je n’ai pas écrit ma thèse, je l’ai fait.
+
+Je ne me suis pas assise jour après jour à une table solitaire au fond de la bibliothèque universitaire devant des textes à ficher, ce qui reste une occupation très noble.2
+
+Pendant les années de doctorat, j’ai écrit des demandes de subvention, coordonné une revue, ajouté des virgules, enlevé des points, j’ai fait des git push, j’ai beaucoup trop de merge et créé bien trop de conflits, couru dans les couloirs à la recherche d’un adaptateur pour une conférence, j’ai formé des étudiants aux principes de l’écriture sémantique, j’ai masculinisé mon nom dans l’échange de courriels pour avoir de l’autorité, cassé un outil d’édition en sciences humaines (et j’en suis fière), j’ai fait le suivi d’expérimentations éditoriales comme la mise en place d’un open peer review pour une revue en sciences humaines, j’ai fait du bon mauvais café.
+
+Mais ce qui est le plus important, c’est que toutes ces gesticulations qui ne semblent pas être directement liées à ma recherche, se retrouvent dans ma thèse, de la demande de subvention qui est peut-être le niveau le plus concret, le plus contraignant, le plus chronophage de notre travail universitaire jusqu’à la cafetière qui nous permet de rester en éveil jusqu’à la fin de la journée.
+
+La recherche s’est donc faite par le dehors des frontières de son sujet. C’est tout ce qui n’était pas dans son sentier qui est venu lui donner de la matière.
+
+Ce qui me fait dire :
+
+    la recherche ne se résume pas à des concepts, mais comprends des réalités très triviales ;
+
+    l’écriture, qu’il s’agisse d’un courriel, d’une description de projet, d’un plan de cours, est déterminée par des conjonctures très concrètes, qui ne sont certainement pas toutes humaines et dont la portée nous échappent.
+
+
+Les références sont liées à mon milieu d'étude (Université de Montréal), aux ressources que cette dernière met à disposition, aux langues que je peux lire et penser comprendre, à mon entourage et à ses propres lectures. 
+
+S'il manque, gaps, des références, référez-vous à ces derniers. 
+
+## 5 comme les doigts d'une main
+
+
+
+vous êtes devant plusieurs portes : choisissez
+
+
+Saisir l'écriture par les doigts
+
+Je ne pourrai pas empêcher que l'on puisse déchiffrer, ou projeter, une certaine progression dans l'expression, l'aisance ou la névrose de certaines formulations, entre les différentes extensions. 
+
+rappeler certains des axes qui ne sont pas toujours présents en littérature. 
+
+Chaque extension développe également un rapport au littéraire
+
+- Média : l'étude de la production littéraire sur le média
+
+Ce que cela donne plus concrètement, et c’est sur cette bribe de thèse que je finirai, 5 extensions relativement autonomes qui sont utilisées comme autant d’angles pour aborder ma problématique, pour observer ce que devient l’écriture, le geste d’inscription et ultimement le fait littéraire dans ces paysages :
+
+    Fabrique
+    Machine
+    Média
+    Page
+    Matière
+
+5 comme les cinq doigts d’une main, certainement une petite main, qui souhaiterai saisir quelque chose, une épaisseur, qui demeure dès le départ condamnée à être aplanie, aplatie par le discours.
+
+    Fabrique
+
+La Fabrique est d’abord une analyse de cette même notion pour comprendre comment elle est elle-même une co-création de plusieurs théories, traditions et même traductions de ces théories avec des décalages comme pour le texte de référence de Flusser
+
+    fabrique d'un idéal 
+    celui d'une recherche qui s'ouvre à une démocratie des objets d'études, 
+    qui va vers un artisannat, 
+    qui étudie ses coulisses 
+    et qui prend compte des pratiques qui l'ont constitué.
+
+Cette fabrique est également l’occasion pour moi d’expliquer l’espace de travail d’un doctorat : d’affimer la dimension fondamentalement collective de la production de la connaissance (des personnes qui travaillent avec moi, des conférenciers écoutés, des intelligences lues jusqu’aux autres formes d’intelligence - DeepL ou ChatGPT que je salue)
+
+C’est aussi l’occasion de parler de la structuration technique de la thèse produite, parler des choix pour la construction du site, qui reprend la chaîne de mon site personnel, et d’expliquer en quoi ces choix fondent une réalité technique qui n’est pas tant de l’ordre d’une connaissance informatique que d’un choix de pratique d’écriture et d’édition.
+
+    Machine
+
+L’extension Machine explore l’impact d’une mécanisation de l’écriture, le balancement entre humain et non-humain, le déplacement du sens de littérature qui ne devient pas tant une poétique à partir de mots qu’à partir de modélisations notamment avec les créations de l’Oulipo jusqu’à celle de Goldsmith qui souhaitent déplacer la question de l’originalité et même la rendre caduque.
+
+Ce qui ressort de cette partie c’est une renégociation avec ce que l’on considére être habituellement la chair du littéraire, le texte : l’exemple le plus commun est celui des Cent mille milliard de poème de Queneau (qui cite d’ailleurs Turing dans son précepte), création où la valeur littéraire ne relève pas tant du texte (d’ailleurs impossible à lire) qu’elle s’articule sur l’implémentation d’un modèle.
+
+C’est ce que retranscrit le générateur développé, un générateur qui vise pas à produire un texte qui “fonctionne”, un générateur de perte de sens où un script (javascript) vient perturber un autre script (qui produit à la volée des phrases sans règles sémantiques ou syntaxiques), la perturbation fonctionne en coupant des bouts du code html de la page, jusqu’à la disparition même de la déclaration DOCTYPE.
+
+    Média
+
+Le Média reprend la pensée des médias, des traditions anglophones et germanophones des Media Studies, de l’école de l’intermédialité jusqu’au Post-media avec le problème de l’essentialisation sur lequel viennent buter à un moment chacune de ces théories. Du flou sémantique de McLuhan (où le média est à la fois le message, le contenu du message et le fait même du message), de la rose de Kittler (a media is a rose is a rose is a rose), jusqu’à l’image du banc de poisson proposé par Marcello Vitali-Rosati, il y a la composition d’une narration pour retranscrire la complexité qu’incarne les réalités médiatiques.
+
+Articulé à cette traversée médiatique, j’ai développé avec l’aide d’un ami, Enzo Poggio, un programme pour générer des caligrammes à partir du texte même de la thèse, caligrammes dont les formes changent au fil des lignes.
+
+Pour les dernières extensions, encore en travail, la Page et la Matière, je laisse le suspens pour la publication de la thèse pour les motivés qui la liront (même si personne ne lit jamais les thèse).
+
+L'idéal de la thèse aurait été de proposer une non-linéarité dans la version imprimable : pour que la thèse puisse être recomposée au grè des envies. 
+
+Si la réalisation de ce tour technique est laissé pour les futurs de l'écriture, le contrat d'écriture passé a respecté cette idée de ne pas lier les extensions comme les perles d'un collier, mais de les voir s'extraire d'une même comme les protubérances plus au moins longue. 
+
+## désécriture
+
+
+La question sur laquelle j’aimerai conclure et qui anime je pense plusieurs des travaux, c’est celle de retranscrire en quelques pages des années de recherches, de café, d’échanges, d’apprentissages du monde académique, de bricolages et de café encore.
+
+    Comment peut-on éditer une expérience de travail qui a impacté de tant de manière non seulement un rapport à l’écriture mais sa pratique ?
+
+Ma solution a été la recherche-création non-classique, où c’est moins le texte produit qui importe que le code qui structure en amont, c’est bien ça qui cristallise le fait littéraire : ce n’est pas tant le rendu que le processus en interne, la modélisation qui a été tentée.
+
+paumé
+
+## Notes sur ce qui suit 
+
+Toutes les traductions personnelles ont été produites à l'aide de l'outil de traduction en ligne [DeepL.com](https://www.deepl.com/translator).
+
+Certains des scripts et encodages des expérimentations ont été conçu avec le conseil de [Chat GPT]()
+
+La plupart des textes lus de cette étude, s'ils n'ont pas été empruntés à des institutions ou à des individus (parfois avec des délais de retournements tout à fait inacceptables) ont également été collectés sur des librairies alternatives ou fantômes dont je sus les noms. 
+
+Les variations lexicales entre les lignes et le déploiement de différents vocabulaires thématiques pour filer la métaphore sont le résultat de recherche via des outils en ligne de synonymie, d'étymologie ou de documentation encyclopédique. 
+
+chaos
+
+## Références
+
+{{< bibliography cited >}}
