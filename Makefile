@@ -81,8 +81,6 @@ copy_shit_in_gabarit: copy_chapter_in_gabarit copy_pages_in_gabarit
 
 
 
-
-
 content/print/%.tex: $(PRINT)/%.md
 	pandoc $< $(TEX_OPTIONS) -o $@
 
@@ -101,6 +99,8 @@ tex_chapters: $(TEX_CHAPTERS_OUT)
 
 these.pdf: tex_chapters
 	xelatex these.tex $(TEX_CHAPTERS_OUT)
+
+prepare_gabarit: set_gabarit copy_shit_in_gabarit
 
 pdf: these.pdf
 
