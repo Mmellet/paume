@@ -169,12 +169,9 @@ def replace_img_path(text):
         img_dest = PRINT_DIR / path
 
         if img_src.is_file():
-            # dest = PRINT_DIR / "images" / img_src.name
             img_dest.parent.mkdir(parents=True, exist_ok=True)
             img_dest.write_bytes(img_src.read_bytes())
         return f"![{alt}]({img_dest})"
-
-    # ![Main d'Heidegger](/images/heidegger.png)
 
     pattern = re.compile(r'!\[(.*?)\]\((.*?)\)', re.DOTALL)
     return re.sub(pattern, repl, text)
