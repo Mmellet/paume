@@ -20,6 +20,7 @@ with MAP.open() as stream:
 
 # pprint(MAP)
 
+
 def get_args():
     parser = argparse.ArgumentParser(description="Description of the program")
     parser.add_argument(
@@ -30,6 +31,7 @@ def get_args():
     )
     args = parser.parse_args()
     return args
+
 
 def replace_title(text):
     def repl(match):
@@ -43,19 +45,23 @@ def replace_title(text):
 def replace_themes(text):
     def repl(match):
         theme = match.group(1)
-        return '' 
+        return ""
 
     pattern = re.compile(r'\{\{<\s*themes\s+theme="([^"]+)"\s*>\}\}', re.DOTALL)
     return re.sub(pattern, repl, text)
 
 
-
-
-
 def replace_citation(text):
     def repl(match):
-        citation_key = match.group(2)
-        citation_key = f"-@{citation_key[1:]}" if citation_key.startswith('-') else f"@{citation_key}"
+        citation_keys = match.group(2)
+        citation_key = ";".join(
+            [
+                f"-@{citation_key[1:]}"
+                if citation_key.startswith("-")
+                else f"@{citation_key}"
+                for citation_key in citation_keys.split(";")
+            ]
+        )
         page_numbers = match.group(4)
         if page_numbers:
             return (
@@ -114,6 +120,7 @@ def replace_copy_image(text):
     pattern = re.compile(r'<img\s+src=["\'](.*?)["\']\s+(alt=["\'](.*?)["\'])?.*/?>')
     return re.sub(pattern, repl, text)
 
+
 def replace_copy_iframe(text):
     def repl(match):
         src = match.group(1)
@@ -123,8 +130,8 @@ def replace_copy_iframe(text):
         if not src.startswith("https"):
             src = STATIC_DIR / src.lstrip("/")
             is_web_url = False
-        images_urls = MAP['iframe'].get(str(src),{}).get("image_urls", [])
-        
+        images_urls = MAP["iframe"].get(str(src), {}).get("image_urls", [])
+
         if not is_web_url and not src.is_file():
             return f'![The img "{src}" doesn\'t exist](static/images/imagenotfound.jpg)'
 
@@ -137,16 +144,19 @@ def replace_copy_iframe(text):
                 dest = PRINT_DIR / "images" / img_src.name
                 dest.parent.mkdir(parents=True, exist_ok=True)
                 dest.write_bytes(img_src.read_bytes())
-            url_to_join.append(f'![{title}]({dest})')
-        return '\n'.join(url_to_join)
+            url_to_join.append(f"![{title}]({dest})")
+        return "\n".join(url_to_join)
 
-    pattern = re.compile(r'<iframe\s+src=["\'](.*?)["\']\s+(title=["\'](.*?)["\'])?.*/?>.*</iframe>')
+    pattern = re.compile(
+        r'<iframe\s+src=["\'](.*?)["\']\s+(title=["\'](.*?)["\'])?.*/?>.*</iframe>'
+    )
     return re.sub(pattern, repl, text)
+
 
 def replace_copy_div_object(text):
     def repl(match):
         _id = match.group(1)
-        images_urls = MAP['div_object'].get(_id,{}).get("image_urls", [])
+        images_urls = MAP["div_object"].get(_id, {}).get("image_urls", [])
         url_to_join = []
         for url in images_urls:
             img_src = pathlib.Path(url)
@@ -155,10 +165,12 @@ def replace_copy_div_object(text):
                 dest = PRINT_DIR / "images" / img_src.name
                 dest.parent.mkdir(parents=True, exist_ok=True)
                 dest.write_bytes(img_src.read_bytes())
-            url_to_join.append(f'![{dest.stem.title()}]({dest})')
-        return '\n'.join(url_to_join)
+            url_to_join.append(f"![{dest.stem.title()}]({dest})")
+        return "\n".join(url_to_join)
 
-    pattern = re.compile(r'<div\s+id=["\'](.*?)["\']\s*.*?>.*</div>\s*<!--\s*\1\s*-->', re.DOTALL)
+    pattern = re.compile(
+        r'<div\s+id=["\'](.*?)["\']\s*.*?>.*</div>\s*<!--\s*\1\s*-->', re.DOTALL
+    )
     return re.sub(pattern, repl, text)
 
 
@@ -175,7 +187,7 @@ def replace_all(text):
 
 
 def save_replaced_markdown(text, path):
-    path.parent.mkdir(exist_ok=True,parents=True)
+    path.parent.mkdir(exist_ok=True, parents=True)
     path.write_text(text)
 
 
