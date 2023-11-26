@@ -88,7 +88,9 @@ reset_gabarit:
 .PHONY: all html pdf clean
 
 
-
+install_pandoc:
+	sudo wget https://github.com/jgm/pandoc/releases/download/1.15.1/pandoc--amd64.deb
+	sudo dpkg -i pandoc-1.15.1-1-amd64.deb
 
 love:
 	@ echo "I love U"
