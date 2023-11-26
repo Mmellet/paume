@@ -110,6 +110,7 @@ set_gabarit:
 
 reset_gabarit:
 	@ cd gabarit && git checkout . 2>/dev/null 
+	@ cd gabarit && git clean -fd . 2>/dev/null 
 
 .PHONY: all html pdf clean
 
