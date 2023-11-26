@@ -1,6 +1,9 @@
 # Pathes
 PRINT := content/print
 PAGES := content/pages # Source of truth
+GABARIT_SRC := gabarit/src
+GABARIT_CHAPTERS := $(GABARIT_SRC)/chapitres
+GABARIT_PAGES := $(GABARIT_SRC)/pages
 BIB_FILE := content/bib/bibtex.bib
 BIB_FORMAT := content/bib/lettres-et-sciences-humaines-fr.csl
 TEX_GABARIT := gabarit/gabarit.tex
@@ -21,6 +24,8 @@ STATIC := static
 
 CHAPTERS := $(sort $(shell find $(PAGES) -type f -iname '*.md'))
 TEX_CHAPTERS_STANDALONE_OUT := $(patsubst %.md, $(PRINT)/%.tex, $(notdir $(CHAPTERS)))
+GABARIT_CHAPTERS_OUTPUT := $(patsubst %.md, $(GABARIT_CHAPTERS)/%.md, $(notdir $(CHAPTERS)))
+GABARIT_PAGES_OUTPUT := $(patsubst %.md, $(GABARIT_PAGES)/%.md, $(notdir $(CHAPTERS)))
 PDF_CHAPTERS_STANDALONE_OUT := $(patsubst %.md, $(PRINT)/%.pdf, $(notdir $(CHAPTERS)))
 TEX_CHAPTERS_OUT := $(patsubst %.md, %.tex, $(notdir $(CHAPTERS)))
 AUX_CHAPTERS_OUT := $(patsubst %.md, %.aux, $(notdir $(CHAPTERS)))
@@ -64,6 +69,20 @@ content/print/%.md: content/pages/%.md
 
 replace_md: $(REPLACED_CHAPTERS_OUT)
 
+copy_chapter_in_gabarit: replace_md
+	rm $(GABARIT_CHAPTERS)/*
+	cp $(shell find content/print/*.md -type f -name '[[:digit:]].md' | xargs) $(GABARIT_CHAPTERS)
+
+copy_pages_in_gabarit: replace_md
+	rm $(GABARIT_PAGES)/*
+	cp $(shell find content/print/*.md -type f ! -name '[[:digit:]].md' | xargs) $(GABARIT_PAGES)
+
+copy_shit_in_gabarit: copy_chapter_in_gabarit copy_pages_in_gabarit
+
+
+
+
+
 content/print/%.tex: $(PRINT)/%.md
 	pandoc $< $(TEX_OPTIONS) -o $@
 
@@ -87,6 +106,7 @@ pdf: these.pdf
 
 set_gabarit:
 	git submodule update --init --recursive
+	cp static/gabarit/src/reglages.md gabarit/src/reglages.md
 
 reset_gabarit:
 	@ cd gabarit && git checkout . 2>/dev/null 
