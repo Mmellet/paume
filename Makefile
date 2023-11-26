@@ -43,6 +43,12 @@ TEX_OPTIONS := -f markdown -t latex --standalone  --bibliography=$(BIB_FILE) --n
 # 	replacee $(PAGES)/%.md 
 # 	replacee 
 
+copy_images: clean_print_images
+	cp -r $(STATIC)/images $(PRINT)/images
+
+clean_print_images:
+	@rm -rfv $(PRINT)/images/
+
 clean_print:
 	@rm -rfv $(PRINT)/*
 

@@ -173,6 +173,23 @@ def replace_copy_div_object(text):
     )
     return re.sub(pattern, repl, text)
 
+def replace_img_path(text):
+    def repl(match):
+        alt = match.group(1)
+        path = match.group(2).lstrip('/')
+        img_src = PAGES_DIR / path
+        img_dest = PRINT_DIR / path
+
+        if img_src.is_file():
+            # dest = PRINT_DIR / "images" / img_src.name
+            img_dest.parent.mkdir(parents=True, exist_ok=True)
+            img_dest.write_bytes(img_src.read_bytes())
+        return f"![{alt}]({img_dest})"
+
+    # ![Main d'Heidegger](/images/heidegger.png)
+
+    pattern = re.compile(r'!\[(.*?)\]\((.*?)\)', re.DOTALL)
+    return re.sub(pattern, repl, text)
 
 def replace_all(text):
     text = replace_title(text)
@@ -183,6 +200,7 @@ def replace_all(text):
     text = replace_copy_image(text)
     text = replace_copy_iframe(text)
     text = replace_copy_div_object(text)
+    text = replace_img_path(text)
     return text
 
 
