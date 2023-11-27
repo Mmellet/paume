@@ -84,6 +84,7 @@ copy_pages_in_gabarit: replace_md
 
 copy_shit_in_gabarit: copy_chapter_in_gabarit copy_pages_in_gabarit copy_images
 	cp static/gabarit/src/reglages.md gabarit/src/reglages.md
+	cp path/to/bib.json gabarit/src/bibliographie.json
 
 
 content/print/%.tex: $(PRINT)/%.md
