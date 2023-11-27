@@ -181,14 +181,22 @@ def replace_img_path(text):
         img_dest = PRINT_DIR / path
 
         if img_src.is_file():
-            # dest = PRINT_DIR / "images" / img_src.name
             img_dest.parent.mkdir(parents=True, exist_ok=True)
             img_dest.write_bytes(img_src.read_bytes())
         return f"![{alt}]({img_dest})"
 
-    # ![Main d'Heidegger](/images/heidegger.png)
+    pattern = re.compile(r'!\[(.*?)\]\((\/.*?)\)', re.DOTALL)
+    return re.sub(pattern, repl, text)
 
-    pattern = re.compile(r'!\[(.*?)\]\((.*?)\)', re.DOTALL)
+# TODO
+# \textgreek{ἀνθολογία}
+
+
+def remove_references(text):
+    def repl(match):
+        return ""
+
+    pattern = re.compile(r'#+\s+Références\n+\{\{<\s*bibliography\s*cited\s*>\}\}', re.DOTALL)
     return re.sub(pattern, repl, text)
 
 def replace_all(text):
@@ -201,6 +209,7 @@ def replace_all(text):
     text = replace_copy_iframe(text)
     text = replace_copy_div_object(text)
     text = replace_img_path(text)
+    text = remove_references(text)
     return text
 
 

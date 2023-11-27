@@ -1,0 +1,3 @@
+[submodule "gabarit"]
+	path = gabarit
+	url = https://git.loupbrun.ca/louis/gabarit-memoire-udem
