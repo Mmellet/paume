@@ -1,7 +1,8 @@
 # Pathes
 PRINT := content/print
 PAGES := content/pages # Source of truth
-GABARIT_SRC := gabarit/src
+GABARIT := gabarit
+GABARIT_SRC := $(GABARIT)/src
 GABARIT_CHAPTERS := $(GABARIT_SRC)/chapitres
 GABARIT_PAGES := $(GABARIT_SRC)/pages
 BIB_FILE := content/bib/bibtex.bib
@@ -18,7 +19,6 @@ STATIC := static
 # $(foreach s,$(STATIC),$(foreach t,$(filter %$(notdir $s),$(STATIC_OUT)),$(eval $t: $s)))
 # $(STATIC_OUT):; $(if $(wildcard $(@D)),,mkdir -p $(@D) &&) cp $^ $@
 
-# all: html pdf
 
 
 
@@ -52,6 +52,8 @@ TEX_OPTIONS := -f markdown -t latex --standalone  --bibliography=$(BIB_FILE) --n
 
 copy_images: clean_print_images
 	cp -r $(STATIC)/images $(PRINT)/images
+	mkdir -p $(GABARIT)/$(PRINT)/images
+	cp -r $(PRINT)/images  $(GABARIT)/$(PRINT)
 
 clean_print_images:
 	@rm -rfv $(PRINT)/images/
@@ -62,7 +64,7 @@ clean_print:
 clean_pdf: 
 	@ rm -v $(LATEX_SHIT) these.pdf  2>/dev/null || true
 
-clean: clean_pdf clean_print reset_gabarit
+clean: clean_pdf clean_print #reset_gabarit
 
 content/print/%.md: content/pages/%.md
 	@ ./python/replace.py $<
@@ -77,8 +79,8 @@ copy_pages_in_gabarit: replace_md
 	rm $(GABARIT_PAGES)/*
 	cp $(shell find content/print/*.md -type f ! -name '[[:digit:]].md' | xargs) $(GABARIT_PAGES)
 
-copy_shit_in_gabarit: copy_chapter_in_gabarit copy_pages_in_gabarit
-
+copy_shit_in_gabarit: copy_chapter_in_gabarit copy_pages_in_gabarit copy_images
+	cp static/gabarit/src/reglages.md gabarit/src/reglages.md
 
 
 content/print/%.tex: $(PRINT)/%.md
@@ -100,17 +102,19 @@ tex_chapters: $(TEX_CHAPTERS_OUT)
 these.pdf: tex_chapters
 	xelatex these.tex $(TEX_CHAPTERS_OUT)
 
-prepare_gabarit: set_gabarit copy_shit_in_gabarit
+# prepare_gabarit: set_gabarit copy_shit_in_gabarit
 
 pdf: these.pdf
 
-set_gabarit:
-	git submodule update --init --recursive
-	cp static/gabarit/src/reglages.md gabarit/src/reglages.md
+# set_gabarit:
+# 	git submodule update --init --recursive
 
-reset_gabarit:
-	@ cd gabarit && git checkout . 2>/dev/null 
-	@ cd gabarit && git clean -fd . 2>/dev/null 
+# reset_gabarit:
+# 	@ cd gabarit && git checkout . 2>/dev/null 
+# # @ cd gabarit && git clean -fd . 2>/dev/null 
+
+
+all: replace_md copy_shit_in_gabarit 
 
 .PHONY: all html pdf clean
 
