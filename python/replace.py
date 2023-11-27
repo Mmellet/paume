@@ -188,8 +188,15 @@ def replace_img_path(text):
     pattern = re.compile(r'!\[(.*?)\]\((\/.*?)\)', re.DOTALL)
     return re.sub(pattern, repl, text)
 
-# TODO
-# \textgreek{ἀνθολογία}
+
+def replace_greek_chars(text):
+    def repl(match):
+        return f"\\textgreek{{{match.group(1)}}}"
+
+    pattern = re.compile("([\u0370-\u03FF\u1F00-\u1FFF]+)", re.UNICODE) 
+    return re.sub(pattern, repl, text)
+
+
 
 
 def remove_references(text):
@@ -210,6 +217,7 @@ def replace_all(text):
     text = replace_copy_div_object(text)
     text = replace_img_path(text)
     text = remove_references(text)
+    text = replace_greek_chars(text)
     return text
 
 
@@ -233,3 +241,7 @@ def main(args):
 if __name__ == "__main__":
     args = get_args()
     main(args)
+
+    # DEBUG
+    # text="entre la cueillette et l'arrangement qui ne fixe pas mais remet en mouvement constamment les témoins fragmentaires d'une culture. La métaphore étymologique de la fleur (ἀνθολογία ou florilège en latin) est ainsi aisée à filer : en tant que fleuristes numériques, nous souhaitions éditer le rassemblement des fragments épigrammatiqu"
+    # print(replace_all(text))

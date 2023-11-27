@@ -84,6 +84,7 @@ copy_pages_in_gabarit: replace_md
 
 copy_shit_in_gabarit: copy_chapter_in_gabarit copy_pages_in_gabarit copy_images
 	cp static/gabarit/src/reglages.md gabarit/src/reglages.md
+	cp path/to/bib.json gabarit/src/bibliographie.json
 
 
 content/print/%.tex: $(PRINT)/%.md
@@ -109,8 +110,8 @@ these.pdf: tex_chapters
 
 pdf: these.pdf
 
-# set_gabarit:
-# 	git submodule update --init --recursive
+set_gabarit:
+	git submodule update --init --recursive
 
 # reset_gabarit:
 # 	@ cd gabarit && git checkout . 2>/dev/null 

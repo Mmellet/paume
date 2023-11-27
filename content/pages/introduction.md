@@ -86,7 +86,7 @@ Le soi est toujours une vaste contrat.
 S'affichant sur les écrans de leurs machines, lovée dans leurs articulations cagneuses et émergeant des tâches d'encre versées de dépit, une même question qui hante les couleurs des lieux de savoirs. 
 
     À moitié murmurée, à moitié avalée, 
-    Qui écrit ? τίς ?
+    Qui écrit ? τίς ?
     Est-ce-nous qui [...] ?
     Qui [...] et d'où [...] ?
 
