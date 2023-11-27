@@ -188,6 +188,14 @@ def replace_img_path(text):
     pattern = re.compile(r'!\[(.*?)\]\((.*?)\)', re.DOTALL)
     return re.sub(pattern, repl, text)
 
+
+def remove_references(text):
+    def repl(match):
+        return ""
+
+    pattern = re.compile(r'#+\s+Références\n+\{\{<\s*bibliography\s*cited\s*>\}\}', re.DOTALL)
+    return re.sub(pattern, repl, text)
+
 def replace_all(text):
     text = replace_title(text)
     text = replace_themes(text)
@@ -198,6 +206,7 @@ def replace_all(text):
     text = replace_copy_iframe(text)
     text = replace_copy_div_object(text)
     text = replace_img_path(text)
+    text = remove_references(text)
     return text
 
 
