@@ -14,9 +14,9 @@
   </url><url>
     <loc>http://example.org/5/</loc>
   </url><url>
-    <loc>http://example.org/conclusion/</loc>
-  </url><url>
     <loc>http://example.org/6/</loc>
+  </url><url>
+    <loc>http://example.org/conclusion/</loc>
   </url><url>
     <loc>http://example.org/chutes/-0/</loc>
   </url><url>
@@ -59,6 +59,8 @@
     <loc>http://example.org/liste_figure/</loc>
   </url><url>
     <loc>http://example.org/references/</loc>
+  </url><url>
+    <loc>http://example.org/referencestmp/</loc>
   </url><url>
     <loc>http://example.org/remerciements/</loc>
   </url><url>
