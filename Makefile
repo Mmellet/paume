@@ -109,8 +109,8 @@ these.pdf: tex_chapters
 
 pdf: these.pdf
 
-# set_gabarit:
-# 	git submodule update --init --recursive
+set_gabarit:
+	git submodule update --init --recursive
 
 # reset_gabarit:
 # 	@ cd gabarit && git checkout . 2>/dev/null 
