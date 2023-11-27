@@ -185,7 +185,7 @@ def replace_img_path(text):
             img_dest.write_bytes(img_src.read_bytes())
         return f"![{alt}]({img_dest})"
 
-    pattern = re.compile(r'!\[(.*?)\]\((.*?)\)', re.DOTALL)
+    pattern = re.compile(r'!\[(.*?)\]\((\/.*?)\)', re.DOTALL)
     return re.sub(pattern, repl, text)
 
 
