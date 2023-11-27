@@ -1,9 +1,21 @@
-Noué autour de la question de la matérialité de l'inscription, le
-travail de recherche-création vise à comprendre comment les réalités
-matérielles s'agencent et font émerger les réalités culturelles de la littérature, soit comment le fait littéraire est une composition de rapports déterminée par les caractéristiques du support, qu'on le nomme média, machine ou plus largement environnement d'écriture. Qu'il s'agisse de la nouvelle architecture de l'information qu'implémente le Codex, de la plume que Flaubert taillait comme processus rituel de création, de la « délicate » machine à écrire d'un Nietzsche condamné à l'aveuglement, ou de l'ambiguité des termes *computers* et *typewriter* qui peuvent autant désigner les femmes qui utilisaient des machines spécifiques que les machines en elles-mêmes, ces échos qui alimentent une culture
-littéraire sont autant de témoignages de l'importance des incidences matérielles dans l'écriture et dans le geste d'inscription en tant que tel. 
+Noué autour de la question de la matérialité de l'inscription, le travail de recherche-création vise à comprendre comment les réalités matérielles s'agencent et font émerger les réalités culturelles de la littérature, soit comment le fait littéraire est une composition de rapports déterminée par les caractéristiques du support, qu'on le nomme média, machine ou plus largement environnement d'écriture. Qu'il s'agisse de la nouvelle architecture de l'information qu'implémente le Codex, de la plume que Flaubert taillait comme processus rituel de création, de la « délicate » machine à écrire d'un Nietzsche condamné à l'aveuglement, ou de l'ambiguïté des termes *computers* et *typewriter* qui peuvent autant désigner les femmes qui utilisaient des machines spécifiques que les machines en elles-mêmes, ces échos qui alimentent une culture littéraire sont autant de témoignages de l'importance des incidences matérielles dans l'écriture et dans le geste d'inscription en tant que tel. Où s'arrête la détermination de l'écriture ? Où se pose la frontière entre elle et le reste du monde ? 
 
-La détermination du fait littéraire est telle que l'on peut se demander si elle connaît une limite (autrement dit, où arrêter l'excavation des matérialités de l'inscription ?) et si, en tant que telle, elle n'invalide pas la distinction même faite entre écriture et environnements (quel impact a cette distinction sur nos schémas d'analyse de la littérature ? est-elle si utile aux discours pour permettre une vulgarisation obligée ?). Soit, où achopper le chenal du
-geste d'inscription dans les réalités culturelles ? 
+        dans nos cadres formatés, 
+        nos pratiques propres, 
+        ou nos regards ? 
 
-L'étude filée et l'exploration technique de différents angles de l'écriture (la notion de la fabrique, le modèle de la machine, la pensée du média, le cadre de la page et les implications de la matière) permettront au travers d'une approche conjointe de recherche-création (se distinguant des classiques approches bipolaires de la recherche-création) de remettre en question certaines des grandes balises de la théorie littéraire (le statut d'auteur, l'idée d'œuvre, l'horizon de l'originalité) ou de la tradition humaniste (la distinction entre humain et non-humain) pour redéfinir des contours du fait littéraire.
+Au travers d'études théoriques et d'explorations techniques, le corps de l'écriture sera décliné en cinq angles, cinq extensions d'une main qui souhaite saisir une épaisseur : fabrique, média, machine, page et matière. Cette thèse développe une méthodologie d'écriture propre qui ne distingue plus recherche et création pour redéfinir des contours du fait littéraire.
+
+Mots-clefs : Littérature, Recherche-création, Matérialité, Geste, 
+
+---
+
+Tied up around the issue of the matter of inscription, this research-creation study aims to understand how concrete realities interact and lead to the emergence of a cultural phenomenon in literature, i.e., how the literature phenomenon is a composition of mattering defined by the specifications of the support, whether we call it a medium, a machine or, more broadly, a writing environment. From the new information architecture embodied by the Codex, to the writing feather of Flaubert ritualized as a creative process, to the "delicate" typewriter of a soon blind Nietzsche, or the ambiguity of the terms *computers* and *typewriter*, which may refer both to the women who used specific machines and to the machines themselves, these echoes that contribute to a culture of literature all illustrate the importance of material incidences in writing and in the very act of inscription itself. Where does the determination of writing end? Where do we draw the line between it and the world beyond? 
+
+        in our formated frames, 
+        our own practices, 
+        or the way we look at things? 
+
+With theoretical analysis and technical exploration, the writing mattering will be investigated from five angles, five extensions of a hand that seeks to grasp depth: factory, media, machine, page and matter. This thesis sets out a writing methodology that no longer distinguishes research from creation, redefining the outlines of literature phenomenon.
+
+Keywords: 
