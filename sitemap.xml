@@ -50,6 +50,12 @@
   </url><url>
     <loc>http://example.org/graph/</loc>
   </url><url>
+    <loc>http://example.org/abreviations/</loc>
+  </url><url>
+    <loc>http://example.org/liste_figure/</loc>
+  </url><url>
+    <loc>http://example.org/remerciements/</loc>
+  </url><url>
     <loc>http://example.org/resume/</loc>
   </url><url>
     <loc>http://example.org/categories/</loc>
