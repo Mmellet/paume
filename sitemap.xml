@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://example.org/0/</loc>
+    <loc>http://example.org/introduction/</loc>
   </url><url>
     <loc>http://example.org/1/</loc>
   </url><url>
@@ -13,6 +13,8 @@
     <loc>http://example.org/4/</loc>
   </url><url>
     <loc>http://example.org/5/</loc>
+  </url><url>
+    <loc>http://example.org/conclusion/</loc>
   </url><url>
     <loc>http://example.org/6/</loc>
   </url><url>
@@ -52,7 +54,11 @@
   </url><url>
     <loc>http://example.org/abreviations/</loc>
   </url><url>
+    <loc>http://example.org/abstract/</loc>
+  </url><url>
     <loc>http://example.org/liste_figure/</loc>
+  </url><url>
+    <loc>http://example.org/references/</loc>
   </url><url>
     <loc>http://example.org/remerciements/</loc>
   </url><url>

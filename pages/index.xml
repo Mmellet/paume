@@ -9,9 +9,9 @@
     <atom:link href="http://example.org/pages/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Commencement</title>
-      <link>http://example.org/0/</link>
+      <link>http://example.org/introduction/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://example.org/0/</guid>
+      <guid>http://example.org/introduction/</guid>
       <description>Cette thèse n&amp;rsquo;est pas une solution.
 Cette thèse ne représente ni une solution absolue ni une solution partielle qui viendrait répondre à la problématique soulevée, dont elle a créé peut-être certaines des pièces.
 Elle n&amp;rsquo;est pas sa propre solution &amp;ndash; probablement un monstre fabriqué avec ses regrets &amp;ndash; non pas qu&amp;rsquo;elle refuserait cet élogieux statut scientifique, mais parce qu&amp;rsquo;elle ne s&amp;rsquo;extrait pas elle-même du nœud autour duquel elle fait graviter ses mots.</description>
@@ -58,6 +58,16 @@ Le récit de l&amp;rsquo;écriture est celui d&amp;rsquo;une invention (Mésopot
 compter les vaches sur l&#39;agora dans la paume de la main puis retravailler l&#39;argile compter les vaches sur l&#39;agora peut-être ajouter un détail au hasard modeler la répétition des modelages finir par décrire par pétrir la littérature Il s&amp;rsquo;avère cependant, comme développé par Silvia Ferrera dans La fabuleuse histoire de l&amp;rsquo;invention de l&amp;rsquo;écriture ( Citation: 2021 Ferrara,&amp;#32; S.</description>
     </item>
     <item>
+      <title>Conclusion</title>
+      <link>http://example.org/conclusion/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://example.org/conclusion/</guid>
+      <description>Les 5 doigts # 1 doigts, un temps de l&amp;rsquo;écriture, du vécu
+écrire devenir une machine matière : transforme plus d&amp;rsquo;intentionnalité enlever la notion sujet objet on devient l&amp;rsquo;environnement la fin du sujet
+Parmi ce qui a été écrit, certaines des analyses, plusieurs des exemples et parfois quelques formulations pourront être retrouvées à d&amp;rsquo;autres endroits des productions faîtes durant la thèse.
+regret de ne pas tout lu et tout citer</description>
+    </item>
+    <item>
       <title>Dénouement</title>
       <link>http://example.org/6/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -74,10 +84,26 @@ CMMP : Queneau, Raymond, Cent mille milliard de poèmes, Paris, Gallimard, 1961
     </item>
     <item>
       <title></title>
+      <link>http://example.org/abstract/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://example.org/abstract/</guid>
+      <description> </description>
+    </item>
+    <item>
+      <title></title>
       <link>http://example.org/liste_figure/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://example.org/liste_figure/</guid>
       <description> Liste des figures # </description>
+    </item>
+    <item>
+      <title></title>
+      <link>http://example.org/references/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://example.org/references/</guid>
+      <description>Corpus # ::: {#refs-corpus .hanging-indent} :::
+Théorie et méthodologie # ::: {#refs-theorie .hanging-indent} :::
+Autres références # ::: {#refs-autres .hanging-indent} :::</description>
     </item>
     <item>
       <title></title>
