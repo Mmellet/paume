@@ -1,6 +1,6 @@
 ---
 title: "Commencement"
-subtitle: "Recherche et création sur l'épaisseur de l'écriture"
+subtitle: ""
 bibFile: path/to/bib.json
 weight: 1
 progress: 90%
