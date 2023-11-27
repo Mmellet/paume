@@ -9,14 +9,16 @@ canonifyURLs = true
 removePathAccents=true
 
 [params]
- subtitle = "Site de « La Nuée : thèse sur l'épaisseur de l'écriture »"
+ subtitle = "Site de « Recherche-Création sur l'épaisseur de l'écriture »"
  date-depot = "2023-12-01"
  bibtex_file = "content/bib/bibtex.bib"
 
 [params.themes]
   nevrose = "Névrose"
-  main = "Main"
-
+  petites_mains = "Petites mains"
+  media = "Média"
+  geste = "Geste"
+  matiere = "Matière"
 
 [permalinks]
   pages = "/:filename"
