@@ -157,7 +157,7 @@ Autre nuage brouillant les certitudes littéraires, rappelant les angoisses plat
 
 >Wie wir alle wissen und nur nicht sagen, schreibt kein Mensch mehr. {{< cite "kittler_draculas_1993" >}}
 
->Comme nous le savons tous, même si nous ne voulons pas nous l’avouer, aucun être humain n’écrit plus. {{< cite "kittler_mode_2015" 30 >}}
+>Comme nous le savons tous, même si nous ne voulons pas nous l’avouer, aucun être humain n'écrit plus. {{< cite "kittler_mode_2015" 30 >}}
 
 Dans *Mode protégé* {{< cite "-kittler_mode_2015" >}}, livre réunissant les deux conférences « Le logiciel n’existe pas » (1991) et « Mode protégé » (1993), Kittler expose le fonctionnement de l'écriture numérique, non plus en termes de niveaux d'écriture qui sont le conte d'une conception théorique du numérique, mais en termes de modèles techniques.
 
