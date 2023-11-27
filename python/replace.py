@@ -188,6 +188,9 @@ def replace_img_path(text):
     pattern = re.compile(r'!\[(.*?)\]\((\/.*?)\)', re.DOTALL)
     return re.sub(pattern, repl, text)
 
+# TODO
+# \textgreek{ἀνθολογία}
+
 
 def remove_references(text):
     def repl(match):
