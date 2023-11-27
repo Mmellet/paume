@@ -52,8 +52,11 @@ TEX_OPTIONS := -f markdown -t latex --standalone  --bibliography=$(BIB_FILE) --n
 
 copy_images: clean_print_images
 	cp -r $(STATIC)/images $(PRINT)/images
+	cp -r $(STATIC)/creation $(PRINT)/creation
 	mkdir -p $(GABARIT)/$(PRINT)/images
+	mkdir -p $(GABARIT)/$(PRINT)/creation
 	cp -r $(PRINT)/images  $(GABARIT)/$(PRINT)
+	cp -r $(PRINT)/creation  $(GABARIT)/$(PRINT)
 
 clean_print_images:
 	@rm -rfv $(PRINT)/images/
