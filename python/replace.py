@@ -173,10 +173,11 @@ def replace_copy_div_object(text):
     )
     return re.sub(pattern, repl, text)
 
+
 def replace_img_path(text):
     def repl(match):
         alt = match.group(1)
-        path = match.group(2).lstrip('/')
+        path = match.group(2).lstrip("/")
         img_src = PAGES_DIR / path
         img_dest = PRINT_DIR / path
 
@@ -185,7 +186,7 @@ def replace_img_path(text):
             img_dest.write_bytes(img_src.read_bytes())
         return f"![{alt}]({img_dest})"
 
-    pattern = re.compile(r'!\[(.*?)\]\((\/.*?)\)', re.DOTALL)
+    pattern = re.compile(r"!\[(.*?)\]\((\/.*?)\)", re.DOTALL)
     return re.sub(pattern, repl, text)
 
 
@@ -196,18 +197,19 @@ def replace_greek_chars(text):
             return group1
         return f"\\textgreek{{{match.group(1)}}}"
 
-    pattern = re.compile("([\u0370-\u03FF\u1F00-\u1FFF]+)", re.UNICODE) 
+    pattern = re.compile("([\u0370-\u03FF\u1F00-\u1FFF]+)", re.UNICODE)
     return re.sub(pattern, repl, text)
-
-
 
 
 def remove_references(text):
     def repl(match):
         return ""
 
-    pattern = re.compile(r'#+\s+Références\n+\{\{<\s*bibliography\s*cited\s*>\}\}', re.DOTALL)
+    pattern = re.compile(
+        r"#+\s+Références\n+\{\{<\s*bibliography\s*cited\s*>\}\}", re.DOTALL
+    )
     return re.sub(pattern, repl, text)
+
 
 def replace_all(text):
     text = replace_title(text)
