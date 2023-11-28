@@ -7,9 +7,9 @@ GABARIT_CHAPTERS := $(GABARIT_SRC)/chapitres
 GABARIT_PAGES := $(GABARIT_SRC)/pages
 GABARIT_TMP := $(GABARIT)/tmp
 BIB_FILE := content/bib/bibtex.bib
-BIB_FORMAT := content/bib/lettres-et-sciences-humaines-fr.csl
+BIB_FORMAT := content/bib/universite-de-montreal-apa.csl
 
-CSL_FILE := gabarit/etudes-francaises.csl
+CSL_FILE := gabarit/universite-de-montreal-apa.csl
 
 STATIC := static
 
