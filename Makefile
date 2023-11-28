@@ -82,27 +82,7 @@ references: $(GABARIT_PAGES)/references.md
 
 all: gabarit replace_md references  
 
-# content/print/%.tex: $(PRINT)/%.md
-# 	pandoc $< $(TEX_OPTIONS) -o $@
 
-# tex_chapters_standalone_%: content/print/%.tex 
-
-# tex_chapters_standalone: $(TEX_CHAPTERS_STANDALONE_OUT)  
-
-# %.tex: content/print/%.tex
-# 	@ ./python/tex_extract.py $<
-
-
-# tex_chapters_%: %.tex
-	
-# tex_chapters: $(TEX_CHAPTERS_OUT)
-
-# these.pdf: tex_chapters
-# 	xelatex these.tex $(TEX_CHAPTERS_OUT)
-
-# prepare_gabarit: set_gabarit copy_shit_in_gabarit
-
-pdf: these.pdf
 
 set_gabarit:
 	git submodule update --init --recursive
