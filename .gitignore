@@ -207,6 +207,7 @@ these.toc
 
 *.aux
 *.tex
+!references.tex
 !these.tex
 
 content/print
