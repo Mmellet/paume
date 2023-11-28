@@ -1,7 +1,17 @@
 {
     "[makefile]": {
         "editor.tabSize": 4,
-        "editor.insertSpaces": false
+        "editor.insertSpaces": false,
+    },
+    "[markdown]": {
+        "editor.unicodeHighlight.ambiguousCharacters": true,
+        "editor.unicodeHighlight.invisibleCharacters": true,
+        "editor.wordWrap": "on",
+        "editor.quickSuggestions": {
+            "comments": true,
+            "strings": true,
+            "other": true
+        }
     },
     "languageToolLinter.lintOnChange": true,
     "languageToolLinter.lintOnOpen": true,
