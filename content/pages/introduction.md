@@ -8,7 +8,7 @@ progress: 90%
 
 Cette thèse n'est pas une solution. 
 
-\vspace{1.5cm}
+<!-- LATEX |\vspace{1.5cm}| -->
 
 Cette thèse ne représente ni une solution absolue ni une solution partielle qui viendrait répondre à la problématique soulevée, dont elle a créé peut-être certaines des pièces. 
 
