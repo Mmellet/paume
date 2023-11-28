@@ -1,6 +1,5 @@
 ---
 title: "Commencement"
-subtitle: ""
 bibFile: path/to/bib.json
 weight: 1
 progress: 90%
