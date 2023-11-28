@@ -66,8 +66,6 @@ cp_reglages: gabarit/src/reglages.md
 
 gabarit: copy_images cp_bib cp_reglages
 
-
-
 $(PAGES)/references.tex:
 	echo boom a wild appear $(PAGES)/references.tex
 
@@ -78,7 +76,11 @@ $(GABARIT_TMP)/references.md.tex : $(PAGES)/references.tex
 
 references: $(GABARIT_TMP)/references.md.tex
 
-all: gabarit replace_md references
+distant_clean:
+	make -C gabarit clean
+
+all: distant_clean gabarit replace_md references
+	make -C gabarit memoire.pdf
 
 set_gabarit:
 	git submodule update --init --recursive
