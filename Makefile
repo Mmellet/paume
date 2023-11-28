@@ -5,6 +5,7 @@ GABARIT := gabarit
 GABARIT_SRC := $(GABARIT)/src
 GABARIT_CHAPTERS := $(GABARIT_SRC)/chapitres
 GABARIT_PAGES := $(GABARIT_SRC)/pages
+GABARIT_TMP := $(GABARIT)/tmp
 BIB_FILE := content/bib/bibtex.bib
 BIB_FORMAT := content/bib/lettres-et-sciences-humaines-fr.csl
 
@@ -66,23 +67,18 @@ cp_reglages: gabarit/src/reglages.md
 gabarit: copy_images cp_bib cp_reglages
 
 
-content/print/references.html : $(PAGES)/references.md
-	pandoc \
-  	--citeproc \
-	$(CITEPROC_OPTIONS) \
-    $(PAGES)/references.md \
-	-o $@
 
-$(GABARIT_PAGES)/references.md : $(PRINT)/references.html
-	@cat $< > $@
-	@echo References are transmuted from html to markdown
+$(PAGES)/references.tex:
+	echo boom a wild appear $(PAGES)/references.tex
 
 
-references: $(GABARIT_PAGES)/references.md 
+$(GABARIT_TMP)/references.md.tex : $(PAGES)/references.tex
+	@cp -v $< $@
 
-all: gabarit replace_md references  
 
+references: $(GABARIT_TMP)/references.md.tex
 
+all: gabarit replace_md references
 
 set_gabarit:
 	git submodule update --init --recursive
