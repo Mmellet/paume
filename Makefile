@@ -58,7 +58,7 @@ copy_pages_in_gabarit: replace_md
 	cp $(shell find content/print/*.md -type f ! -name '[[:digit:]].md' | xargs) $(GABARIT_PAGES)
 
 copy_shit_in_gabarit: copy_chapter_in_gabarit copy_pages_in_gabarit copy_images
-	cp static/gabarit/src/reglages.md gabarit/src/reglages.md
+	cp static/src/reglages.md gabarit/src/reglages.md
 	cp path/to/bib.json gabarit/src/bibliographie.json
 
 
