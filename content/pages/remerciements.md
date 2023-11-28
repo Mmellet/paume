@@ -14,6 +14,9 @@ Cette page ne peut que pâlement suffire à retranscrire la dynamique collective
 
 Je remercie les petites mains présentes de la Chaire de recherche du Canada sur les écritures numériques : 
 
+Cette thèse a été réalisée à l'Université de Montréal et a bénéficiée de plusieurs appuis financiers, notamment celle de la FRQSC, celle du Département des Littératures de langue française de l'Université de Montréal, celle de la Chaire de recherche du Canada sur les écritures numériques et celle du Centre de recherche interuniversitaire sur les humanités numériques. 
+
+
 et celles passées : Servanne Monjour, Nicolas Sauret. 
 
 Mes études doctorales ont bénéficié de l'appui financier du FRQSC.
