@@ -238,10 +238,12 @@ def get_text(text_io_wrapper):
 def main(args):
     for text_io_wrapper in args.pathes:
         dest = PRINT_DIR / text_io_wrapper.name.split("/")[-1]
-        text = get_text(text_io_wrapper)
-        text = replace_all(text)
-        save_replaced_markdown(text, dest)
-
+        if dest.name != "references.md":
+            text = get_text(text_io_wrapper)
+            text = replace_all(text)
+            save_replaced_markdown(text, dest)
+        else:
+            print("We are sorry your references are too long to be proccessed")
 
 if __name__ == "__main__":
     args = get_args()
