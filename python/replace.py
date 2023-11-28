@@ -39,7 +39,7 @@ def get_args():
 def replace_title(text):
     def repl(match):
         title = match.group(1)
-        return f"# {title}" if title != "Commencement" else ""
+        return f"# {title}" if title not in ["Commencement", "Dénouement"] else ""
 
     pattern = re.compile(r'---\n.*title:\s+"(.*?)".*\n---', re.DOTALL)
     return re.sub(pattern, repl, text)
