@@ -10,4 +10,3 @@ Noué autour de la question de la matérialité de l'inscription, le travail de 
 
 Au travers d'études théoriques et d'explorations techniques, le corps de l'écriture sera décliné en cinq angles, cinq extensions d'une main qui souhaite saisir une épaisseur : fabrique, média, machine, page et matière. Cette thèse développe une méthodologie d'écriture propre qui ne distingue plus recherche et création pour redéfinir des contours du fait littéraire.
 
-Mots-clefs : Littérature, Recherche-création, Matérialité, Geste, 

@@ -10,5 +10,3 @@ Tied up around the issue of the matter of inscription, this research-creation st
         or the way we look at things? 
 
 With theoretical analysis and technical exploration, the writing mattering will be investigated from five angles, five extensions of a hand that seeks to grasp depth: factory, media, machine, page and matter. This thesis sets out a writing methodology that no longer distinguishes research from creation, redefining the outlines of literature phenomenon.
-
-Keywords: 
