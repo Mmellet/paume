@@ -42,7 +42,7 @@ clean_print:
 clean_pdf: 
 	@ rm -v $(LATEX_SHIT) these.pdf  2>/dev/null || true
 
-clean: clean_pdf clean_print #reset_gabarit
+clean: clean_print # clean_pdf #reset_gabarit
 
 content/print/%.md: content/pages/%.md
 	@ ./python/replace.py $<
