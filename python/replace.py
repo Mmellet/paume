@@ -12,6 +12,9 @@ import logging
 WORKSPACE_DIR = pathlib.Path(__file__).parent.parent
 STATIC_DIR = WORKSPACE_DIR / "static"
 PRINT_DIR = WORKSPACE_DIR / "content" / "print"
+SCR_DIR = WORKSPACE_DIR / "gabarit" / "src"
+G_CHAPTERS_DIR = SCR_DIR / "chapitres"
+G_PAGES_DIR = SCR_DIR / "pages"
 PAGES_DIR = WORKSPACE_DIR / "content" / "pages"
 MAP = PAGES_DIR / "iframe_map.json"
 
@@ -173,10 +176,11 @@ def replace_copy_div_object(text):
     )
     return re.sub(pattern, repl, text)
 
+
 def replace_img_path(text):
     def repl(match):
         alt = match.group(1)
-        path = match.group(2).lstrip('/')
+        path = match.group(2).lstrip("/")
         img_src = PAGES_DIR / path
         img_dest = PRINT_DIR / path
 
@@ -185,26 +189,30 @@ def replace_img_path(text):
             img_dest.write_bytes(img_src.read_bytes())
         return f"![{alt}]({img_dest})"
 
-    pattern = re.compile(r'!\[(.*?)\]\((\/.*?)\)', re.DOTALL)
+    pattern = re.compile(r"!\[(.*?)\]\((\/.*?)\)", re.DOTALL)
     return re.sub(pattern, repl, text)
 
 
 def replace_greek_chars(text):
     def repl(match):
+        group1 = match.group(1)
+        if group1 in ["τίς", "δ"]:
+            return group1
         return f"\\textgreek{{{match.group(1)}}}"
 
-    pattern = re.compile("([\u0370-\u03FF\u1F00-\u1FFF]+)", re.UNICODE) 
+    pattern = re.compile("([\u0370-\u03FF\u1F00-\u1FFF]+)", re.UNICODE)
     return re.sub(pattern, repl, text)
-
-
 
 
 def remove_references(text):
     def repl(match):
         return ""
 
-    pattern = re.compile(r'#+\s+Références\n+\{\{<\s*bibliography\s*cited\s*>\}\}', re.DOTALL)
+    pattern = re.compile(
+        r"#+\s+Références\n+\{\{<\s*bibliography\s*cited\s*>\}\}", re.DOTALL
+    )
     return re.sub(pattern, repl, text)
+
 
 def replace_all(text):
     text = replace_title(text)
@@ -222,8 +230,11 @@ def replace_all(text):
 
 
 def save_replaced_markdown(text, path):
+    if not path.stem.isdigit():
+        path = G_PAGES_DIR / path.name
     path.parent.mkdir(exist_ok=True, parents=True)
     path.write_text(text)
+    print(f"Creation: {path}")
 
 
 def get_text(text_io_wrapper):
@@ -232,10 +243,16 @@ def get_text(text_io_wrapper):
 
 def main(args):
     for text_io_wrapper in args.pathes:
-        dest = PRINT_DIR / text_io_wrapper.name.split("/")[-1]
-        text = get_text(text_io_wrapper)
-        text = replace_all(text)
-        save_replaced_markdown(text, dest)
+        dest = G_CHAPTERS_DIR / text_io_wrapper.name.split("/")[-1]
+        if dest.name != "references.md":
+            text = get_text(text_io_wrapper)
+            text = replace_all(text)
+            save_replaced_markdown(text, dest)
+        else:
+            print(
+                "We are sorry your references are too long to be proccessed,"
+                " but don't worry pandoc will take care of it"
+            )
 
 
 if __name__ == "__main__":
