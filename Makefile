@@ -10,17 +10,9 @@ BIB_FORMAT := content/bib/lettres-et-sciences-humaines-fr.csl
 TEX_GABARIT := gabarit/gabarit.tex
 CLASS_LATEX := gabarit/dms.cls
 
+CSL_FILE := gabarit/etudes-francaises.csl
+
 STATIC := static
-
-# # Copy static files recursively :
-# # (Adapted from https://stackoverflow.com/questions/41993726/)
-# STATIC := $(shell find static -type f)
-# STATIC_OUT := $(patsubst static/%, output/%, $(STATIC))
-# $(foreach s,$(STATIC),$(foreach t,$(filter %$(notdir $s),$(STATIC_OUT)),$(eval $t: $s)))
-# $(STATIC_OUT):; $(if $(wildcard $(@D)),,mkdir -p $(@D) &&) cp $^ $@
-
-
-
 
 CHAPTERS := $(sort $(shell find $(PAGES) -type f -iname '*.md'))
 TEX_CHAPTERS_STANDALONE_OUT := $(patsubst %.md, $(PRINT)/%.tex, $(notdir $(CHAPTERS)))
@@ -35,6 +27,7 @@ LATEX_SHIT := these.aux these.lof these.lot these.toc these.log $(AUX_CHAPTERS_O
 TEX_OPTIONS := -f markdown -t latex --standalone  --bibliography=$(BIB_FILE) --no-highlight --csl=$(BIB_FORMAT) --pdf-engine=xelatex  # --citeproc
 
 
+CITEPROC_OPTIONS=--bibliography=$(BIB_FILE) --csl=$(CSL_FILE)
 
 
 
@@ -87,24 +80,36 @@ copy_shit_in_gabarit: copy_chapter_in_gabarit copy_pages_in_gabarit copy_images
 	cp path/to/bib.json gabarit/src/bibliographie.json
 
 
-content/print/%.tex: $(PRINT)/%.md
-	pandoc $< $(TEX_OPTIONS) -o $@
+content/print/references.html : $(PAGES)/references.md
+	pandoc \
+  	--citeproc \
+	$(CITEPROC_OPTIONS) \
+    $(PAGES)/references.md \
+	-o $@
+
+content/print/references.md : $(PRINT)/references.html
+	cat $< > $@
 
 
-tex_chapters_standalone_%: content/print/%.tex 
+references: $(PRINT)/references.md
 
-tex_chapters_standalone: $(TEX_CHAPTERS_STANDALONE_OUT)  
+# content/print/%.tex: $(PRINT)/%.md
+# 	pandoc $< $(TEX_OPTIONS) -o $@
 
-%.tex: content/print/%.tex
-	@ ./python/tex_extract.py $<
+# tex_chapters_standalone_%: content/print/%.tex 
+
+# tex_chapters_standalone: $(TEX_CHAPTERS_STANDALONE_OUT)  
+
+# %.tex: content/print/%.tex
+# 	@ ./python/tex_extract.py $<
 
 
-tex_chapters_%: %.tex
+# tex_chapters_%: %.tex
 	
-tex_chapters: $(TEX_CHAPTERS_OUT)
+# tex_chapters: $(TEX_CHAPTERS_OUT)
 
-these.pdf: tex_chapters
-	xelatex these.tex $(TEX_CHAPTERS_OUT)
+# these.pdf: tex_chapters
+# 	xelatex these.tex $(TEX_CHAPTERS_OUT)
 
 # prepare_gabarit: set_gabarit copy_shit_in_gabarit
 
@@ -118,7 +123,7 @@ set_gabarit:
 # # @ cd gabarit && git clean -fd . 2>/dev/null 
 
 
-all: replace_md copy_shit_in_gabarit 
+all: replace_md references copy_shit_in_gabarit 
 
 .PHONY: all html pdf clean
 
