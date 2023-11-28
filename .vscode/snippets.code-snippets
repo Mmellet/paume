@@ -1,0 +1,10 @@
+{
+    "Markdown Latex Comment": {
+        "scope": "markdown",
+        "prefix": "latexcomment",
+        "body": [
+            "<!-- LATEX |\\vspace{1.5cm}| -->"
+        ],
+        "description": "Inserts a LaTeX comment in Markdown"
+    }
+}
