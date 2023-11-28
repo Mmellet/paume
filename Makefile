@@ -30,29 +30,11 @@ TEX_OPTIONS := -f markdown -t latex --standalone  --bibliography=$(BIB_FILE) --n
 CITEPROC_OPTIONS=--bibliography=$(BIB_FILE) --csl=$(CSL_FILE)
 
 
-
-# # HTML
-# html: $(STATIC_OUT) output/index.html output/introduction.html output/conclusion.html $(CHAPTERS_OUT)
-# output/index.html: index.md
-# 	pandoc $< [options] -o $@
-# output/introduction.html: text/introduction.md
-# 	pandoc $< [options] -o $@
-# output/conclusion.html: text/conclusion.md
-# 	pandoc $< [options] -o $@
-# print/%.md: $(PAGES)/%.md
-# 	replacee $(PAGES)/%.md 
-# 	replacee 
-
-copy_images: clean_print_images
-	cp -r $(STATIC)/images $(PRINT)/images
-	cp -r $(STATIC)/creation $(PRINT)/creation
-	mkdir -p $(GABARIT)/$(PRINT)/images
-	mkdir -p $(GABARIT)/$(PRINT)/creation
-	cp -r $(PRINT)/images  $(GABARIT)/$(PRINT)
-	cp -r $(PRINT)/creation  $(GABARIT)/$(PRINT)
-
-clean_print_images:
-	@rm -rfv $(PRINT)/images/
+copy_images: 
+	@mkdir -vp $(GABARIT)/$(PRINT)/images
+	@mkdir -vp $(GABARIT)/$(PRINT)/creation
+	@cp -vr $(STATIC)/images  $(GABARIT)/$(PRINT)
+	@cp -vr $(STATIC)/creation  $(GABARIT)/$(PRINT)
 
 clean_print:
 	@rm -rfv $(PRINT)/*
