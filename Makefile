@@ -79,7 +79,7 @@ references: $(GABARIT_TMP)/references.md.tex
 distant_clean:
 	make -C gabarit clean
 
-all: distant_clean gabarit replace_md references
+all: gabarit replace_md references
 	make -C gabarit memoire.pdf
 
 set_gabarit:
