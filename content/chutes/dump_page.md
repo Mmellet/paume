@@ -6,6 +6,16 @@ Structure et sens sont certainement ce qui permet dans leurs enchevêtrements de
 
 Le passage du volumen au codex 
 
+
+Kittler est en réaction à un infinitisme de l'herméneutique
+
+dans le contexte : à Francfort, triomphe du procéduralisme avec la publication de la Théorie de l'agir communicationnel de Jurgen Habermas 1981 (comme rappelé par Emmanuel Alloa) : idée que l'herméneutique peut tout interpréter. 
+
+Kittler refuse une idée du sens comme humain, trop humain, pour invoquer un autre procéduralisme, celui des opérateurs techniques, indifférents au problème de la signification tout en constituant pourtant le fondement véritable de toute civilisation. 
+
+Il ne s'agit plus de « lire entre les lignes (l'activité favorite des herméneutes), mais [...] lire ce que personne n'a jamais rédigé. » (Alloa, p. 8)
+
+
 La page Web n'est pas tant une résurgence du volumen qu'elle est une ouverture du codex à une linéarité continue. Ce qui demeure dans la page Web est un rapport de structuration, bien plus profond que ce qu'avait déjà institué le codex, en tant que la page se divise en classe, en espaces délimités. 
 
 page matter : The page had already survived the print revolution of a half-millennium

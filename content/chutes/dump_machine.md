@@ -1,6 +1,10 @@
 
 
 
+>[Ma] machine est délicate comme un petit chien et pose de nombreux problèmes -- elle est aussi source de quelque divertissement. Mais maintenant, mes amis doivent m'inventer une machine à lire : autrement, je ne serais que l'ombre de moi-même et je ne pourrais plus jamais me procurer de nourritures intellectuelles satisfaisantes. Mieux encore : j'ai besoin d'une jeune personne près de moi, assez intelligente et éduquée, pour pouvoir *travailler* avec moi. Je serai prêt à m'engager dans les liens d'un mariage de deux ans rien que pour cela. {{< cite "nietzsche_correspondance_2008" 180 >}}
+
+
+>Entre-temps, j'ai à la maison la remarquable Mme Röder-Wiederhold ; elle supporte et tolère « comme un ange » mon horrible « antidémocratisme » -- je lui dicte en effet quelques heures par jour mes pensées sur les Européens d'aujourd'hui et de *demain* ; mais je crains que, baptisée comme elle l'est du sang de 1848, elle ne sorte un jour « de ses gonds » et quitte Sils-Maria. (Lettre de juin 1885 in {{< cite "nietzsche_correspondance_2008" 158 >}})
 
 > Contrairement à la numérisation, procédé qui relève de l’automatisation, de la reproduction, l’adaptation appelle une réflexion, et une modification du contenu en fonction du médium cible. Ainsi, comment présenter sur tablette Composition No. 1 de Marc Saporta, récit initialement publié en 1962 et consistant en 150 feuillets non reliés, lisible dans n’importe quel ordre ? Le livre d’artiste de Tom Phillips A Humument1 change-t-il de statut lorsqu’on le découvre sur iPad ? Enfin, le court roman de Mark Z. Danielewski, The Fifty Year Sword (2006), distribué sous diverses formes, du tirage limité à 1000 exemplaires à l’édition à large tirage, à la couverture piquetée de trous, en passant par une édition de luxe dans un coffret en bois, est-il aisément transposable au format numérique ? (Come Martin, 2021 sp)
 
@@ -16,14 +20,9 @@ Comme Bon face à la machine qui écrit automatiquement ou Don Quichotte face au
 
 ----
 
- il invente une lecture pour comprendre une écriture et les fabriquer[^gpt]. Au fil des requêtes et adaptations de Bon (qui apprend en parallèle comment amener la machine à comprendre ses intentions), le texte se remodèle, changeant de temps et donc d'impact sur le moment de la lecture, de personnage et donc d'intonations avec nos émotions, et d'ambiance et donc d'intertextualités avec la culture littéraire. Démarche « inverse du travail narratif » (car ne relevant plus de l'intuition) et provenant fondamentalement d'une expérience de Bon, le travail de tatônnements, de remodelage, de remplacement compris, est au final proche du processus d'écriture. Les réponses archétypales de la machine se succèdent et en réponse une série d'instructions destinées à épurer une écriture de ses clichés (et donc des ces apprentissages). Éduquant ou plutôt corrompant la machine, la détournant de sa volonté et son entêtement à « nous aider », Bon dans la perspective de lui faire faire du style, lui propose la sentence flaubertienne « et leurs yeux se rencontrèrent » : pour contourner la réponse documentaire, il lui demande une analyse grammaticale et dans un mouvement infini inspiré du poète américin Dworkin, nourri son analyse par des extraits de sa propre et précédent réponse[^dworkin]. De cette boucle, émerge « une langue folle », un dialogue se retournant sur lui même, qui évoque moins l'examen d'une intelligence littéraire qu'une écriture collaborative. Semblable aux démarches de Goldsmith, la création n'est pas créative dans la mesure où elle ne cherche pas à la production d'une poétique mais mieux à comprendre comme elle pourrait s'écrire : « Qui écrit ? c'est elle ou c'est moi ? ou c'est la question ? » Tout écrit : le dispositif de médiation, dialogie entre une complexité technique (dont on saisi peu à peu le modèle par les récurrence de ses structures et archétypes) et un désir de connaissance humain, révèle une fonction auto-réflexive pour comprendre nos écritures, c'est-à-dire ce que nous avons en tête dans nos requêtes. Ce n'est pas tant le message qui est transmis que tout la machinerie du message et de sa transmission qui est incarnée. 
-
-[^dworkin]: *Parse* (2008) de Dworkin est une traduction de *How to Parse: An Attempt to Apply the Principles of Scholarship to English Grammar* d'Edwin Abbott en utilisant les outils, manuels, matières d'écriture d'Abbott, donc en faisant dialoguant le texte avec ses propres outils d'analyse.
-
-[^gpt]: GPT Chat va par exemple « faire appel à des archétypes », ce qui nous permet de « désarmorcer ou de fabriquer nos propres archétypes ». 
+Laisser le sens à l'entendement, c'est également, dans une perspective post-humaniste, permettre l'idée d'une intelligence externe aux individus et même au principe d'individu en tant que tel, ce qui, pour Lévy, est déjà entre les lignes du *De anima* d'Aristote (III, 4) : il en résulte un principe d'intelligence collective (lévy) qui est toujours en acte, toujours en train de se *faire*. 
 
 ----
-
 
 voir anders, sur l'impossibilité de la perception (para sur 79 technique moderne), voir série podcast france culture
 
@@ -50,7 +49,6 @@ I Ching, which dates back to the Zhou dynasty (1027-256 BC), was already a cyber
 La pensée, dès lors qu'elle est automatisée, cesse de devenir une activité essentiellement humaine. 
 
 
-Cette perpective de la littérature comme instrument ou machine à écrire participe certainement d'un épuisement littéraire selon les mots d'Eco : « Pour moi, le livre avait épuisé toutes ses lectures potentielles dans l’énonciation même de sons principe structurant » {{< cite "eco_oeuvre_2015, pp. 170 - 171" >}}. 
 
 ---
 
@@ -62,8 +60,7 @@ L'automatisme des machines littéraires, parce que la valeur poétique est dépl
 La question d'un évolution de l'histoire littéraire est ainsi profondément liée aux développements techniques des machines, et n'en est même peut-être qu'une annexe. 
 
 ----
-
-Des Contre-Haïkus de Jean-Pierre Balpe à la Composition n^o^1 de Saporta, l'idée n'est pas seulement de bouleverser une temporalité et une détermination linéaire de la lecture (comme avait pu le faire *La jalousie* de Robbe-Grillet dont la narration donne l'impression que l'auteur a battu les feuillets de la création) ou de l'écriture, mais comme une remise en cause des contours de l'auteur et d'un génie littéraire. 
+ 
 
 L'auteur est alors un faiseur et la machine l'assiste pour saisir ce que ses sens ne peuvent percevoir ou totalement cerner. 
 
@@ -103,7 +100,7 @@ Exemple : INdex, Mundaneum, Klara von Neumann
 Klara von Neumann, femme du mathématicien et physicien John von Neumann, collaboratrice ou cobaye 
 
 
-// entre 1930 et 1950, les travaux de calculs sont effectués par des femmes : participation à la transition entre calculs manuels et calculs automatisés effectués sur des appareils qui ont été désignés par le même mot que celui qui désignait jusqu'alors les femmes en elles mêmes : computers ou calculatrices. 
+
 
 Jusqu’en 1945 environ, computer désignait un être
 humain, presque toujours une femme, qui effectuait
@@ -270,14 +267,7 @@ genre dont traite Crystal Bennes.
 
 mais il y a aussi une histoire coloniale à considérer qui est d'autant plus vive aujourd'hui, et on ne peut pas complètement les comparer ni les distinguer tout à fait. 
 
-
---- matière 
-
-> Labour is the living fire that shapes the pattern; it is the transitoriness of thnigs, their temporality, their transformation by living time. (Carl Andre citant Marx Grundisse, "March/April Issue" [correspondence] Studion international, vol. 191, no 981 (May-June 1976) 311)
-
-> The category material has also been defined as natural
-or subaltern. Therefore, to act with the material and to be complicit means to
-investigate societal power relations. (Lange p. 14-15) 
+ 
 
 
 ---
@@ -328,70 +318,6 @@ derrière l'opposition humain et non-humain et machine, il y a la peur d'un gran
 
 --- 
 
-computation physique (lai-tze fan)
-
----
-
-
-L'intérêt porté au corps, le développement d'un système numérique et hybride pour comprendre le fonctionnement organique de ce dernier, la performance d'un épuisement de ce dernier qui lie organe et texte se retrouvait déjà dans une création antérieure à *SKIN*. Parmi les premières créations hypertextuelles, *Patchwork girl* (1995) peut être abordée comme une carte poétique de ce qu'est un texte numérique, compris comme un corps où les membres se connectent pour former un vaste récit. Des visuels de positionnement des textes (estomac, crâne, bras), comme les schémas d'acupunture, permettent de reconstituer un corps éclaté : chaque segment narratif décrit la provenant de la partie du corps associé. Cette structure entre lien et extension réussi à concevoir une unité dans la dispersion par la constitution d'une identité qui émerge de la relation : « Elle », la patchwork girl, ou la fiancée du monstre de Frankenstein recomposée par Mary Shelley à partir de plusieurs bouts de corps de femmes. L'Elle hybride n'est pas sans évoquer la {{< themes theme="cyborg" >}}figure du cyborg (*cybernetic organism*), être à mi-chemin entre artificialité et nature. La fusion est celle entre le principe humain et non-humain qui est opérée par l'écriture, moins par le style de la description comme pour l'*Éve future*, que par le projet d'agencement des conjonctures textuelles. 
-
-La patchwork girl semble réaliser cette utopie, où le corps féminin n'est plus un objet biologique mais, comme l'andréide de Villiers de L’Isle-Adam {{< cite "-villiers_de_lisle-adam_eve_1993" >}}, une construction de mots et d'imaginaires, donc de mécaniques. Le corps hypertextuel de la création de Jackson implique que « la physique du support [...] a pris le pas sur la raison du support : le calcul contribue à constituer une succesion arbitraire de document, d'avant et d'après, au lieu de constituer une temporalité lectoriale. » {{< cite "saemmer_hypertexte_2015" >}}. Hyperfiction développée grâce au logiciel Storyspace, la création propose une navigation à travers un corps de texte {{< cite "archibald_texte_2009" >}} en articulant conscience du corps et matérialité du texte {{< cite "kayser_deconstruction_2019" >}}. 
-
-----
-
-Hayles sur Patchwork girl (Mother p. 143-168)
-Le texte en lui-même est un corps de texte contenant des parties de narration du monstre féminin et des parties théorique sur l'hypertexte et le corps humains, l'histoire du monstre se tisse également d'intertextualité puisque des passages sont repris de passage de Frankenstein (catégorie "story"), la section "journal" est le journal présumé de Mary Shelley où elle reprend ses intéractions avec le monstre, et la section "crazy quilt" est une section qui contient des extraits de Frank Baum *Patchwork Girl of Oz*. 
-
-- idée du puzzle
-
-> n her comprehensive survey of the status of the body in the Western
-philosophic tradition, Elizabeth Grosz has shown that there is a persistent
-tendency to assign to women the burden of corporeality, leaving men free to
-imagine themselves as disembodied minds—an observation that has been
-familiar to feminists at least since Simone de Beauvoir. 13 Even philosophers
-as sympathetic to embodiment as Maurice Merleau-Ponty and Mark John-
-son are often blind to issues of gender, implicitly assuming the male body
-as the norm. The contrast between woman as embodied female and man as
-transcendent mind is everywhere at work in the comparison between Mary’s
-care for the female monster and Victor’s astonishing failure to anticipate any
-of the male creature’s corporeal needs, including the fact that making him
-seven feet tall might make it difﬁcult for the monster to ﬁt into human so-
-ciety. Whereas the disembodied text of the eighteenth century work went
-along with a parallel and reinforcing notion of the author as a disembodied
-face, in Jackson’s text the emphasis on body and corporeality goes along with
-an embodied author and equally material text. “The banished body is not
-female, necessarily, but it is feminine,” Jackson remarks. “That is, it is amor-
-phous, indirect, impure, diffuse, multiple, evasive. So is what we learned to
-call bad writing. Good writing is direct, effective, clean as a bleached bone.
-Flickering Connectivities in Shelley Jackson’s Patchwork Girl
-Bad writing is all ﬂesh, and dirty ﬂesh at that. . . . Hypertext is everything
-that for centuries has been damned by its association with the feminine”
-(“Stitch Bitch,” 534). (Mother, p. 155-56)
-
-- "The hypertext is the banished body,”
-Jackson remarks. “Its compositional principle is desire” (“Stitch Bitch,” 536).
-
-> Among Patchwork Girl’s many subversions is its attack on the “original-
-ity” of the work. “In collage, writing is stripped of the pretense of original-
-ity,” Jackson writes. “One can be surprised by what one has to say in the
-forced intercourse between texts or the recombinant potential in one text,
-by other words that mutter inside the proper names” (“Stitch Bitch,” 537).
-This muttering becomes discernible in Shelley Jackson’s playful linking of
-her name with Mary Shelley’s. The title screen of Jackson’s work performs
-this distributed authorship, for it says Patchwork Girl is “by Mary/Shelley
-& herself,” a designation that names Mary Shelley, Shelley Jackson, and the
-monster all as authors. (p. 157) [In a perhaps intentional irony, the Eastgate title screen inscribes Jackson’s name as
-the “authorized” signature, along with the usual warnings about copyright infringement,
-even though the entire thrust of Jackson’s text pushes against this view of a sole author who
-produces an original work.]
-
-<!--
->Boundaries of texts are like boundaries of bodies, and both stand in for the confusing and invisible boundary of the self. (Jackson 1995)
-
-La notion de frontière se trouve justement adressée au cœur des réflexions de Harraway qui lie dans sa lutte la question de la relation -- en particulier l'idée de symétrisation entre humain et non-humain empruntée à la sociologie de Latour -- et une perspective féministe. Mêler frontières humaine et non-humaine, textuelle et mécanique pour décrire les dynamiques de relation, articulation, connexion, et parenté (*kinship* @gardey_au_2009) permet justement de concevoir une littérature comme une humanité ouverte :
-
->Pour que l’humain soit humain, il doit être en relation avec ce qui est non-humain, avec ce qui certes est hors de lui, mais dans son prolongement, en vertu de son implication dans la vie. Cette relation avec ce qu’il n’est pas constitue l’être humain en tant qu’être vivant, de sorte que l’humain excède sa frontière dans l’effort même qui vise à l’établir. {{< cite "butler_defaire_2006" 25 >}}
--->
 
 
 > « La machine à écrire n'est en réalité rien d'autre qu'une presse à imprimer en miniature » (Streichter p. 7 1919) Elle contribue à la meilleure visualisation possible des textes par la double spatialisation de l'écriture -- sur le clavier d'abord, puis sur le papier blanc. Et dès que, selon la prophétie de Benjamin, des « systèmes avec des polices d'écritures variables » (par exemple la machine à écrire à boule ou l'imprimante thermique) seront disponibles, « l'exactitude des formations typographiques entrera directement dans la conception » des « livres ». « L'écriture pénètre toujours plus profondément dans la zone graphique de son imagéité nouvelle et excentrique. » (Benjamin sens unique, p. 98 et 95 traduction modifiée gft)
@@ -479,3 +405,113 @@ la machine à écrire de Turing est primitive selon Kittler :
 
 
 Si le régime de l'écriture est transposé dans le roulement de la discrétisation, l'écriture à l'écran n'est pas le résultat d'un encodage mais d'un désencodage : la machine s'inverse, en ce que la présence des signes reconnaissables résulte de bits interprété par la machine. Le numérique conçu comme structure logique d'information, comme ensembles d'objets culturels, n'est en somme *que ça*, que de l'écriture prise dans un système où elle s'interprète et se calcule sur elle-même. 
+
+Si toutes les technologies (photographie, cinéma, livre), parce qu'elles sont des architectures de l'information spécifiques à des configurations matérielles propres, affectent l'environnement culturel humain : jusqu'au cas du miméographe, qui semble pourtant anecdotique dans l'histoire des machines de publication, mais qui a été à l'origine d'un phénomène culture à part entière. 
+
+                encre au stencil
+                polycopie pochoir
+                décalque stéariné
+                tirage limité à 200
+
+![](/images/mimeographe.png)
+
+Objet représentatif d'une révolution industrielle qui amena le développement des lieux d'enseignement et une nouvelle impulsion dans l'économie des instances d'édition (développement de maisons d'édition non-parisiennes et spécialisation disciplinaire de maisons d'édition), le Duplicateur à pochoir d'Edison (1894), appelé aussi miméo ou miméographe, est l'implémentation du principe de presse portative : sa commercialisation au début des années 1900 est à l'origine de l'émergence de plusieurs éditions alternatives, marginales et parfois dissidentes en Amérique du Nord (les communautés « miméo » et le mouvement des *fanzines*) mais aussi en Europe et en URSS (où elles seront également interdites par le pouvoir en place). 
+
+![](/images/exemple_mimeo.png)
+
+---
+
+La définition du labyrinthe pourrait, au vu des exercices proposés désormais dans les enseignements de création littéraire, concerner la littérature en général : popularisée et ayant déjà une tradition (dans la fable, le théâtre, ou les règles des genres littéraires qui sont déjà des formes de contraintes de rédaction visant tant à éveiller la créativité qu'à lui offrir un cadre officiel {{< cite "puff_contrainte_2004" >}}), le principe de contrainte est un ressort et un imaginaire de l'écriture qui traduit la question posée en amont. 
+
+---
+
+le tambour magnétique capable de stocker plus de 16 000 mots de 32 bits, représentant environ 16 000 nombres à dix chiffres, ce qui permettait l'exécution de calculs complexes, d'analyses statistiques détaillées ou de tâches de gestion administrative étendues.
+
+---
+
+
+En 1975, Braffort propose à Queneau une version des *CMMP* où le hasard de la machine (ou celui qu'on y projette) vaut comme méthode de création à la différence où le principe combinatoire n'est plus du fait de la lecture mais aux mains de la machine. Dans le processus, la machine fait figure de compilateur antique. Loin de poser la question de savoir si une machine peut être un bon compilateur ou est simplement un scribe débile (une démonstration de supériorité entre humain et non-humain), il s'agit de penser le principe de compilation qui se fait selon un même phénomène d'arbitraire : que ce soit par goût, culture, croyances ou caprices, l'aléatoire est toujours partie prenante d'une méthode (même si cette dernière a été établie selon des critères thématiques, stylistiques ou syntaxiques). 
+
+---
+
+Paul Fournel neutralise ce chevauchement lorsqu'il limite le hasard à un instrument de sondage, un outil pour assister l'auteur ou la lectrice dans leur édition et leur parcours du texte. 
+
+>L’ordinateur, lui, opère une sélection dans le corpus à partir de la longueur du nom du « lecteur » et du temps qu’il met à le dactylographier sur le terminal puis édite le sonnet qui porte la double signature de Queneau et de son lecteur (Fournel 1981, 299).
+
+---
+
+
+>[L]es êtres humains ne sont peut-être que des machines à penser, à écrire et à parler (Nietzsche)
+
+Dès ses premiers mots, *CMMP* semble nous annoncer que nous, humains, ne pourrons pas apprécier le texte machinique à sa juste valeur, soit comme une machine pourra l'apprécier. Au gré de la distinction humain et non-humain, c'est le principe de concordance qui s'expose ici selon lequel l'appréciation ne peut transgresser les natures. Distinction forte entre humain et non-humain qui fonde une destinée tragique, d'autant plus terrible qu'aujourd'hui, depuis les industrialisations et numérisations de l'écrit, ce sont physiquement des machines qui *écrivent* sur/sous nos doigts. Cela nous condamne donc à ne jamais tout à fait comprendre, *prendre en nous*, et juger à une juste valeur le travail de ces rouages divers qui s'évertuent dans l'ombres sous notre commandement inconscient, au travers de requêtes dont nous prenons la complexité pour du heureux hasard. 
+
+
+>[Ê]tre remplacés par des machines, c'est-à-dire d'être implémentés dans le réel. {{< cite "kittler_gramophone_2018" 311 >}}
+
+Si cette idée peut désespérer sur notre condition humaine et toute possibilité d'humanisme de par son ton quelque peu apocalyptique, elle demeure vraie et fausse en même temps : fausse parce que la distinction humain/non-humain qui se love en creux n'est en fait pas véritablement fondée et à prendre comme une certaine ironie du sort d'une théorie adressée par l'auteur. En effet, si l'humain considère la machine dans cet angle binaire du non-humain/humain, pour se définir par principe de supériorité ou par complexe de propriété, elle ne pourra jamais apprécier les productions écrites de la machine et ce, même s'il s'agit d'une forme aussi noble que le sonnet. Vraie parce qu'il faut y percevoir une invitation à aller au-delà du texte classique, la valeur de l'écriture par la machine ne se situe pas dans le dosage de sa production, on sait et le nombre infinie de *CMMP* est là pour nous le rappeler, qu'une machine peut produire, plus et plus vite qu'une petite main, non, la valeur de cette littérature-machine est à voir et chercher ailleurs : justement dans le modèle dont l'incarnation est le témoignage qu'humain et non-humain ne sont pas distinguable. C'est un livre machine qui conte sans l'auteur et l'auteur lui-même ne nous parle pas sinon au travers de cette interface papier-machine. Dans cette perspective, contrairement à ce qui est retenu à son égard, *CMMP* est peut-être le livre le plus lisible à exister, non en termes de potentialités poétiques, mais en termes de fonctionnement dans la mesure où le livre affiche sans pudeur, sans complexité technique, son principe machinique. 
+
+>En 1882 se substituèrent aux êtres humains, à leurs pensées et à la figure de l'auteur, deux sexes, le texte et un outil d'écriture aveugle. {{< cite "kittler_gramophone_2018" 334 >}}
+
+ Partenaire, l'homme devient, en reprenant une image d'Asimov, l'organe reproducteur de la machine, comme l’abeille du monde végétal, lui permettant de se féconder et de prendre sans cesse de nouvelles formes {{< cite "mcluhan_understanding_1964" 67 >}}. 
+
+L'imaginaire de la reproduction, dont les changements de modalités comme de position sont autant d'alertes chez les trois auteurs, n'est certes pas anodine tant elle témoigne d'une crainte bien plus profonde : perdre la mesure de son jaillissement scripturaire, c'est perdre une place dominante dans la chaîne, c'est perdre la face du père d'origine au profit d'une nouvelle entité, plus féminine, qu'est la matrice. 
+
+La désintermédiation entre humain et non-humain, présente dans la perte de la main-mise du faire (Heidegger, Flusser) autant que dans la main-basse de la secrétaire sur l'espace de production de la création littéraire, a en réalité toujours été : jusque dans la première configuration du jeu de l'imitation puisque l'interrogation est affaire de médiation technique. 
+
+>In order that tones of voice may not help the interrogator the answers should be written, or better still, typewritten. The ideal arrangement is to have a teleprinter communicating between the two rooms. Alternatively the question and answers can be repeated by an intermediary. {{< cite "turing_computing_1950" >}}
+
+L'éternel intermédiaire discret fait du principe de nature humaine une simulation par la machine. Il n'a au fond jamais été question de déterminer un marqueur de différenciation des natures mais de révéler l'illusion propre à tous humain (puisque l'interrogateur peut être « of either sex ») de se dire capable de faire la distinction et sa destiné à pouvoir être trompé éternellement (la question « Can machines think? » se transforme ainsi en « Will the interrogator decide wrongly as often when the game is played like this as he does when the game is played between a man and a woman? »).
+
+
+> n her comprehensive survey of the status of the body in the Western philosophic tradition, Elizabeth Grosz has shown that there is a persistent tendency to assign to women the burden of corporeality, leaving men free to imagine themselves as disembodied minds—an observation that has been familiar to feminists at least since Simone de Beauvoir. 13 Even philosophers as sympathetic to embodiment as Maurice Merleau-Ponty and Mark Johnson are often blind to issues of gender, implicitly assuming the male body as the norm. The contrast between woman as embodied female and man as
+transcendent mind is everywhere at work in the comparison between Mary’s
+care for the female monster and Victor’s astonishing failure to anticipate any
+of the male creature’s corporeal needs, including the fact that making him
+seven feet tall might make it difﬁcult for the monster to ﬁt into human so-
+ciety. Whereas the disembodied text of the eighteenth century work went
+along with a parallel and reinforcing notion of the author as a disembodied
+face, in Jackson’s text the emphasis on body and corporeality goes along with
+an embodied author and equally material text. “The banished body is not
+female, necessarily, but it is feminine,” Jackson remarks. “That is, it is amor-
+phous, indirect, impure, diffuse, multiple, evasive. So is what we learned to
+call bad writing. Good writing is direct, effective, clean as a bleached bone.
+Flickering Connectivities in Shelley Jackson’s Patchwork Girl
+Bad writing is all ﬂesh, and dirty ﬂesh at that. . . . Hypertext is everything
+that for centuries has been damned by its association with the feminine”
+(“Stitch Bitch,” 534). (Mother, p. 155-56)
+
+
+This muttering becomes discernible in Shelley Jackson’s playful linking of
+her name with Mary Shelley’s. The title screen of Jackson’s work performs
+this distributed authorship, for it says Patchwork Girl is “by Mary/Shelley
+& herself,” a designation that names Mary Shelley, Shelley Jackson, and the
+monster all as authors. (p. 157) [In a perhaps intentional irony, the Eastgate title screen inscribes Jackson’s name as
+the “authorized” signature, along with the usual warnings about copyright infringement,
+even though the entire thrust of Jackson’s text pushes against this view of a sole author who
+produces an original work.]
+
+> Among Patchwork Girl’s many subversions is its attack on the “originality” of the work. “In collage, writing is stripped of the pretense of originality,” Jackson writes. “One can be surprised by what one has to say in the forced intercourse between texts or the recombinant potential in one text,
+by other words that mutter inside the proper names” (“Stitch Bitch,” 537).
+
+
+- "The hypertext is the banished body,”
+Jackson remarks. “Its compositional principle is desire” (“Stitch Bitch,” 536).
+
+Le mur est donc bien plus poreux qu'on voudrait le croire, entamé par des principes de collaboration mais aussi des imaginaires littéraires comme cités précédemment qui, au-delà de déclarer une puissance de l'homme à s'augmenter lui-même ou a créer la femme, jouent à gratter la frontière entre humain et non-humain. 
+ comme une humanité ouverte :
+
+>Pour que l’humain soit humain, il doit être en relation avec ce qui est non-humain, avec ce qui certes est hors de lui, mais dans son prolongement, en vertu de son implication dans la vie. Cette relation avec ce qu’il n’est pas constitue l’être humain en tant qu’être vivant, de sorte que l’humain excède sa frontière dans l’effort même qui vise à l’établir. [@butler_defaire_2006, p. 25]
+
+[^patchwork]: *Patchwork girl* (1995) est justement une création hypertextuelle qui recompose le corps de femme par le fragment numérique écrit en s'imprégnant de l'imaginaire de Frankenstein. Ce cas sera étudié dans la troisième section du chapitre. 
+
+Explicitant les implications médiatiques de ses performances dans le cadre du projet #GraphPoem[^graph], Tanasescu revient justement sur la distinction humain/non-humain pour proposer de la considérer « not so much as an enumeration but as a non-identifying co-incidence » (2022), une conjonture se référant au fait d'opérer comme l'un ou l'autre. Fait du discours ou de la prise en main, la distinction humain/non-humain est une imbrication qui est en réalité toujours déjà présente dans les écritures et cette perception permet d'observer les textes comme des environnements humain-machine (Candlin and Guins). Les créations qui livrent et scrutent d'un même regard leur fabrique chevauchant humain et non-humain fonctionnent comme des « evocative object » par les « things to think with » qu'ils libèrent (Sherry Turkle qtd. in Muller and Seck Langill).
+
+[^graph]: Le projet sera analysé comme un cas d'étude dans la troisième section du présent chapitre.
+
+---
+
+La machine s'écrivant est une ruse d'images et de réalités techniques liées qui, à l'image d'Ulysse, s'adapte, soit imite le discours de l'hôte pour le mener là où il ne désirait pas aller, là où il n'est plus chez lui, hors de son humanité et en révéler l'illusion. L'écriture, si elle ne peut être le gage et le privilège d'une intelligence unique, est également une invention, ingénieuse parmi bien d'autres, qui aura permis de saisir un rapport de l'humain à ses propres miroirs que ce soit sous un aspect positif (moyen, expédient) ou négatif (ruse, artifice, machination).
+
+----
+
+----

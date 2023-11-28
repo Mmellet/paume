@@ -14,6 +14,33 @@ traces of ink s*urvived8.
 
 ----
 
+> La civilisation créée par les Grecs et les Romains fut la première de toutes les civilisations à petre fondée sur l'activité du lecteur ordinaire ; la première à être équipée des moyens d'une expression adéquate dans la parole inscrite ; la première à être capable de procurer une diffusion générale de la parole inscrite ; la première, en somme, à devenir lettrée dans le sens complet du terme et à nous transmettre sa littératie. (1982, p. 40)
+
+L'adjectif lettré a été préféré comme le note l'éditeur de l'ouvrage au terme alphabétisé qui été utilisé jusqu'en 2000 du fait que la littératie, comme culture de l'écrit, est un concept qui s'applique à toutes les sociétés disposant d'une écriture. 
+
+
+sur les critiques de Goody, avec ce qui a été appelé « hypothèse littératienne » et son chauvinisme culturel, en insistant sur le caractère unique de l'alphabet, alors que l'auteure italienne a montré les 4-6 foyers d'apparition de l'écriture
+et cette même sublimation de l'alphabet se retrouve autant chez McLuhan que c'est Havelock 
+
+Pour olsen, les arguments cognitifs de la thèse littératienne de Goody et Watt (1968) doivent être compris comme métalinguistiques : « c'est-à-dire qu'ils pensent que les mots, en tant qu'entités conceptuelles distinctes pouvant être inventoriées et analysées, doivent leur existence à l'écriture » (p. 32)
+
+Ce qu'il faut retenir de l'hypothèse littératienne et du Goody utilisable pour notre perspective, est comme le dit olsen (p. 37): 
+
+> L'hypothèse littératienne consiste donc à poser qu'un système ou une tradition d'écriture n'est pas une pratique neutre. 
+
+*comment un texte advient physiquement*
+
+
+--- 
+
+> Labour is the living fire that shapes the pattern; it is the transitoriness of thnigs, their temporality, their transformation by living time. (Carl Andre citant Marx Grundisse, "March/April Issue" [correspondence] Studion international, vol. 191, no 981 (May-June 1976) 311)
+
+> The category material has also been defined as natural
+or subaltern. Therefore, to act with the material and to be complicit means to
+investigate societal power relations. (Lange p. 14-15)
+
+
+---
 
 > L'ordre des effets a remplacé l'ordre de la sémantique (à l'entrée du département de Bochum, où il enseigna entre 1987 et 1993, Kittler avait fait apposer l'écriteau « Zone affranchie de toute sémantique »). (Alloa p. 10)
 
@@ -47,7 +74,7 @@ ce qui veut dire que l'assertion de Kittler n'implique pas un principe d'exclusi
 
 L'écriture, au-delà de l'idéale abstraction que l'on a voulu en faire, est bel et bien périssable. Proust lui-même ne résistera pas à la roue du temps. 
 
-« Le livre est créature fragile, il souffre de l’usure du temps, craint les rongeurs, les intempéries, les mains inhabiles. Si pendant cent et cent ans tout un chacun avait pu librement toucher nos manuscrits, la plus grande partie d’entre eux n’existerait plus. Le bibliothécaire les défend donc non seulement des hommes mais aussi de la nature, et consacre sa vie à cette guerre contre les forces de l’oubli, ennemi de la vérité. » (nom de l arose)
+
 
 Le bien, pour un livre, c'est d'être lu. Un livre est fait de signes qui parlent d'autres signes, lesquels à leur tour parlent des choses. Sans un oeil qui le lit, un livre est porteur de signes qui ne produisent pas de concepts, et donc il est muet. (nom de la rose)
 
@@ -85,7 +112,10 @@ Anne-Marie Christin (1999) propose deux interprétations possibles de l’écrit
 
 une stigmergie entre les deux au sens de « dépendance étonnante qui lie la toile à l’araignée, où la structuration même de cette toile guide la façon dont elle se fera bâtir » (Dyens 2012, 13).
 
+La French Theory pour Kittler n'a pas été à la hauteur de sa propre radicalité : elle a fait de l'écriture un concept encore trop métaphorique et donc métaphysique. 
 
+
+> comment occuper les lieux de l’art en tant qu’écrivain ? Qu’est-ce que réaliser des performances d’écrivain et non de comédien ? Comment y produire des effets de littérature ? Qu’est-ce qui caractérise l’enquête littéraire, comment la parole des acteurs sociaux y est-elle recueillie puis transcrite, selon quel degré d’implication de l’auteur dans son objet, qu’est-ce que la littérature saisit en plus ou en moins de la réalité, qu’échoue-t-elle aussi à montrer ? {{< cite "ruffel_litterature_2010" >}}
 
 > L’écriture est une inscription matérielle17. Elle est quelque chose qui se trouve materiellement quelque part. En ce sens, en effet, une lettre est de l’écriture au moment où cette lettre est inscrite. Le quelque part – le support – émerge, lui aussi, au moment de l’inscription. La feuille de papier est un support dans la mesure où il y a des lettres qui y sont inscrites. Le support n’est qu’un après-coup de l’écriture, car il n’y a pas de support vide – un support vide n’est tout simplement pas un support – et que, d’autre part, tout peut s’affirmer comme support dès qu’il y a quelque chose d’inscrit. Le ciel est un support dès que l’étoile s’y inscrit, l’intérieur d’un animal est un support dès que des entrailles s’y inscrivent, un disque magnétique est un support dès que des signaux électriques s’y inscrivent. (marcel écrit)
 
