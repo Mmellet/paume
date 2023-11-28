@@ -1,6 +1,6 @@
 # Pathes
 PRINT := content/print
-PAGES := content/pages # Source of truth
+PAGES:=content/pages
 GABARIT := gabarit
 GABARIT_SRC := $(GABARIT)/src
 GABARIT_CHAPTERS := $(GABARIT_SRC)/chapitres
