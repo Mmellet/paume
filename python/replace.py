@@ -191,6 +191,9 @@ def replace_img_path(text):
 
 def replace_greek_chars(text):
     def repl(match):
+        group1 = match.group(1)
+        if group1 in ["τίς", "δ"]:
+            return group1
         return f"\\textgreek{{{match.group(1)}}}"
 
     pattern = re.compile("([\u0370-\u03FF\u1F00-\u1FFF]+)", re.UNICODE) 
