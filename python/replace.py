@@ -214,9 +214,17 @@ def remove_references(text):
     return re.sub(pattern, repl, text)
 
 
+def replace_latex_comment(text):
+    def repl(match):
+        return match.group(1)
+
+    pattern = re.compile(r"<!--\s*LATEX\s*\|(.*)\|\s*-->", re.DOTALL)
+    return re.sub(pattern, repl, text)
+
+
 def replace_all(text):
     text = replace_title(text)
-    text = replace_themes(text)
+    # text = replace_themes(text)
     text = replace_citation(text)
     text = replace_exposant(text)
     text = replace_strike(text)
@@ -226,6 +234,7 @@ def replace_all(text):
     text = replace_img_path(text)
     text = remove_references(text)
     text = replace_greek_chars(text)
+    text = replace_latex_comment(text)
     return text
 
 
