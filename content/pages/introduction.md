@@ -30,7 +30,7 @@ S'il fallait déterminer -- sous la contrainte d'un utilitarisme et la pression
 C'est dans ce même caprice des repères scientifiques et une saveur toute particulière du manifeste littéraire que se pose le refus de distinguer ces deux objets que seraient la recherche d'un côté et la création de l'autre. Apportant chacune un patrimoine (la recherche et sa rigueur d'analyse, la création et sa folie sensible), elles ne seront pas abordées ensemble comme un heureux mariage dont le contrat lèse une des parties. Il n'y aura pas deux produits, aussi poreuse soit rendue la cloison les séparant par un principe de dialogue ou de complémentarité. Il y aura un seul et même objet. 
 
         ton essayistique à l'essai
-        textes perturbateurs en échappée                            de la marge
+        textes perturbateurs en échappée                                de la marge
         déploiement des coulisses en lisse
         piquement du timbre argumentaire par des images intempestives
 
@@ -196,6 +196,8 @@ L'excavation en programme se déploie comme une main, dont chacun des cinq doigt
 
 Cette thèse n'a pas de chapitres.
 
+![](/images/epaisseur.png)
+
 L'idéale architecture de la thèse aurait été de laisser lire sans linéarité préconstruite, de laisser choisir la porte d'entrée au promeneur[^porte]. Cela étant dit, la lecture n'est au fond jamais linéaire, même si toujours une ligne, et avec espoir, les yeux pourront casser la chronologie imposée.
 
             aller et venir, 
@@ -221,6 +223,8 @@ La machine explore la notion de mécanisation de l'écriture, le balancement ent
 La page développe la question de la trace par les principes de cadre et de ligne d'écriture, pour constater leur évolution dans l'histoire des supports de la littérature jusqu'à leurs remises en question ponctuée par des créations qui font imploser le corps de la page. Exploration de différentes approches de ce lieu blanc par excellence, mais plein d'une potentielle poétique, la page se conclut sur la déclinaison de ses formes plastiques qui en font le paysage du fait littéraire. 
 
 La matière sonde, en restant dans une approche littéraire et la limite d'un imaginaire, les conditions concrètes d'émergence de l'écriture. Ouvrant sur la détermination des caractéristiques physiques des outils dans l'approche de l'écriture, la matière se poursuit sur la question des catégorisations du signe, distinguant image de texte, et sur la limite de ces carcans au regard de création qui explorent justement les porosités de l'écriture avec son environnement d'inscription. Parvenue au geste et à la notion d'incidences matérielles, la partie décline une série de procédures qui explorent la relation du fait littéraire dans le mouvement du réel. 
+
+<!-- LATEX |\newpage| -->
 
 ## Notes sur ce qui suit 
 
@@ -255,7 +259,7 @@ En parallèle de cette version officielle, un site Web a été conçu pour la th
 
 Toutes les traductions personnelles ont été produites à l'aide de l'outil de traduction en ligne [DeepL.com](https://www.deepl.com/translator).
 
-Certains des scripts et encodages des expérimentations ont été conçus avec le conseil de [Chat GPT](chat.openai.com/).
+Certains des scripts et encodages des expérimentations ont été conçus avec le conseil de [Chat GPT](https://chat.openai.com).
 
 La plupart des textes lus de cette étude, s'ils n'ont pas été empruntés à des institutions ou à des individus (parfois avec des délais de retournements tout à fait inacceptables), ont également été collectés sur des librairies alternatives ou fantômes dont je sus les noms. 
 

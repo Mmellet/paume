@@ -41,7 +41,7 @@ La partie *fabrique* a été le modèle et le lieu d'une écriture pour retransc
 
 La chambre ou l'atelier de l'écrit ne correspond pas à une architecture abstraite, mais ne se limite pas non plus à ses murs. 
 
-> La maison de l'écriture est l'endroit où il n'y a plus de dichotomie entre le monde extérieur et le monde intérieur, entre l'intime et le non-intime. (Autobiographie de l'esprit, Turcotte, p.20)
+> La maison de l'écriture est l'endroit où il n'y a plus de dichotomie entre le monde extérieur et le monde intérieur, entre l'intime et le non-intime. {{< cite "turcotte_autobiographie_2017" 20 >}}
 
 Ainsi dans la fabrique -- lieu théorique, imaginaire, mais également physiquement incarné dans une géographie scientifique -- les individus ne sont pas entourés des artefacts qu'ils ont conçus ou engendrés : ils sont inclus dans un réseau de relations potentielles d'où émerge un faire (et en parallèle différentes individualités). 
 
@@ -114,13 +114,15 @@ Face aux déterminations, les gestes, comme mesure de l'impact et de l'action, c
 
 >Il est des moments magiques, de grande fatigue physique et d'intense excitation motrice, où surgissent des visions de personnes connues par le passé [...] surgissent pareillement des visions de livres non encore écrits. {{< cite "eco_nom_2022" >}}
 
-Au-delà de ce qui aura été filé, depuis l'intérieur ou l'extérieur des pages, il reste un ensemble désécrit qui dérive dans les coulisses 
+Au-delà de ce qui aura été filé, depuis l'intérieur ou l'extérieur des pages, il reste un ensemble désécrit qui dérive dans les coulisses[^chutes] 
 
                 les livres liés qui n'ont pas été lus
                 les chutes des bouts qui n'ont pas trouvé place
                 les recommandations qui n'ont pas été suivies à la lettre
                 
 et une envie dans la <strike style='color:rgb(196, 43, 94);'>paumée</strike> paume de reprendre l'écriture, de *refaire* la thèse, pour saisir d'autres strates, d'autres figures, d'autres rapports du fait littéraire dans les espaces qui ne sont pas directement associés à lui.  
+
+[^chutes]: Les *chutes* de la thèse, ce qui n'a pas été intégré, sont disponibles sur le site [Paume.page](https://paume.page/chutes).
 
 ## Le Nœud
 
@@ -142,6 +144,8 @@ Elle n'est peut-être pas tant un *discourse network* qu'un *meshwork*.
 Cette thèse est un nœud.
 
                 phrases trop longues qui suivent le fil d'une pensée qui ne veut pas s'arrêter
+                        je sais écrire des phrases courtes 
+                        mais je ne voulais pas mettre de cloison
                 style d'inscrustes dans des boîtes
                 lyre lourde
 
