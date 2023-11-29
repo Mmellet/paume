@@ -89,9 +89,9 @@ set_gabarit:
 # 	@ cd gabarit && git checkout . 2>/dev/null 
 # # @ cd gabarit && git clean -fd . 2>/dev/null 
 
+re: clean distant_clean all
 
-
-.PHONY: all html pdf clean gabarit
+.PHONY: all html pdf clean gabarit re
 
 
 install_pandoc:

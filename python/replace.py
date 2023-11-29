@@ -230,15 +230,15 @@ def replace_latex_comment(text):
     return re.sub(pattern, repl, text)
 
 def replace_double_balise(text):
-    text = re.sub(ESCAPED_BALISE + r"\n\s*\n" + ESCAPED_BALISE + "\n", "\n", text)
-    return text.replace(f"{BALISE}\n{BALISE}\n", "")
+    text = re.sub(ESCAPED_BALISE + r"(\n\s*)+\n" + ESCAPED_BALISE + "\n", "\n", text)
+    return text.replace(f"{BALISE}\n{BALISE}\n", "").replace("\n\n", "\n")
 
 
 def replace_spacing_verbatim(text):
     def repl(match):
         verbatim = match.groups(1)
         verbatim = "".join(verbatim)
-        return f"{BALISE}\n\n{verbatim}\n\n{BALISE}"
+        return f"{BALISE}\n{verbatim}\n{BALISE}"
 
     pattern = re.compile(r"( {4,}[\S].*)+", re.MULTILINE)
     return replace_double_balise(re.sub(pattern, repl, text))
@@ -256,7 +256,7 @@ def replace_all(text):
     text = replace_img_path(text)
     text = remove_references(text)
     text = replace_greek_chars(text)
-    text = replace_spacing_verbatim(text)
+    # text = replace_spacing_verbatim(text)
     # need to be executed after replace_spacing_verbatim
     text = replace_latex_comment(text)
     return text
