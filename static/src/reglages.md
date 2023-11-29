@@ -52,9 +52,15 @@ examinateur: Isabelle Collet
 # (thèse seulement)
 #repdoyen: 
 
-# abbreviations:
-# - sigle: 'X'
-#   complete: "xxx"
+abbreviations:
+ - sigle: 'CMMP'
+   complete: "Queneau, Raymond, *Cent mille milliard de poèmes*, Paris, Gallimard, 1961"
+ - sigle: 'CRCEN'
+   complete: 'Chaire de recherche du Canada sur les écritures numériques'
+ - sigle: 'CRIHN'
+   complete: 'Centre de recherche interuniversitaire sur les humanités numériques'
+ - sigle: 'CCLA'
+   complete: 'Comparative Literature Canadian Association'
 
 # Les mots-clefs pourront aussi se retrouver dans les métadonnées;
 # c’est pourquoi il est pratique de les lister ainsi
