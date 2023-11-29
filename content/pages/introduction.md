@@ -7,6 +7,8 @@ progress: 90%
 
 Cette thèse n'est pas une solution. 
 
+![](/images/epaisseur.png)
+
 <!-- LATEX |\vspace{1.2cm}| -->
 
 Cette thèse ne représente ni une solution absolue ni une solution partielle qui viendrait répondre à la problématique soulevée, dont elle a créé peut-être certaines des pièces. 
@@ -195,8 +197,6 @@ L'excavation en programme se déploie comme une main, dont chacun des cinq doigt
 ## 5 comme les doigts d'une main
 
 Cette thèse n'a pas de chapitres.
-
-![](/images/epaisseur.png)
 
 L'idéale architecture de la thèse aurait été de laisser lire sans linéarité préconstruite, de laisser choisir la porte d'entrée au promeneur[^porte]. Cela étant dit, la lecture n'est au fond jamais linéaire, même si toujours une ligne, et avec espoir, les yeux pourront casser la chronologie imposée.
 
