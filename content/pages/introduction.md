@@ -7,7 +7,7 @@ progress: 90%
 
 Cette thèse n'est pas une solution. 
 
-<!-- LATEX |\vspace{1.5cm}| -->
+<!-- LATEX |\vspace{1.2cm}| -->
 
 Cette thèse ne représente ni une solution absolue ni une solution partielle qui viendrait répondre à la problématique soulevée, dont elle a créé peut-être certaines des pièces. 
 
@@ -78,7 +78,6 @@ Soit,
       où achopper le chenal du geste d'inscription dans les réalités culturelles ?
 
 Le projet d'étude qui se déploie ligne par ligne s'enracine d'abord dans l'identification de trois paradigmes du fait littéraire qui, comme des jougs autour des doigts, figent à un endroit la pensée de l'écriture et de son geste. De ces trois moines, l'écriture va d'abord effiler les crans. 
-
 
 ## La fileuse
 
@@ -246,7 +245,7 @@ C'est le problème des belles images.
 
 Le palimpseste, comme d'autres, en est une dans la mesure où, utilisé pour parler de la réalité stratifiée de l'écriture et des dynamiques de réécritures et d'écriture comme support d'écriture, le palimpseste est soit vidé d'un sens qui le définissait au départ dans un contexte clair (de recyclage de manuscrit), soit imposé comme une orientation, un décalage, dans l'analogie (l'intentionnalité de l'écriture). 
 
-Dernière parvenue de cette quête du trope,l'épaisseur n'est pas sans failles. Composition entre l'espace (le *spatium* latin), une partie de la main (la *spithama*) et l'espoir bienvenu (le *spes*), cette épaisseur est un aveu, plutôt grinçant, de ne pouvoir dépasser le problème des images. 
+Dernière parvenue de cette quête du trope,l'épaisseur n'est pas sans failles. Composition entre l'espace (le *spatium* latin), une partie de la main (la *spithama*) et l'espoir bienvenu (le *spes*), cette épaisseur est un aveu, plutôt grinçant, de ne pouvoir dépasser le problème des images et des discours, comme Kittler qui annonce une désécriture par écrit. 
 
 ### Les mains techniques
 
@@ -262,7 +261,13 @@ La plupart des textes lus de cette étude, s'ils n'ont pas été empruntés à d
 
 Les variations lexicales entre les lignes et le déploiement de différents vocabulaires thématiques pour filer la métaphore sont le résultat de recherche via des outils en ligne de synonymie, d'étymologie ou de documentation encyclopédique. 
 
+### L'aveu des images
+
 Sauf indications contraires, toutes les images utilisées dans le cadre de cette thèse sont sous licence CC BY-SA 4.0 (Creative Commons Attribution Partage dans les mêmes conditions).
+
+Sauf indications contraires, les images sont des productions de mes mains.
+
+Les utilisations des images dans le cadre de cette thèse relèvent de l'utilisation équitable pour des besoins de recherche et de création. 
 
 
 ## Références
