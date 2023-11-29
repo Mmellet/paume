@@ -109,9 +109,6 @@ Par cette même inquiétude liées, les théories littéraires et les théories 
             suis-je toujours à l'origine des mots, des manques,
                 des idées et images que mes doigts encrent ?
 
-
-[^inclusif]: Le choix d'un épicène plein est justifié ainsi : la réalité des métiers est radicalement différente d'un sexe à un autre et cela l'écriture peut le signifier ici en n'abrégeant pas la réalité d'un sexe sur la réalité d'un autre. 
-
 ## La répartitrice
 
 Le transport est source d'angoisse. 
@@ -148,6 +145,7 @@ La culture numérique, sorcière technocrate, semble résoudre certains maux, ma
 
 Le texte numérique, devenu aussi immatériel qu'un mur, fait désormais appel, par une architecture réticulaire d'environnements eux-mêmes composés d'écriture, à une culture de l'écrit qui est également une culture de l'écran, mais surtout une culture de la méta-écriture. L'écriture électrique {{< cite "chartier_lecrit_2006" >}} ou numérique (terme préféré depuis quelques années dans les études) est une autre des grandes ruptures vis-à-vis de l'ordre des discours -- soit l'ordre établi à partir de la relation entre des objets, des catégories et des usages textuels délimités par la littérature (lettre, livre, journal, revue, affiche, etc.). Remise en question du *libro unitario*, la loi de l'écriture est celle des versions. Expression héritée d'Armando Petrucci, le *libro unitario* a incarné une rupture au XIV<sup>e</sup> et XV<sup>e</sup> siècles en rassemblant dans une même peau les œuvres d'un auteur ou une seule œuvre. Le livre devient alors le lieu « où se noue le lien entre l'objet matériel, l’œuvre (au sens d’une œuvre particulière ou d’une série d’œuvres) et l’auteur » {{< cite "chartier_lecrit_2006" >}}. Si le livre en tant que modèle et format est déjà en tant que tel renégocié et remodelé par la culture numérique (des livres numériques ou livrels du début des années 2000 jusqu'aux ouvrages dits « nativement numériques »), le principe même d'objet littéraire est déplacé : non pas dans les nimbes immatériels, mais dans un système de déliaisons multiples entre les types de supports (support d'enregistrement, de diffusion, de lecture). L'écran d'affichage est un dispositif de lecture qui n'est pas directement l'objet matériel d'enregistrement de l'écriture. Non seulement les outils d'écriture (traitements ou éditeurs de textes) ne sont pas (ou très rarement) les outils de diffusion ou les environnements qui vont permettent la lecture, mais il y a une distinction désormais claire et fondamentale entre le lieu de l'enregistrement et le lieu d'accès. La question émerge alors : où est *physiquement* l'écriture ? où a-t-elle été transportée ? est-elle prise dans un mouvement perpétuel sur lequel nos angoisses littéraires ne peuvent pas se poser ?
 
+[^inclusif]: Le choix d'un épicène plein est justifié ainsi : la réalité des métiers est radicalement différente d'un sexe à un autre et cela l'écriture peut le signifier ici en n'abrégeant pas la réalité d'un sexe sur la réalité d'un autre. 
 
 ## L'inflexible
 
