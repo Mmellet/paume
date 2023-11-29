@@ -32,7 +32,7 @@ La partie *fabrique* a été le modèle et le lieu d'une écriture pour retransc
 
 >Ce texte essaie de rendre visibles ses dynamiques de production. Un texte se tisse grâce à des mouvements qui mettent en place des relations. Le tissage du texte -- dont il sera question dans ces pages (terme si peu approprié ici) -- se fait dans les marges, les annotations, les requêtes. Le dispositif d’annotation hypothes.is a un rôle important dans l’émergence de ce texte. Il sera possible de retrouver les annotations qui ont contribué à cette écriture. Malheureusement, lorsque les contenus cités ne sont pas en accès libre, les annotations seront visibles seulement par ceux qui ont payé un abonnement. L’accès libre est la seule possibilité pour éviter que le sens ne soit un produit entre les mains de riches pouvoirs. {{< cite "vitali-rosati_quest-ce_2020" >}}
 
-À l'image du biface de Ingold {{< cite "-ingold_making_2013" >}}, outil dont la forme se crée au cœur de la main, la pensée n'émerge pas à partir de préconceptions, de designs inspirés des Muses ou de l'instinct, mais des lignes, multiples et croisées, des différentes mains qui l'ont manipulée.
+À l'image du biface de Ingold {{< cite "-ingold_making_2013" >}}, outil dont la forme se crée au cœur de la main, la pensée n'émerge pas à partir de préconceptions, de designs inspirés des Muses ou de l'instinct : elle émerge des lignes, multiples et croisées, des différentes mains qui l'ont manipulée.
 
                 dans le bifait de la littérature,
                 chaque ligne est importante
