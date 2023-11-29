@@ -238,7 +238,7 @@ def replace_spacing_verbatim(text):
     def repl(match):
         verbatim = match.groups(1)
         verbatim = "".join(verbatim)
-        return f"{BALISE}\n{verbatim}\n{BALISE}"
+        return f"{BALISE}\n\n{verbatim}\n\n{BALISE}"
 
     pattern = re.compile(r"( {4,}[\S].*)+", re.MULTILINE)
     return replace_double_balise(re.sub(pattern, repl, text))
