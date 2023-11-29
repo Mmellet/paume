@@ -176,7 +176,7 @@ def replace_copy_div_object(text):
                 if len(images_urls) > 1:
                     new_title = f"{title} #{i+1}"
             url_to_join.append(f"![{new_title}]({dest})")
-        return "\n".join(url_to_join)
+        return "\n\n".join(url_to_join)
 
     pattern = re.compile(
         r'<div\s+id=["\'](.*?)["\']\s*title=["\'](.*?)["\'].*?>.*</div>\s*<!--\s*\1\s*-->',
