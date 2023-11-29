@@ -159,25 +159,20 @@ def replace_copy_iframe(text):
 def replace_copy_div_object(text):
     def repl(match):
         _id = match.group(1)
-        title = match.group(2)
         images_urls = MAP["div_object"].get(_id, {}).get("image_urls", [])
         url_to_join = []
-        for i, url in enumerate(images_urls):
+        for url in images_urls:
             img_src = pathlib.Path(url)
             dest = "static/images/imagenotfound.jpg"
-            new_title = title
             if img_src.is_file():
                 dest = PRINT_DIR / "images" / img_src.name
                 dest.parent.mkdir(parents=True, exist_ok=True)
                 dest.write_bytes(img_src.read_bytes())
-                if len(images_urls) > 1:
-                    new_title = f"{title} #{i+1}"
-            url_to_join.append(f"![{new_title}]({dest})")
+            url_to_join.append(f"![{dest.stem.title()}]({dest})")
         return "\n".join(url_to_join)
 
     pattern = re.compile(
-        r'<div\s+id=["\'](.*?)["\']\s*title=["\'](.*?)["\'].*?>.*</div>\s*<!--\s*\1\s*-->',
-        re.DOTALL,
+        r'<div\s+id=["\'](.*?)["\']\s*.*?>.*</div>\s*<!--\s*\1\s*-->', re.DOTALL
     )
     return re.sub(pattern, repl, text)
 
