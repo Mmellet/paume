@@ -23,6 +23,9 @@ with MAP.open() as stream:
 
 # pprint(MAP)
 
+BALISE = "<!-- LATEX |\\vspace{{0.4cm}}| -->"
+ESCAPED_BALISE = re.escape(BALISE)
+
 
 def get_args():
     parser = argparse.ArgumentParser(description="Description of the program")
@@ -39,7 +42,7 @@ def get_args():
 def replace_title(text):
     def repl(match):
         title = match.group(1)
-        return f"# {title}" if title != "Commencement" else ""
+        return f"# {title}" if title not in ["Commencement", "Dénouement"] else ""
 
     pattern = re.compile(r'---\n.*title:\s+"(.*?)".*\n---', re.DOTALL)
     return re.sub(pattern, repl, text)
@@ -159,20 +162,25 @@ def replace_copy_iframe(text):
 def replace_copy_div_object(text):
     def repl(match):
         _id = match.group(1)
+        title = match.group(2)
         images_urls = MAP["div_object"].get(_id, {}).get("image_urls", [])
         url_to_join = []
-        for url in images_urls:
+        for i, url in enumerate(images_urls):
             img_src = pathlib.Path(url)
             dest = "static/images/imagenotfound.jpg"
+            new_title = title
             if img_src.is_file():
                 dest = PRINT_DIR / "images" / img_src.name
                 dest.parent.mkdir(parents=True, exist_ok=True)
                 dest.write_bytes(img_src.read_bytes())
-            url_to_join.append(f"![{dest.stem.title()}]({dest})")
+                if len(images_urls) > 1:
+                    new_title = f"{title} #{i+1}"
+            url_to_join.append(f"![{new_title}]({dest})")
         return "\n".join(url_to_join)
 
     pattern = re.compile(
-        r'<div\s+id=["\'](.*?)["\']\s*.*?>.*</div>\s*<!--\s*\1\s*-->', re.DOTALL
+        r'<div\s+id=["\'](.*?)["\']\s*title=["\'](.*?)["\'].*?>.*</div>\s*<!--\s*\1\s*-->',
+        re.DOTALL,
     )
     return re.sub(pattern, repl, text)
 
@@ -216,10 +224,24 @@ def remove_references(text):
 
 def replace_latex_comment(text):
     def repl(match):
-        return match.group(1)
+        return f"{match.group(1)}\n"
 
-    pattern = re.compile(r"<!--\s*LATEX\s*\|(.*)\|\s*-->", re.DOTALL)
+    pattern = re.compile(r"<!--\s*LATEX\s*\|([^|]+)\|\s*-->\n", re.DOTALL)
     return re.sub(pattern, repl, text)
+
+def replace_double_balise(text):
+    text = re.sub(ESCAPED_BALISE + r"\n\s*\n" + ESCAPED_BALISE + "\n", "\n", text)
+    return text.replace(f"{BALISE}\n{BALISE}\n", "")
+
+
+def replace_spacing_verbatim(text):
+    def repl(match):
+        verbatim = match.groups(1)
+        verbatim = "".join(verbatim)
+        return f"{BALISE}\n{verbatim}\n{BALISE}"
+
+    pattern = re.compile(r"( {4,}[\S].*)+", re.MULTILINE)
+    return replace_double_balise(re.sub(pattern, repl, text))
 
 
 def replace_all(text):
@@ -234,6 +256,8 @@ def replace_all(text):
     text = replace_img_path(text)
     text = remove_references(text)
     text = replace_greek_chars(text)
+    text = replace_spacing_verbatim(text)
+    # need to be executed after replace_spacing_verbatim
     text = replace_latex_comment(text)
     return text
 
