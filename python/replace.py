@@ -23,6 +23,9 @@ with MAP.open() as stream:
 
 # pprint(MAP)
 
+BALISE = "<!-- LATEX |\\vspace{{0.4cm}}| -->"
+ESCAPED_BALISE = re.escape(BALISE)
+
 
 def get_args():
     parser = argparse.ArgumentParser(description="Description of the program")
@@ -221,10 +224,24 @@ def remove_references(text):
 
 def replace_latex_comment(text):
     def repl(match):
-        return match.group(1)
+        return f"{match.group(1)}\n"
 
-    pattern = re.compile(r"<!--\s*LATEX\s*\|(.*)\|\s*-->", re.DOTALL)
+    pattern = re.compile(r"<!--\s*LATEX\s*\|([^|]+)\|\s*-->\n", re.DOTALL)
     return re.sub(pattern, repl, text)
+
+def replace_double_balise(text):
+    text = re.sub(ESCAPED_BALISE + r"\n\s*\n" + ESCAPED_BALISE + "\n", "\n", text)
+    return text.replace(f"{BALISE}\n{BALISE}\n", "")
+
+
+def replace_spacing_verbatim(text):
+    def repl(match):
+        verbatim = match.groups(1)
+        verbatim = "".join(verbatim)
+        return f"{BALISE}\n{verbatim}\n{BALISE}"
+
+    pattern = re.compile(r"( {4,}[\S].*)+", re.MULTILINE)
+    return replace_double_balise(re.sub(pattern, repl, text))
 
 
 def replace_all(text):
@@ -239,6 +256,8 @@ def replace_all(text):
     text = replace_img_path(text)
     text = remove_references(text)
     text = replace_greek_chars(text)
+    text = replace_spacing_verbatim(text)
+    # need to be executed after replace_spacing_verbatim
     text = replace_latex_comment(text)
     return text
 
