@@ -1,81 +1,19 @@
 
-Lieu en cours de désécriture. 
+Paume est l'espace de structuration et publication de la thèse intitulée :
 
-Paume est l'espace de structuration et publication de mon travail de doctorat. 
+> Titre : ... et les doigts d'écrire se referment sur la paume
 
-Une partie des réflexions achevées ou en cours est également présente sur [Blank.blue](https://blank.blue)
+> Sous-titre : Recherche-création sur l'épaisseur de l'écriture
 
-## Objectifs de comptable névrosé 
+Cette thèse s'est faite sous la direction de Marcello Vitali-Rosati, professeur titulaire au Département des Littératures de langue française de l'Université de Montréal et titulaire de la Chaire de recherche du Canada sur les écritures numériques et Catherine Mavrikakis, 
 
-- 100 000 signes par partie
+La version [PDF]() a été déposée le 29 novembre 2023. 
 
-## Note 
+La Paume a continuer d'évoluer depuis. 
 
-- voir hagen 2005, pias 2002, siegert 2003 et zielinski 2006 pour critique kittler : daniels 2002 
+Cette thèse a été réalisée à l'Université de Montréal et a bénéficiée de plusieurs appuis financiers, notamment celle de la FRQSC, celle du Département des Littératures de langue française de l'Université de Montréal, celle de la Chaire de recherche du Canada sur les écritures numériques et celle du Centre de recherche interuniversitaire sur les humanités numériques. 
 
-## Questions 
-
-- où est-ce que je parle de l'hypertexte ? 
-
-### Partie Fabrique
-- à la fin de l'origine politique de la fabrique, ajouter une partie sur la normativité de Word imposée par l'université ? 
-- dans la fabrique de la littérature : ajouter une partie sur l'atelier et la chambre à soi ?
-- reprendre la structure de la cuisine pour la fabrique de ma fabrique ? 
-
-### Partie Machine 
+Les membres de la Chaire ont d'ailleurs participer activement jusqu'aux dernières minutes de travail et peaufinage à la fabrique de cette thèse, en utilisant notamment l'outil d'annotation [Hypothesis](https://web.hypothes.is/) et en annotant la version Web de la thèse dans un groupe privé « these-sur-le-parchemin » (qui peut être rejoint en cliquant [ici](https://hypothes.is/groups/W2jobyK5/these-sur-le-parchemin)).
 
 
-### Partie Matière 
-
-## ToDo 
-
-Importance 1
-- [ ] structure de la page
-- [ ] structure du site
-- [ ] ajouter images
-
-Importance 2
-- [ ] documentation 
-- [ ] plug paged.js
-
-Importance 3 
-- [ ] ajout outil de recherche
-- 
-
-Entrée Fabrique 15 %
-- [ ] produire des graphs pour montrer la circulation des idées et discours en réseaux
-- [ ] partie sur le montage technique de la thèse
-- [ ] conclusion
-
-Entrée Machine 30 %
-- [ ] ajouter partie sur premier générateur
-- [ ] ref
-- [ ] images
-
-Entrée Média 25 %
-- [ ] finir notes 
-- [ ] ajout no medium dworkin 
-- [ ] ajout conjectures médiatrices
-- [ ] affirmer notre point de vue sur l'écriture au travers du média : conjonctures, irrémédiables donc dont les rapports et relations échappent même à la logique de trace tout en demeurant matériel 
-
-Entrée Page 65 %
-- [x] faire structure
-- [ ] écrire
-
-Entrée Matière 50 %
-- [x] faire structure
-
-
-## Pour l'index thématique 
-
-- main 
-- matiere
-- machine
-- media
-- fabrique
-- cyborg
-- configuration
-- support
-- homo faber
-- femme
-- texte
+Licence Creative Commons Attribution - Partage dans les Mêmes Conditions 4.0 International (CC BY-SA 4.0).

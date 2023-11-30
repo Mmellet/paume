@@ -2,7 +2,6 @@
 author: "MaMe"
 title: "Crédits"
 date: "2023-04-25"
-tags: ["documentation", "structure"]
 ---
 
 Site créé à partir de la documentation suivante : 

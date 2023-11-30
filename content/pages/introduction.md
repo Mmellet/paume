@@ -7,9 +7,9 @@ progress: 90%
 
 Cette thèse n'est pas une solution. 
 
-![](/images/epaisseur.png)
+<!-- LATEX |\vspace{0.2cm}| -->
 
-<!-- LATEX |\vspace{1.2cm}| -->
+![*Esquisse d'un lacs des doigts*](/images/epaisseur.png)
 
 Cette thèse ne représente ni une solution absolue ni une solution partielle qui viendrait répondre à la problématique soulevée, dont elle a créé peut-être certaines des pièces. 
 
@@ -44,7 +44,7 @@ Le refus de la distinction entre recherche et création, la production d'une hyd
 
 [^originalité]: Ce terme dans la lignée de bien d'autres sera déconstruit dans la suite des lignes. 
 
-[^précédent]: Comme la thèse de Karianne Trudeau-Desnoyers, [*La lumière produit du noir*](https://papyrus.bib.umontreal.ca/xmlui/handle/1866/31925) (2023).
+[^précédent]: Comme la thèse de Karianne Trudeau-Desnoyers, [*La lumière produit du noir*](https://papyrus.bib.umontreal.ca/xmlui/handle/1866/31925) (Université de Montréal, 2023).
 
 Cette thèse est une composition des rapports. 
 
@@ -81,7 +81,8 @@ Soit,
 
 Le projet d'étude qui se déploie ligne par ligne s'enracine d'abord dans l'identification de trois paradigmes du fait littéraire qui, comme des jougs autour des doigts, figent à un endroit la pensée de l'écriture et de son geste. De ces trois moines, l'écriture va d'abord effiler les crans. 
 
-## La fileuse
+
+### La fileuse
 
 Le soi est toujours une vaste contrat. 
 
@@ -109,7 +110,7 @@ Par cette même inquiétude liées, les théories littéraires et les théories 
             suis-je toujours à l'origine des mots, des manques,
                 des idées et images que mes doigts encrent ?
 
-## La répartitrice
+### La répartitrice
 
 Le transport est source d'angoisse. 
 
@@ -147,7 +148,8 @@ Le texte numérique, devenu aussi immatériel qu'un mur, fait désormais appel, 
 
 [^inclusif]: Le choix d'un épicène plein est justifié ainsi : la réalité des métiers est radicalement différente d'un sexe à un autre et cela l'écriture peut le signifier ici en n'abrégeant pas la réalité d'un sexe sur la réalité d'un autre. 
 
-## L'inflexible
+
+### L'inflexible
 
         ça s'allume dans la page, 
             la surface chauffe comme un moteur, 
@@ -176,6 +178,8 @@ En revanche, et c'est ce qui constitue pour une grande part la dimension d'enqu�
             le mot est dit
             désécriture 
 
+
+
 ## L'exorcisme comme programme
 
         poursuivre la chasse aux fantômes de l'écrit
@@ -192,7 +196,7 @@ L'excavation en programme se déploie comme une main, dont chacun des cinq doigt
 
 [^Foucault_discours]: « L’ordre du discours : s’il y a des choses dites, il ne faut pas en demander la raison immédiate aux choses qui s’y trouvent dites ou aux hommes qui les ont dites, mais au système de la discursivité, aux possibilités et aux impossibilités énonciatives qu’il ménage. » {{< cite "foucault_archeologie_2008" 170 >}} 
 
-## 5 comme les doigts d'une main
+### 5 comme les doigts d'une main
 
 Cette thèse n'a pas de chapitres.
 
@@ -221,8 +225,6 @@ La machine explore la notion de mécanisation de l'écriture, le balancement ent
 La page développe la question de la trace par les principes de cadre et de ligne d'écriture, pour constater leur évolution dans l'histoire des supports de la littérature jusqu'à leurs remises en question ponctuée par des créations qui font imploser le corps de la page. Exploration de différentes approches de ce lieu blanc par excellence, mais plein d'une potentielle poétique, la page se conclut sur la déclinaison de ses formes plastiques qui en font le paysage du fait littéraire. 
 
 La matière sonde, en restant dans une approche littéraire et la limite d'un imaginaire, les conditions concrètes d'émergence de l'écriture. Ouvrant sur la détermination des caractéristiques physiques des outils dans l'approche de l'écriture, la matière se poursuit sur la question des catégorisations du signe, distinguant image de texte, et sur la limite de ces carcans au regard de création qui explorent justement les porosités de l'écriture avec son environnement d'inscription. Parvenue au geste et à la notion d'incidences matérielles, la partie décline une série de procédures qui explorent la relation du fait littéraire dans le mouvement du réel. 
-
-<!-- LATEX |\newpage| -->
 
 ## Notes sur ce qui suit 
 

@@ -1,7 +1,7 @@
 
 <div id="nav-border" class="container">
     <nav class="Navigation">
-        {{ range .Site.Menus.main }} <!--place le menu at the top of each page-->
+        |{{ range .Site.Menus.main }} <!--place le menu at the top of each page-->
         <a class="nav-link" href="{{ .URL }}">
         {{ if .Pre }}
         {{ $icon := printf "<i data-feather=\"%s\"></i> " .Pre | safeHTML }}
@@ -9,7 +9,7 @@
         {{ end }}
         {{ $text := print .Name | safeHTML }}
         {{ $text }}
-        </a>
+        </a>|
         {{ end }}
     </nav>
 </div>

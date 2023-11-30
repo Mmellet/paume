@@ -84,7 +84,7 @@ Dans la même pensée hors du cadre, la *page* file la fibre et allonge la ligne
                 lit de ce que l'on lit
                 pâleur plongée dans une étendue
                 un champ dont je peux changer l'horizon
-                et les lignes d'arrêts                  en simplement débordant
+                et les lignes d'arrêts                          en simplement débordant
 
 La déclinaison de chairs de page qui vient bouleverser la norme du papier et ainsi repenser le geste d'inscription comme une rencontre avec un ensemble de caractéristiques physiques est justement ce qui fait écho aux incidences matérielles (les *mattering*) développés dans la partie *matière*. 
 
@@ -100,10 +100,16 @@ Impositions et incidences permettent de considérer le fait littéraire non plus
 
 Face aux déterminations, les gestes, comme mesure de l'impact et de l'action, contemplation patiente des effets et des collisions, sont une piste envisagée pour dépasser la problématique essentialisation par un mouvement, un *faire toujours en course*, une dérogation à des formatages de pratiques. Cette question de la pensée émergeant de la composition des rapports, de la participation des laissé(e)s dans l'ombre du savant, des triviales ou monotones réalités de la recherche, constitue une amorce vers une future excavation.
 
+<!-- LATEX |\newpage| -->
+
+![Épaisseur finale en relecture de la thèse à la date du 28 novembre 2023](/images/epaisseur_these.jpg)
+
                 cinq comme les doigts d'une main
                         une petite main
                                 pour saisir un remou dense
                                         une épaisseur de l'écriture
+
+<!-- LATEX |\newpage| -->
 
 ## Le regret un peu
 
@@ -120,17 +126,22 @@ Au-delà de ce qui aura été filé, depuis l'intérieur ou l'extérieur des pag
                 les chutes des bouts qui n'ont pas trouvé place
                 les recommandations qui n'ont pas été suivies à la lettre
                 
-et une envie dans la <strike style='color:rgb(196, 43, 94);'>paumée</strike> paume de reprendre l'écriture, de *refaire* la thèse, pour saisir d'autres strates, d'autres figures, d'autres rapports du fait littéraire dans les espaces qui ne sont pas directement associés à lui.  
+et une envie dans la <strike style='color:rgb(196, 43, 94);'>paumée</strike> paume de reprendre l'écriture, de *refaire* la thèse, pour saisir d'autres strates, <strike style='color:rgb(196, 43, 94);'>mellet</strike> mêler d'autres figures, d'autres rapports du fait littéraire dans les espaces qui ne sont pas directement associés à lui.  
+
+![Montage en 16 étapes de *Ce que l'on peut faire d'une thèse autrement*](/images/autrement-etape.png)
+
+![*Ce que l'on peut faire d'une thèse autrement*](/images/autrement.png)
 
 [^chutes]: Les *chutes* de la thèse, ce qui n'a pas été intégré, sont disponibles sur le site [Paume.page](https://paume.page/chutes).
 
+<!-- LATEX |\newpage| -->
 ## Le Nœud
 
 >Wo es nichts zu verstehen und nichts zu deuten gibt, vor einer Menge von Abfällen ist es das Erste, Ordnung zu machen. [...] Was zählt, ist die Relevanz oder Pertinenz in einem Puzzlespiel, nicht die Bedeutung in einer Welt. {{< cite "kittler_austreibung_1980" 10 >}}
 
 >Là où il n’y a rien à comprendre et rien à interpréter, devant une masse de rebut, la tâche première est de mettre de l’ordre. [...] Ce qui compte, c’est la relevance, la pertinence dans un puzzle, et non la signification dans un monde. {{< cite "kittler_exorciser_2017" >}}
 
-Cette thèse n'a pas été une solution. 
+Cette thèse n'a pas été une <strike style='color:rgb(196, 43, 94);'>soumission</strike> solution. 
 
 Elle n'a peut-être même pas mis de l'ordre dans sa chasse aux fantômes et son programme de l'exorcisme des « humains, trop humains » des sciences humaines. 
 
@@ -143,7 +154,7 @@ Elle n'est peut-être pas tant un *discourse network* qu'un *meshwork*.
 
 Cette thèse est un nœud.
 
-                phrases trop longues qui suivent le fil d'une pensée qui ne veut pas s'arrêter
+        phrases trop longues qui suivent le fil d'une pensée qui ne veut pas s'arrêter
                         je sais écrire des phrases courtes 
                         mais je ne voulais pas mettre de cloison
                 style d'inscrustes dans des boîtes

@@ -9,6 +9,12 @@
   {{ end }}
 
 
+  {{ if eq .RelPermalink "/chutes/" }}
+  <div>
+    {{- partial "chutes.html" . -}}
+  </div>
+  {{ end }}
+
   {{ if eq .RelPermalink "/graph/" }}
   <div>
     {{- partial "graph.html" . -}}
