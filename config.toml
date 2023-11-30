@@ -33,32 +33,27 @@ removePathAccents=true
 
 [menu]
   [[menu.main]]
-    name = "Home"
+    name = "Au creux"
     pre = "home"
     url = "/"
     weight = 1
   [[menu.main]]
-    name = "Pages"
+    name = "Doigts de la main"
     pre = "pages"
-    url = "/pages/"
+    url = "/pages"
     weight = 2
   [[menu.main]]
-    name = "Structure"
+    name = "Articulations des phalanges"
     pre = "structure"
     url = "/structure/"
-    weight = 3
+    weight = 3   
   [[menu.main]]
-    name = "Index"
-    pre = "index"
-    url = "/thematiques/"
-    weight = 4    
+    name = "Chutes"
+    pre = "chutes"
+    url = "/chutes/"
+    weight = 4 
   [[menu.main]]
-    name = "Graph"
-    pre = "graph"
-    url = "/graph/"
-    weight = 5
-  [[menu.main]]
-    name = "Crédits"
+    name = "Dans les plis"
     pre = "credits"
     url = "/credits/"
     weight = 6
