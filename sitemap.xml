@@ -14,33 +14,35 @@
   </url><url>
     <loc>http://example.org/5/</loc>
   </url><url>
-    <loc>http://example.org/6/</loc>
-  </url><url>
     <loc>http://example.org/conclusion/</loc>
+  </url><url>
+    <loc>http://example.org/back/dump_autre/</loc>
   </url><url>
     <loc>http://example.org/chutes/-0/</loc>
   </url><url>
     <loc>http://example.org/chutes/dump_autre/</loc>
   </url><url>
-    <loc>http://example.org/</loc>
-    <lastmod>2023-04-25T00:00:00+00:00</lastmod>
+    <loc>http://example.org/chutes/</loc>
   </url><url>
     <loc>http://example.org/credits/</loc>
-    <lastmod>2023-04-25T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://example.org/tags/documentation/</loc>
     <lastmod>2023-04-25T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://example.org/fils/</loc>
     <lastmod>2023-04-25T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://example.org/tags/structure/</loc>
-    <lastmod>2023-04-25T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://example.org/tags/</loc>
-    <lastmod>2023-04-25T00:00:00+00:00</lastmod>
+    <loc>http://example.org/</loc>
   </url><url>
     <loc>http://example.org/avancement/</loc>
+  </url><url>
+    <loc>http://example.org/back/dump_fabrique/</loc>
+  </url><url>
+    <loc>http://example.org/back/dump_machine/</loc>
+  </url><url>
+    <loc>http://example.org/back/dump_matiere/</loc>
+  </url><url>
+    <loc>http://example.org/back/dump_media/</loc>
+  </url><url>
+    <loc>http://example.org/back/dump_page/</loc>
   </url><url>
     <loc>http://example.org/chutes/dump_fabrique/</loc>
   </url><url>
@@ -64,6 +66,8 @@
   </url><url>
     <loc>http://example.org/resume/</loc>
   </url><url>
+    <loc>http://example.org/back/</loc>
+  </url><url>
     <loc>http://example.org/categories/</loc>
   </url><url>
     <loc>http://example.org/chutes/</loc>
@@ -73,5 +77,7 @@
     <loc>http://example.org/pages/</loc>
   </url><url>
     <loc>http://example.org/structure/</loc>
+  </url><url>
+    <loc>http://example.org/tags/</loc>
   </url>
 </urlset>

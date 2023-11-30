@@ -6,7 +6,6 @@
     <description>Recent content on Paume</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 25 Apr 2023 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://example.org/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Commencement</title>
@@ -47,7 +46,7 @@ comme une mini imprimerie dont je dispose les caractères par le regard en appuy
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://example.org/4/</guid>
       <description>La page commence dans la paume.
-Premier lieu de saisissement d&amp;rsquo;une matière à inscrire avec les tablettes mycéniennes, la page est l&amp;rsquo;extension de notre creux manuel et la linéarité par laquelle on définit un art d&amp;rsquo;écrire et un produit textuel n&amp;rsquo;est pas autre chose que l&amp;rsquo;allongement de nos propres lignes de mains. À partir de la paume a été établie la page, ses architectures et colonnes, comme on installe un campement.</description>
+Premier lieu de saisissement d&amp;rsquo;une matière à inscrire avec les tablettes mycéniennes, la page est l&amp;rsquo;extension de notre creux manuel, et la linéarité par laquelle on définit un art d&amp;rsquo;écrire et un produit textuel n&amp;rsquo;est pas autre chose que l&amp;rsquo;allongement de nos propres lignes de mains. À partir de la paume a été établie la page, ses architectures et colonnes, comme on installe un campement.</description>
     </item>
     <item>
       <title>La Matière</title>
@@ -56,14 +55,7 @@ Premier lieu de saisissement d&amp;rsquo;une matière à inscrire avec les table
       <guid>http://example.org/5/</guid>
       <description>matter du mater bois dur dont la lance perce la racine La matière demeurera plate dans la paume.
 Le récit de l&amp;rsquo;écriture est celui d&amp;rsquo;une invention (Mésopotamie au IVe avant J.-C.) pour des raisons de comptabilité. L&amp;rsquo;inscription (et par extension la littérature) naîtrait de l&amp;rsquo;inventaire.
-compter les vaches sur l&#39;agora dans la paume de la main puis retravailler l&#39;argile compter les vaches sur l&#39;agora peut-être ajouter un détail au hasard modeler la répétition des modelages finir par décrire par pétrir la littérature Il s&amp;rsquo;avère cependant, comme développé par Silvia Ferrera dans La fabuleuse histoire de l&amp;rsquo;invention de l&amp;rsquo;écriture ( Citation: 2021 Ferrara,&amp;#32; S.</description>
-    </item>
-    <item>
-      <title>Dénouement</title>
-      <link>http://example.org/6/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://example.org/6/</guid>
-      <description>on est à la fin automne, début hiver il a neigé quelque fois les mains gèlent un peu et j&#39;écris ma conclusion Le fait littéraire est une composition de rapports. C&amp;rsquo;est l&amp;rsquo;idée qu&amp;rsquo;aura souhaité filer de son corps cette thèse pour montrer des parts aveugles ou seulement les ombres de nos écritures. Tout a tourné beaucoup autour des mains, de leurs manipulations, de leurs jeux avec des images comme avec des dés, de leurs échappées aussi hors de la page, hors des cadres, hors des contrôles.</description>
+compter les vaches sur l&#39;agora dans la paume de la main puis retravailler l&#39;argile compter les vaches sur l&#39;agora peut-être ajouter un détail au hasard modeler la répétition des modelages finir par décrire par pétrir la littérature Il s&amp;rsquo;avère cependant, comme développé par Ferrera dans La fabuleuse histoire de l&amp;rsquo;invention de l&amp;rsquo;écriture ( Citation: 2021 Ferrara,&amp;#32; S.</description>
     </item>
     <item>
       <title>Dénouement</title>
@@ -71,6 +63,14 @@ compter les vaches sur l&#39;agora dans la paume de la main puis retravailler l&
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://example.org/conclusion/</guid>
       <description>on est à la fin automne, début hiver il a neigé quelque fois les mains gèlent un peu et j&#39;écris ma conclusion Le fait littéraire est une composition de rapports. C&amp;rsquo;est l&amp;rsquo;idée qu&amp;rsquo;aura souhaité filer de son corps cette thèse pour montrer des parts aveugles ou seulement les ombres de nos écritures. Obsessif écho, tout a tourné beaucoup autour des mains, de leurs manipulations, de leurs jeux avec des images comme avec des dés, de leurs échappées hors de la page, hors des cadres, hors des contrôles, hors des figures.</description>
+    </item>
+    <item>
+      <title>Brouillon</title>
+      <link>http://example.org/back/dump_autre/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://example.org/back/dump_autre/</guid>
+      <description>es chercheurs et les chercheuses en humanités numériques doivent savoir coder, dans le sens où il est nécessaire de décomposer les outils que nous utilisons comme l’explique Quinn Dombrowski (Citation: Dombrowski, 2022) Dombrowski, Q. (2022). Does Coding Matter for Doing Digital Humanities?. Dans The Bloomsbury handbook of the digital humanities. (pp. 137–145). Bloomsbury Academic. (partie 5.5.3 de la thèse d&amp;rsquo;Antoine)
+Once I met a young professor of German literature, who addressed me during a lunch break at a conference.</description>
     </item>
     <item>
       <title>Brouillon</title>
@@ -87,6 +87,15 @@ Il ne s&amp;rsquo;agira pas ici de faire de de l&amp;rsquo;écriture un gage de 
       <guid>http://example.org/chutes/dump_autre/</guid>
       <description>es chercheurs et les chercheuses en humanités numériques doivent savoir coder, dans le sens où il est nécessaire de décomposer les outils que nous utilisons comme l’explique Quinn Dombrowski (Citation: Dombrowski, 2022) Dombrowski, Q. (2022). Does Coding Matter for Doing Digital Humanities?. Dans The Bloomsbury handbook of the digital humanities. (pp. 137–145). Bloomsbury Academic. (partie 5.5.3 de la thèse d&amp;rsquo;Antoine)
 Once I met a young professor of German literature, who addressed me during a lunch break at a conference.</description>
+    </item>
+    <item>
+      <title>Chutes</title>
+      <link>http://example.org/chutes/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://example.org/chutes/</guid>
+      <description>Note # voir hagen 2005, pias 2002, siegert 2003 et zielinski 2006 pour critique kittler : daniels 2002 avant propos de l&amp;rsquo;intro # pour dynamique collective
+tu ne peux comprendre une chose que si tu l&amp;rsquo;as pensé
+es chercheurs et les chercheuses en humanités numériques doivent savoir coder, dans le sens où il est nécessaire de décomposer les outils que nous utilisons comme l’explique Quinn Dombrowski (Citation: Dombrowski, 2022) Dombrowski, Q.</description>
     </item>
     <item>
       <title>Crédits</title>
@@ -111,6 +120,42 @@ Once I met a young professor of German literature, who addressed me during a lun
       <description> Avancement # Intro : # relecture
 Accroche à faire :
 lien accroche et reste </description>
+    </item>
+    <item>
+      <title></title>
+      <link>http://example.org/back/dump_fabrique/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://example.org/back/dump_fabrique/</guid>
+      <description>De humani corporis fabrica libri septem (À propos de la fabrique du corps humain en sept livresn 1) est un traité d&amp;rsquo;anatomie humaine que l&amp;rsquo;on doit au médecin et anatomiste brabançon Andreas Vesalius (André Vésale). Il a été rédigé de 1539 à 1542, publié à Bâle en 1543, par Johannes Oporinus et réédité en 1555.
+l a été traduit en anglais et en français par le même mot « structure », mais qui ne rend pas compte de la richesse du terme latin.</description>
+    </item>
+    <item>
+      <title></title>
+      <link>http://example.org/back/dump_machine/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://example.org/back/dump_machine/</guid>
+      <description>[Ma] machine est délicate comme un petit chien et pose de nombreux problèmes &amp;ndash; elle est aussi source de quelque divertissement. Mais maintenant, mes amis doivent m&amp;rsquo;inventer une machine à lire : autrement, je ne serais que l&amp;rsquo;ombre de moi-même et je ne pourrais plus jamais me procurer de nourritures intellectuelles satisfaisantes. Mieux encore : j&amp;rsquo;ai besoin d&amp;rsquo;une jeune personne près de moi, assez intelligente et éduquée, pour pouvoir travailler avec moi.</description>
+    </item>
+    <item>
+      <title></title>
+      <link>http://example.org/back/dump_matiere/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://example.org/back/dump_matiere/</guid>
+      <description>Recette du Palimpseste : Medieval recipes describe how writing could be washed off in practice. According to an eleventh-century recipe from Tegernsee the parchment should be lixiviated in milk, after which it has to be sprinkled with flour and dried; in order to give it back its original glaze, the parchment must finally be polished with the aid of pumice and chalk4. Other recipes prescribe the use of a mixture of different products: unslaked lime, vitriol, and alum5; cheese, milk, unslaked lime, and juice of nettles6; lime, flour, water, and egg-shells; wine lees, vine ashes and water7.</description>
+    </item>
+    <item>
+      <title></title>
+      <link>http://example.org/back/dump_media/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://example.org/back/dump_media/</guid>
+      <description>Mais ce n’est pas fini. Avec l&amp;rsquo;invention spectaculaire de l&amp;rsquo;ordinateur, toute la scène des média s&amp;rsquo;est trouvée changée, une fois de plus et de façon dramatique. Depuis cinquante ans, c&amp;rsquo;est-à-dire depuis Turing, von Neumann et Shannon, nous vivons dans une culture qui ne fait plus la moindre différence entre son et lumière. Tout ce qui est traité et emmagasiné dans les registres internes d&amp;rsquo;un ordinateur n&amp;rsquo;existe que sous forme d&amp;rsquo;octet (puisque les mots plus justes de bit ou byte paraissent défendus en français)</description>
+    </item>
+    <item>
+      <title></title>
+      <link>http://example.org/back/dump_page/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://example.org/back/dump_page/</guid>
+      <description>Structure et sens sont certainement ce qui permet dans leurs enchevêtrements de comprendre la page comme ce qui participe du fait littéraire avant que le geste d&amp;rsquo;inscription ne l&amp;rsquo;ait atteint. Ses caractéristiques, « odours », l&amp;rsquo;ensemble de ses éléments non-verbaux constituent « a message » ) . En réaction notamment aux discours annonçant la disparition de la culture du codex avec la révolution numérique, un ensemble d&amp;rsquo;études que l&amp;rsquo;on peut nommer comme les pensées de la page émergent justement depuis environ une dizaine d&amp;rsquo;années pour décrypter, via une approche textuelle, ce paysage de la lettre ) .</description>
     </item>
     <item>
       <title></title>
@@ -182,7 +227,7 @@ CMMP : Queneau, Raymond, Cent mille milliard de poèmes, Paris, Gallimard, 1961
       <link>http://example.org/remerciements/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://example.org/remerciements/</guid>
-      <description>rédigés à la fin lors que la mine de l&#39;écriture est quelque peu épuisée en une liste qui se déroule comme un générique avec un ordre qui semble impliquer une préférence mais qui suit des cases Cette page ne peut que pâlement suffire à retranscrire la dynamique collective qui est aux racines d&amp;rsquo;une pensée qui n&amp;rsquo;est mienne que par contexte ou par hasard, et à traduire la gratitude que j&amp;rsquo;éprouve face à chacun des nominés nommés.</description>
+      <description>rédigés à la fin lors que la mine de l&#39;écriture est quelque peu épuisée en une liste qui se déroule comme un générique avec un ordre qui semble impliquer une préférence mais qui parcourt juste une ligne Cette page ne peut que pâlement suffire à retranscrire la dynamique collective aux racines d&amp;rsquo;une pensée qui n&amp;rsquo;est mienne que par contexte ou par hasard, et à traduire la gratitude que j&amp;rsquo;éprouve face à chacun des nominés nommés1.</description>
     </item>
     <item>
       <title></title>
@@ -196,7 +241,7 @@ CMMP : Queneau, Raymond, Cent mille milliard de poèmes, Paris, Gallimard, 1961
       <link>http://example.org/thematiques/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://example.org/thematiques/</guid>
-      <description>{{ range .Site.RegularPages }} {{ $themes := findRE .Content }} {{ with index $themes 1 }} - [{{ . }}]({{ .Permalink }}) {{ end }} {{ end }}</description>
+      <description></description>
     </item>
     <item>
       <title>Structure</title>
