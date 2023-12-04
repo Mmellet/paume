@@ -2,82 +2,80 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://example.org/introduction/</loc>
+    <loc>https://paume.page/introduction/</loc>
   </url><url>
-    <loc>http://example.org/1/</loc>
+    <loc>https://paume.page/1/</loc>
   </url><url>
-    <loc>http://example.org/2/</loc>
+    <loc>https://paume.page/2/</loc>
   </url><url>
-    <loc>http://example.org/3/</loc>
+    <loc>https://paume.page/3/</loc>
   </url><url>
-    <loc>http://example.org/4/</loc>
+    <loc>https://paume.page/4/</loc>
   </url><url>
-    <loc>http://example.org/5/</loc>
+    <loc>https://paume.page/5/</loc>
   </url><url>
-    <loc>http://example.org/conclusion/</loc>
+    <loc>https://paume.page/conclusion/</loc>
   </url><url>
-    <loc>http://example.org/back/dump_autre/</loc>
+    <loc>https://paume.page/back/dump_autre/</loc>
   </url><url>
-    <loc>http://example.org/chutes/-0/</loc>
+    <loc>https://paume.page/chutes/-0/</loc>
   </url><url>
-    <loc>http://example.org/chutes/dump_autre/</loc>
+    <loc>https://paume.page/chutes/dump_autre/</loc>
   </url><url>
-    <loc>http://example.org/chutes/</loc>
+    <loc>https://paume.page/chutes/</loc>
   </url><url>
-    <loc>http://example.org/credits/</loc>
+    <loc>https://paume.page/credits/</loc>
     <lastmod>2023-04-25T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://example.org/fils/</loc>
+    <loc>https://paume.page/fils/</loc>
     <lastmod>2023-04-25T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://example.org/</loc>
+    <loc>https://paume.page/</loc>
   </url><url>
-    <loc>http://example.org/avancement/</loc>
+    <loc>https://paume.page/avancement/</loc>
   </url><url>
-    <loc>http://example.org/back/dump_fabrique/</loc>
+    <loc>https://paume.page/back/dump_fabrique/</loc>
   </url><url>
-    <loc>http://example.org/back/dump_machine/</loc>
+    <loc>https://paume.page/back/dump_machine/</loc>
   </url><url>
-    <loc>http://example.org/back/dump_matiere/</loc>
+    <loc>https://paume.page/back/dump_matiere/</loc>
   </url><url>
-    <loc>http://example.org/back/dump_media/</loc>
+    <loc>https://paume.page/back/dump_media/</loc>
   </url><url>
-    <loc>http://example.org/back/dump_page/</loc>
+    <loc>https://paume.page/back/dump_page/</loc>
   </url><url>
-    <loc>http://example.org/chutes/dump_fabrique/</loc>
+    <loc>https://paume.page/chutes/dump_fabrique/</loc>
   </url><url>
-    <loc>http://example.org/chutes/dump_machine/</loc>
+    <loc>https://paume.page/chutes/dump_machine/</loc>
   </url><url>
-    <loc>http://example.org/chutes/dump_matiere/</loc>
+    <loc>https://paume.page/chutes/dump_matiere/</loc>
   </url><url>
-    <loc>http://example.org/chutes/dump_media/</loc>
+    <loc>https://paume.page/chutes/dump_media/</loc>
   </url><url>
-    <loc>http://example.org/chutes/dump_page/</loc>
+    <loc>https://paume.page/chutes/dump_page/</loc>
   </url><url>
-    <loc>http://example.org/graph/</loc>
+    <loc>https://paume.page/graph/</loc>
   </url><url>
-    <loc>http://example.org/abreviations/</loc>
+    <loc>https://paume.page/abreviations/</loc>
   </url><url>
-    <loc>http://example.org/abstract/</loc>
+    <loc>https://paume.page/abstract/</loc>
   </url><url>
-    <loc>http://example.org/liste_figure/</loc>
+    <loc>https://paume.page/remerciements/</loc>
   </url><url>
-    <loc>http://example.org/remerciements/</loc>
+    <loc>https://paume.page/resume/</loc>
   </url><url>
-    <loc>http://example.org/resume/</loc>
+    <loc>https://paume.page/back/</loc>
   </url><url>
-    <loc>http://example.org/back/</loc>
+    <loc>https://paume.page/categories/</loc>
   </url><url>
-    <loc>http://example.org/categories/</loc>
+    <loc>https://paume.page/chutes/</loc>
   </url><url>
-    <loc>http://example.org/chutes/</loc>
+    <loc>https://paume.page/thematiques/</loc>
   </url><url>
-    <loc>http://example.org/thematiques/</loc>
+    <loc>https://paume.page/pages/</loc>
   </url><url>
-    <loc>http://example.org/pages/</loc>
+    <loc>https://paume.page/structure/</loc>
   </url><url>
-    <loc>http://example.org/structure/</loc>
-  </url><url>
-    <loc>http://example.org/tags/</loc>
+    <loc>https://paume.page/tags/</loc>
   </url>
 </urlset>
