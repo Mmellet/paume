@@ -75,12 +75,19 @@ h1:hover a.anchor, h2:hover a.anchor, h3:hover a.anchor, h4:hover a.anchor, h5:h
 
 
 .Haut {
+  background-position: bottom -180px right 750px;
+  background-repeat: no-repeat;
+  background-image: url("https://paume.page/images/paume_page.png") ;
   height: adjust;
-  border: 1px solid black;
+  border: 4px solid transparent;
+  padding: 15px;
+  border-image: url("https://paume.page/images/ligne.png") 30 round;
 }
 
 .Centre {
-  border: 1px solid cadetblue;
+  border: 5px solid transparent;
+  padding: 15px;
+  border-image: url("https://paume.page/images/ligne.png") 30 round;
   margin-right: 20%;
   margin-left: 20%;
   overflow: auto;
@@ -88,7 +95,9 @@ h1:hover a.anchor, h2:hover a.anchor, h3:hover a.anchor, h4:hover a.anchor, h5:h
 }
 
 .Gauche {
-  border: 1px solid rgb(204, 55, 130);
+  border: 3px solid transparent;
+  padding: 15px;
+  border-image: url("https://paume.page/images/ligne.png") 30 round;
   left: 10px ;
   max-width: 20%;
   height: 500px;
@@ -99,7 +108,9 @@ h1:hover a.anchor, h2:hover a.anchor, h3:hover a.anchor, h4:hover a.anchor, h5:h
 
 .Bas {
   height: 100px;
-  border: 1px solid cadetblue;
+  border: 3px solid transparent;
+  padding: 15px;
+  border-image: url("https://paume.page/images/ligne.png") 30 round;
   bottom: 0;
 }
 
@@ -111,7 +122,9 @@ h1:hover a.anchor, h2:hover a.anchor, h3:hover a.anchor, h4:hover a.anchor, h5:h
   text-align: center;
   height: 10%;
   background-color: white;
-  border: 1px solid cadetblue;
+  border: 1px solid transparent;
+  padding: 5px;
+  border-image: url("https://paume.page/images/ligne.png") 30 round;
   bottom: 5%;
   width: 100%;
 }
@@ -142,7 +155,9 @@ a {
 /* Style pour les carrés */
 .square {
   background-color: white;
-  border: 1px solid rgba(236, 203, 221, 0.575);
+  border: 5px solid transparent;
+  padding: 5px;
+  border-image: url("https://paume.page/images/ligne.png") 30 round;
   padding: 10px;
   margin-bottom: 10px;
   display: inline-block; /* Ajout de la propriété pour aligner horizontalement */
