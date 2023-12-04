@@ -50,7 +50,7 @@ removePathAccents=true
   [[menu.main]]
     name = "Chutes"
     pre = "chutes"
-    url = "/chutes.md"
+    url = "/chutes/"
     weight = 4 
   [[menu.main]]
     name = "Dans les plis"
