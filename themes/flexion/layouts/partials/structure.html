@@ -1,5 +1,4 @@
 
-
   <ul>
 
     {{ range .Site.RegularPages }}
@@ -8,8 +7,9 @@
             <a href="{{ .RelPermalink }}">{{ .Title }}</a>
             {{ if .TableOfContents }}
               <ul>
-                {{ .TableOfContents | replaceRE "<a href=\"#(.*?)\">" "<a href=\"{{ .RelPermalink }}#$1\">" | safeHTML }}
-                </ul>
+                {{ $currentPage := . }}
+                        {{ .TableOfContents | replaceRE "<a href=\"#(.*?)\">" (printf "<a href=\"%s#%s\">" $currentPage.RelPermalink "$1") | safeHTML }}
+                    </ul>
             {{ end }}</li>
       {{ end }}
     {{ end }}

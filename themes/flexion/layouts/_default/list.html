@@ -3,11 +3,11 @@
 {{ range .Pages.ByWeight }}
 <p>
     <h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
-    <!--{{ partial "metadata.html" . }}-->
+    <!--{{ partial "metadata.html" . }}
     {{ if .Params.progress }}
     <small>{{ .Params.progress }}</small>
     <div class="progress-bar" style="width: {{ .Params.progress }}; opacity: {{ .Params.progress }};"></div>
-    {{ end }}
+    {{ end }}-->
     <a class="summary" href="{{ .RelPermalink }}">
         <i>{{ .Params.Resume }}</i>
     </a>
