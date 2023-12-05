@@ -1,9 +1,13 @@
 
 Paume est l'espace de structuration et de publication de la thèse intitulée :
 
+---
+
 > Titre : ... et les doigts d'écrire se referment sur la paume
 
 > Sous-titre : Recherche-création sur l'épaisseur de l'écriture
+
+---
 
 Cette thèse s'est faite sous la direction de Marcello Vitali-Rosati, professeur titulaire au Département des Littératures de langue française de l'Université de Montréal et titulaire de la Chaire de recherche du Canada sur les écritures numériques et de Catherine Mavrikakis, professeure titulaire au Département des Littératures de langue française de l'Université de Montréal.
 
