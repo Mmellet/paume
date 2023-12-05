@@ -12,14 +12,14 @@
     
 
 </head><body>
-        <div><section class="Haut">
-    <h1>Paume</h1>
-    <h2 style="font-size: 17px;">Site de « Recherche-Création sur l&#39;épaisseur de l&#39;écriture »</h2>
+  <div><section class="Haut">
+ <a href="https://paume.page/">   <h1>Paume</h1>
+    <h2 style="font-size: 17px;">Site de « Recherche-Création sur l&#39;épaisseur de l&#39;écriture »</h2></a>
     <p class="licence">cc by-sa 4.0 2023 Margot Mellet <br/><small>non-responsive</small></p>
   </section></div>
-    <section class="Gauche">
-        <aside>
-          <nav id="TableOfContents">
+  <section class="Gauche">
+    <aside>
+      <nav id="TableOfContents">
   <ul>
     <li><a class="table-of-contents-link" href="#à-la-page">À la page</a>
       <ul>
@@ -47,12 +47,12 @@
     <li><a class="table-of-contents-link" href="#la-page-et-lidée">La page et l&rsquo;idée</a></li>
   </ul>
 </nav>
-        </aside>
-      </section>
-      
-    
-    <section class="Centre">
-        <div class="content">
+    </aside>
+  </section>
+
+
+  <section class="Centre">
+    <div class="content">
   <h1>La Page</h1>
   
 
@@ -5361,8 +5361,8 @@ si le peintre était devant une surface blanche, il pourrait y reproduire un obj
 
 
 
-        </div>
-    </section>
+    </div>
+  </section>
 <div id="nav-border" class="container">
     <nav class="Navigation">
         | 
@@ -5375,15 +5375,6 @@ si le peintre était devant une surface blanche, il pourrait y reproduire un obj
         Au creux
         </a>|
          
-        <a class="nav-link" href="../pages">
-        
-        
-        <i data-feather="pages"></i> 
-        
-        
-        Doigts de la main
-        </a>|
-         
         <a class="nav-link" href="../structure/">
         
         
@@ -5391,6 +5382,15 @@ si le peintre était devant une surface blanche, il pourrait y reproduire un obj
         
         
         Articulations des phalanges
+        </a>|
+         
+        <a class="nav-link" href="../pages">
+        
+        
+        <i data-feather="pages"></i> 
+        
+        
+        Doigts de la main
         </a>|
          
         <a class="nav-link" href="../chutes/">
@@ -5429,98 +5429,98 @@ si le peintre était devant une surface blanche, il pourrait y reproduire un obj
     </nav>
     
 </div>
-</div>
-    <section class="Bas">
-        <div class="footer">
+<section class="Bas">
+    <div class="footer">
 <p class="footer text-center">    
   </div>
-    </section>
+  </section>
 
-    <script type="application/json" class="js-hypothesis-config">
-      {
-        "theme": "clean",
-        "openSidebar": false
-      }
-      </script>
-      <script async="" src="https://hypothes.is/embed.js"></script>
+  <script type="application/json" class="js-hypothesis-config">
+    {
+      "theme": "clean",
+      "openSidebar": false
+    }
+  </script>
+  <script async="" src="https://hypothes.is/embed.js"></script>
 
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-    <script>
-        $(document).ready(function() {
-          var sectionLinks = $('.table-of-contents-link');
-          var sections = $('h1[id], h2[id], h3[id], h4[id], h5[id], h6[id]');
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script>
+    $(document).ready(function () {
+      var sectionLinks = $('.table-of-contents-link');
+      var sections = $('h1[id], h2[id], h3[id], h4[id], h5[id], h6[id]');
+
+      var activeSectionId = null;
+      var previousSectionId = null;
+
+      $(window).on('scroll', function () {
+        updateActiveSection();
+      });
+
+      sectionLinks.on('click', function (e) {
+        e.preventDefault();
+
+        var targetSectionId = $(this).attr('href');
+
+        activeSectionId = targetSectionId;
+        updateActiveSection();
+
+        
+        history.pushState(null, null, targetSectionId);
+
+        
+        $('html, body').animate({
+          scrollTop: $(targetSectionId).offset().top
+        }, 500);
+      });
+
       
-          var activeSectionId = null;
-          var previousSectionId = null;
-      
-          $(window).on('scroll', function() {
-            updateActiveSection();
-          });
-      
-          sectionLinks.on('click', function(e) {
-            e.preventDefault();
-      
-            var targetSectionId = $(this).attr('href');
-      
-            activeSectionId = targetSectionId;
-            updateActiveSection();
-      
-            
-            history.pushState(null, null, targetSectionId);
-      
-            
-            $('html, body').animate({
-              scrollTop: $(targetSectionId).offset().top
-            }, 500);
-          });
-      
-          
-          $(window).on('popstate', function() {
-            var targetSectionId = location.hash;
-      
-            if (targetSectionId) {
-              activeSectionId = targetSectionId;
-              updateActiveSection();
-            }
-          });
-      
-          function updateActiveSection() {
-            var currentPosition = $(window).scrollTop() + $(window).height() / 2;
-      
-            sections.each(function() {
-              var sectionId = $(this).attr('id');
-              var sectionTop = $(this).offset().top;
-              var sectionBottom = sectionTop + $(this).outerHeight();
-      
-              if (currentPosition >= sectionTop && currentPosition <= sectionBottom) {
-                previousSectionId = activeSectionId;
-                activeSectionId = '#' + sectionId;
-                return false; 
-              }
-            });
-      
-            sectionLinks.removeClass('active');
-      
-            if (activeSectionId) {
-              sectionLinks.filter('[href="' + activeSectionId + '"]').addClass('active');
-            }
-      
-            if (previousSectionId && previousSectionId !== activeSectionId) {
-              sectionLinks.filter('[href="' + previousSectionId + '"]').removeClass('active');
-            }
+      $(window).on('popstate', function () {
+        var targetSectionId = location.hash;
+
+        if (targetSectionId) {
+          activeSectionId = targetSectionId;
+          updateActiveSection();
+        }
+      });
+
+      function updateActiveSection() {
+        var currentPosition = $(window).scrollTop() + $(window).height() / 2;
+
+        sections.each(function () {
+          var sectionId = $(this).attr('id');
+          var sectionTop = $(this).offset().top;
+          var sectionBottom = sectionTop + $(this).outerHeight();
+
+          if (currentPosition >= sectionTop && currentPosition <= sectionBottom) {
+            previousSectionId = activeSectionId;
+            activeSectionId = '#' + sectionId;
+            return false; 
           }
-      
-          
-          $(window).on('load', function() {
-            var initialSectionId = location.hash;
-      
-            if (initialSectionId) {
-              activeSectionId = initialSectionId;
-              updateActiveSection();
-            }
-          });
         });
-      </script>
+
+        sectionLinks.removeClass('active');
+
+        if (activeSectionId) {
+          sectionLinks.filter('[href="' + activeSectionId + '"]').addClass('active');
+        }
+
+        if (previousSectionId && previousSectionId !== activeSectionId) {
+          sectionLinks.filter('[href="' + previousSectionId + '"]').removeClass('active');
+        }
+      }
+
       
-    </body>
+      $(window).on('load', function () {
+        var initialSectionId = location.hash;
+
+        if (initialSectionId) {
+          activeSectionId = initialSectionId;
+          updateActiveSection();
+        }
+      });
+    });
+  </script>
+
+</body>
+
 </html>
