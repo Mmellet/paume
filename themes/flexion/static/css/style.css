@@ -72,12 +72,14 @@ h1:hover a.anchor, h2:hover a.anchor, h3:hover a.anchor, h4:hover a.anchor, h5:h
   background: rgba(236, 203, 221, 0.575);
 }
 
-
+img {
+  width: 90%;
+}
 
 .Haut {
   background-position: center;
   background-repeat: no-repeat;
-  background-image: url("https://paume.page/images/paume_page.png") ;
+  background-image: url("https://paume.page/images/page_paume.png") ;
   height: adjust;
   border: 4px solid transparent;
   padding: 15px;
@@ -96,14 +98,14 @@ h1:hover a.anchor, h2:hover a.anchor, h3:hover a.anchor, h4:hover a.anchor, h5:h
 
 .Gauche {
   border: 3px solid transparent;
-  padding: 15px;
+  padding: 7px;
   border-image: url("https://paume.page/images/ligne.png") 30 round;
-  left: 10px ;
+  left: 8px ;
+  padding-bottom: 2rem;
   max-width: 20%;
   height: 500px;
   overflow: hidden;
   position: fixed;
-  height: 100%;
 }
 
 .Bas {
