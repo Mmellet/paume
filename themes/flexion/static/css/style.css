@@ -83,7 +83,7 @@ img {
   height: adjust;
   border: 4px solid transparent;
   padding: 15px;
-  border-image: url("https://paume.page/images/ligne.png") 30 round;
+  border-image: url("https://paume.page/images/ligne.png") 7 round;
 }
 
 .Centre {
@@ -167,7 +167,7 @@ a {
   background-color: white;
   border: 5px solid transparent;
   padding: 5px;
-  border-image: url("https://paume.page/images/ligne.png") 30 round;
+  border-image: url("https://paume.page/images/ligne.png") 10 round;
   padding: 10px;
   margin-bottom: 10px;
   display: inline-block; /* Ajout de la propriété pour aligner horizontalement */
@@ -192,3 +192,8 @@ a {
   margin-bottom: 5px;
 }
 
+hr {
+  background-image: url("https://paume.page/images/ligne_paume.png");
+  height: 1px;
+  border: white;
+  }

@@ -41,12 +41,12 @@ removePathAccents=true
     name = "Doigts de la main"
     pre = "pages"
     url = "/pages"
-    weight = 2
+    weight = 3
   [[menu.main]]
     name = "Articulations des phalanges"
     pre = "structure"
     url = "/structure/"
-    weight = 3   
+    weight = 2   
   [[menu.main]]
     name = "Chutes"
     pre = "chutes"

@@ -15,3 +15,39 @@
     {{ end }}
   </ul>
 
+  <br/>
+
+  <br/>
+
+<section style="margin-left: -550px;" >
+<div id="nav-border" class="container">
+  <nav class="Navigation">
+      |{{ range .Site.Menus.main }} <!--place le menu at the top of each page-->
+      <a class="nav-link" href="{{ .URL }}">
+      {{ if .Pre }}
+      {{ $icon := printf "<i data-feather=\"%s\"></i> " .Pre | safeHTML }}
+      {{ $icon }}
+      {{ end }}
+      {{ $text := print .Name | safeHTML }}
+      {{ $text }}
+      </a>|
+      {{ end }}
+      <br/> 
+      <small>
+          <a rel="alternate" target="blank" href="https://github.com/Mmellet/paume" title="Github/Mmellet">
+          <img class="logo" src="/images/github.png" alt="github" id="grandlogo"/></a>
+      
+      <a href="https://www.zotero.org/groups/2446404/thesemellet/library" target="blank" title="0000-0001-7167-2136 ">
+              <img src="/images/zotero.png" class="logo" alt="orcid"/></a>  
+      
+      <a rel="alternate" target="blank" href="https://twitter.com/mellet_m" title="@mellet_m">
+          <img src="/images/twitter.png" class="logo" alt="twitter"/></a>
+      
+      <a href="mailto:margot.mellet@umontreal.ca" target="blank" title="margot.mellet@umontreal.ca">
+          <img src="/images/courriel.png" class="logo" alt="courriel"/></a>
+      </small>
+  </nav>
+</div> 
+
+</section>
+
