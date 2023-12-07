@@ -1,5 +1,5 @@
 
 <figure>
     <img src="{{ .Destination | safeURL }}" alt="{{ .Text }}">
-    <figcaption style="text-align: center;">{{ .Text | markdownify }}</figcaption>
+    <figcaption style="text-align: center;">{{ .Text | .Page.RenderString | safeHTML }}</figcaption>
   </figure>
