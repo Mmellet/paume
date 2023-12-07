@@ -194,8 +194,10 @@ a {
 
 hr {
   background-image: url("https://paume.page/images/ligne_paume.png");
-  height: 1px;
-  border: white;
+  border:0px;
+  height:30px;
+  margin: 0 25% 0 25%;
+  background-repeat: no-repeat;
 }
 
 p {
