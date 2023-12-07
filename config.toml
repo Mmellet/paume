@@ -24,11 +24,16 @@ removePathAccents=true
   pages = "/:filename"
 
 [markup]
+  defaultMarkdownHandler = "goldmark"
   [markup.goldmark]
     typographer = true
     [markup.goldmark.renderer]
      footnoteReturnLinkContents = "&uarr;"
       unsafe = true
+  [markup.goldmark.extensions.figcap]
+      figcap = true
+  [markup.goldmark.parser]
+    attribute = true
 
 
 [menu]
