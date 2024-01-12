@@ -11,7 +11,9 @@ Paume est l'espace de structuration et de publication de la thèse intitulée :
 
 ---
 
-Soutenance prévue le 22 janvier 2024 en après-midi (informations à venir). 
+Soutenance prévue le 22 janvier 2024 de 13h à 16h. 
+
+La soutenance aura lieu en présence à l'Université de Montréal (C-2059, Pavillon Lionel-Groulx) et en ligne : m'[écrire](mailto:margot.mellet@umontreal.ca) pour obtenir le lien. 
 
 ---
 
