@@ -1,6 +1,6 @@
 
         rédigés à la fin
-        lors que la mine de l'écriture est quelque peu épuisée
+        lorsque la mine de l'écriture est quelque peu épuisée
 
         en une liste
         qui se déroule comme un générique 

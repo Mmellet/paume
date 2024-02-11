@@ -47,7 +47,7 @@ Ainsi dans la fabrique -- lieu théorique, imaginaire, mais également physique
 
 > Vivant dans un monde d’images et de sons, nourri par une culture éclectique, l’écrivain actuel ne vit plus dans le mythe romantique de la séparation ou dans celui de l’artisan spécialisé et spécialiste, responsable de son seul art. Il entre dans des collaborations artistiques et sociales, expérimente lui-même des procédures pour lesquelles il n’a pas de compétences établies, celles du plasticien, du comédien, du pédagogue ou du sociologue, avec lesquelles il bricole et perfectionne peu à peu de nouveaux modes d’actions littéraires. {{< cite "ruffel_litterature_2010" 63 >}}
 
-La proposition de l'illimitation entre les environnements et les êtres, les processus et les produits qui en résultent, s'est retrouvé autant dans la partie *matière*, mais a été abordée dans la fabrique comme un outil théorique pour reformer une écriture comme une rencontre toujours *en train de se faire au contact de*, au sens du savoir-faire de Ingold comme « a form of attentive movement » {{< cite "-ingold_making_2013" >}}. 
+La proposition de l'illimitation entre les environnements et les êtres, les processus et les produits qui en résultent, s'est retrouvée autant dans la partie *matière*, mais a été abordée dans la fabrique comme un outil théorique pour reformer une écriture comme une rencontre toujours *en train de se faire au contact de*, au sens du savoir-faire de Ingold comme « a form of attentive movement » {{< cite "-ingold_making_2013" >}}. 
 
 Le *média* parcourt les images raisonnées de théories dansant ensemble, parfois sans se voir ni dialoguer directement, et qui ainsi, dans leurs narrations filées, implémentent en tant que telle la dynamique de l'*entre*, de la rencontre, de l'*inter*, soit de ce qui vient s'incarner comme un système de relations culturelles.
 
@@ -60,7 +60,7 @@ media, indeed the oldest media, and that intermedial phenomena date back tens of
 
 >L'approche intermédiale étudie également des processus qui remontent à un passé lointain. Des chercheurs tels que Peter Boenisch affirment que les processus intermédiaux existent depuis l'invention de l'alphabet. l'invention de l'alphabet, et les théoriciens de l'interartistique considèrent les relations complexes et incessantes entre les disciplines artistiques depuis l'Antiquité comme des modèles convaincants de dynamique intermédiale. L'une des premières propositions avancées par les intermédialistes est que les arts sont des médias, voire les plus anciens, et que les phénomènes intermédiaux remontent à des dizaines de millénaires. (traduction personnelle)
 
-Travaillé par la problématique d'une essence qui vient réduire le mouvement complexe de schéma pluriel, où l'individu, le nom, la rose ne sont plus les acteurs du propos, mais les éléments d'une composition de rapports, le média a permis d'exposer un jeu avec les formes que prent le texte 
+Travaillé par la problématique d'une essence qui vient réduire le mouvement complexe de schéma pluriel, où l'individu, le nom, la rose ne sont plus les acteurs du propos, mais les éléments d'une composition de rapports, le média a permis d'exposer un jeu avec les formes que prend le texte 
 
                 procédures entre les signes
                 usure d'une méthode pour faire tourner en rond des phrases
@@ -139,7 +139,7 @@ et une envie dans la <strike style='color:rgb(196, 43, 94);'>paumée</strike> pa
 
 >Wo es nichts zu verstehen und nichts zu deuten gibt, vor einer Menge von Abfällen ist es das Erste, Ordnung zu machen. [...] Was zählt, ist die Relevanz oder Pertinenz in einem Puzzlespiel, nicht die Bedeutung in einer Welt. {{< cite "kittler_austreibung_1980" 10 >}}
 
->Là où il n’y a rien à comprendre et rien à interpréter, devant une masse de rebut, la tâche première est de mettre de l’ordre. [...] Ce qui compte, c’est la relevance, la pertinence dans un puzzle, et non la signification dans un monde. {{< cite "kittler_exorciser_2017" >}}
+>Là où il n’y a rien à comprendre et rien à interpréter, devant une masse de rebuts, la tâche première est de mettre de l’ordre. [...] Ce qui compte, c’est la relevance, la pertinence dans un puzzle, et non la signification dans un monde. {{< cite "kittler_exorciser_2017" >}}
 
 Cette thèse n'a pas été une <strike style='color:rgb(196, 43, 94);'>soumission</strike> solution. 
 
