@@ -79,34 +79,6 @@
     </item>
     <item>
       <title></title>
-      <link>https://paume.page/addons/abreviations/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://paume.page/addons/abreviations/</guid>
-      <description>Liste des abréviations # Une œuvre littéraire est suffisamment citée avec régularité pour être indiquée directement dans le corps du texte selon l&amp;rsquo;abréviation suivante (en ordre alphabétique) :&#xA;CMMP : Queneau, Raymond, Cent mille milliards de poèmes, Paris, Gallimard, 1961.</description>
-    </item>
-    <item>
-      <title></title>
-      <link>https://paume.page/addons/abstract/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://paume.page/addons/abstract/</guid>
-      <description>Tied up around the issue of the matter of inscription, this research-creation study aims to understand how concrete realities interact and lead to the emergence of a cultural phenomenon in literature, i.e., how the literature phenomenon is a composition of mattering defined by the specifications of the support, whether we call it a medium, a machine or, more broadly, a writing environment. From the new information architecture embodied by the Codex, to the writing feather of Flaubert ritualized as a creative process, to the &amp;ldquo;delicate&amp;rdquo; typewriter of a soon blind Nietzsche, or the ambiguity of the terms computer and typewriter, which may refer both to the women who used specific machines and to the machines themselves, these echoes of a culture of literature all illustrate the importance of material incidences in writing and in the very act of inscription itself.</description>
-    </item>
-    <item>
-      <title></title>
-      <link>https://paume.page/addons/remerciements/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://paume.page/addons/remerciements/</guid>
-      <description>rédigés à la fin lorsque la mine de l&#39;écriture est quelque peu épuisée en une liste qui se déroule comme un générique avec un ordre qui semble impliquer une préférence mais qui parcourt juste une ligne Cette page ne peut que pâlement suffire à retranscrire la dynamique collective aux racines d&amp;rsquo;une pensée qui n&amp;rsquo;est mienne que par contexte ou par hasard, et à traduire la gratitude que j&amp;rsquo;éprouve face à chacun des nominés nommés1.</description>
-    </item>
-    <item>
-      <title></title>
-      <link>https://paume.page/addons/resume/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://paume.page/addons/resume/</guid>
-      <description>Noué autour de la question de la matérialité de l&amp;rsquo;inscription, le travail de recherche-création vise à comprendre comment les réalités matérielles s&amp;rsquo;agencent et font émerger les réalités culturelles de la littérature, soit comment le fait littéraire est une composition de rapports déterminée par les caractéristiques du support, qu&amp;rsquo;on le nomme média, machine ou plus largement environnement d&amp;rsquo;écriture. Qu&amp;rsquo;il s&amp;rsquo;agisse de la nouvelle architecture de l&amp;rsquo;information qu&amp;rsquo;implémente le Codex, de la plume que Flaubert taillait comme processus rituel de création, de la « délicate » machine à écrire d&amp;rsquo;un Nietzsche condamné à l&amp;rsquo;aveuglement, ou de l&amp;rsquo;ambiguïté des termes computer et typewriter qui peuvent autant désigner les femmes qui utilisaient des machines spécifiques que les machines en elles-mêmes, ces échos d&amp;rsquo;une culture littéraire sont autant de témoignages de l&amp;rsquo;importance des incidences matérielles dans l&amp;rsquo;écriture et dans le geste d&amp;rsquo;inscription en tant que tel.</description>
-    </item>
-    <item>
-      <title></title>
       <link>https://paume.page/back/dump_fabrique/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://paume.page/back/dump_fabrique/</guid>
@@ -146,6 +118,41 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://paume.page/graph/</guid>
       <description></description>
+    </item>
+    <item>
+      <title></title>
+      <link>https://paume.page/abreviations/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://paume.page/abreviations/</guid>
+      <description>Liste des abréviations # Une œuvre littéraire est suffisamment citée avec régularité pour être indiquée directement dans le corps du texte selon l&amp;rsquo;abréviation suivante (en ordre alphabétique) :&#xA;CMMP : Queneau, Raymond, Cent mille milliards de poèmes, Paris, Gallimard, 1961.</description>
+    </item>
+    <item>
+      <title></title>
+      <link>https://paume.page/abstract/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://paume.page/abstract/</guid>
+      <description>Tied up around the issue of the matter of inscription, this research-creation study aims to understand how concrete realities interact and lead to the emergence of a cultural phenomenon in literature, i.e., how the literature phenomenon is a composition of mattering defined by the specifications of the support, whether we call it a medium, a machine or, more broadly, a writing environment. From the new information architecture embodied by the Codex, to the writing feather of Flaubert ritualized as a creative process, to the &amp;ldquo;delicate&amp;rdquo; typewriter of a soon blind Nietzsche, or the ambiguity of the terms computer and typewriter, which may refer both to the women who used specific machines and to the machines themselves, these echoes of a culture of literature all illustrate the importance of material incidences in writing and in the very act of inscription itself.</description>
+    </item>
+    <item>
+      <title></title>
+      <link>https://paume.page/references/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://paume.page/references/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title></title>
+      <link>https://paume.page/remerciements/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://paume.page/remerciements/</guid>
+      <description>rédigés à la fin lorsque la mine de l&#39;écriture est quelque peu épuisée en une liste qui se déroule comme un générique avec un ordre qui semble impliquer une préférence mais qui parcourt juste une ligne Cette page ne peut que pâlement suffire à retranscrire la dynamique collective aux racines d&amp;rsquo;une pensée qui n&amp;rsquo;est mienne que par contexte ou par hasard, et à traduire la gratitude que j&amp;rsquo;éprouve face à chacun des nominés nommés1.</description>
+    </item>
+    <item>
+      <title></title>
+      <link>https://paume.page/resume/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://paume.page/resume/</guid>
+      <description>Noué autour de la question de la matérialité de l&amp;rsquo;inscription, le travail de recherche-création vise à comprendre comment les réalités matérielles s&amp;rsquo;agencent et font émerger les réalités culturelles de la littérature, soit comment le fait littéraire est une composition de rapports déterminée par les caractéristiques du support, qu&amp;rsquo;on le nomme média, machine ou plus largement environnement d&amp;rsquo;écriture. Qu&amp;rsquo;il s&amp;rsquo;agisse de la nouvelle architecture de l&amp;rsquo;information qu&amp;rsquo;implémente le Codex, de la plume que Flaubert taillait comme processus rituel de création, de la « délicate » machine à écrire d&amp;rsquo;un Nietzsche condamné à l&amp;rsquo;aveuglement, ou de l&amp;rsquo;ambiguïté des termes computer et typewriter qui peuvent autant désigner les femmes qui utilisaient des machines spécifiques que les machines en elles-mêmes, ces échos d&amp;rsquo;une culture littéraire sont autant de témoignages de l&amp;rsquo;importance des incidences matérielles dans l&amp;rsquo;écriture et dans le geste d&amp;rsquo;inscription en tant que tel.</description>
     </item>
     <item>
       <title>Index des Thématiques</title>
